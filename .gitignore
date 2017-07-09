@@ -1,0 +1,6 @@
+_src_template/
+compiled/css/
+
+node_modules/
+.idea/
+npm-debug.log
