@@ -679,3 +679,12 @@
 @media only screen and (min-device-width: 29.57em) and (max-device-width: 52.57em) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
     @include extend_mobile_specific(280px);
 }
+
+.menu-expanded {
+    .nav-usermenu {
+        .ft-user {
+            display: none;
+        }
+    }
+
+}

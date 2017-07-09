@@ -1,6 +1,7 @@
-_src_template/
-compiled/css/
-
 node_modules/
 .idea/
 npm-debug.log
+
+_src_template/
+compiled/css/
+compiled/*.html
