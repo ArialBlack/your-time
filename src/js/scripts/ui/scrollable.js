@@ -2,10 +2,10 @@
 	File Name: scrollable.js
 	Description: scrollabr intialisations
 	----------------------------------------------------------------------------------------
-	Item Name: Stack - Responsive Admin Theme
+	
 	Version: 1.0
-	Author: GeeksLabs
-	Author URL: http://www.themeforest.net/user/geekslabs
+	
+	
 ==========================================================================================*/
 $(document).ready(function(){
 

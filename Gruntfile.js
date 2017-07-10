@@ -10,7 +10,7 @@ module.exports = function(grunt) {
                 },
 
                 files: {
-                    "compiled/index.html": "src/html/index.html"
+                    "index.html": "src/html/index.html"
                 }
             }
         },
@@ -26,9 +26,9 @@ module.exports = function(grunt) {
             },
             main: {
                 files: {
-                    'compiled/css/bootstrap.css': 'src/scss/bootstrap.scss',
-                    'compiled/css/bootstrap-extended.css': 'src/scss/bootstrap-extended.scss',
-                    'compiled/css/app.css': 'src/scss/app.scss',
+                    'app-assets/css/bootstrap.css': 'src/scss/bootstrap.scss',
+                    'app-assets/css/bootstrap-extended.css': 'src/scss/bootstrap-extended.scss',
+                    'app-assets/css/app.css': 'src/scss/app.scss',
                     //'compiled/css/colors.css': 'src/scss/colors.scss',
                     //'compiled/css/custom-rtl.css': 'src/scss/custom-rtl.scss',
                     //'compiled/css/style.css': 'assets/scss/style.scss',
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'src/scss/core/',
                     src: ['*/**/*.scss', '!*/**/_*.scss'],
-                    dest: 'compiled/css/core/',
+                    dest: 'app-assets/css/core/',
                     ext: '.css'
                 }]
             },
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'src/scss/pages/',
                     src: ['*.scss', '!_*.scss'],
-                    dest: 'compiled/css/pages/',
+                    dest: 'app-assets/css/pages/',
                     ext: '.css'
                 }]
             },
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
                     expand: true,
                     cwd: 'src/scss/plugins/',
                     src: ['*/**/*.scss', '!*/**/_*.scss'],
-                    dest: 'compiled/css/plugins/',
+                    dest: 'app-assets/css/plugins/',
                     ext: '.css'
                 }]
             }
@@ -88,8 +88,9 @@ module.exports = function(grunt) {
         browserSync: {
             bsFiles: {
                 src : [
-                    'compiled/css/*.css',
-                    'compiled/*.html'
+                    'assets/css/**/*.css',
+                    'app-assets/css/**/*.css',
+                    './*.html'
                    // 'js/*.js',
                   //  'assets/*',
                   //  'fonts/*'
@@ -97,7 +98,7 @@ module.exports = function(grunt) {
                 },
             options: {
                 watchTask: true,
-                server: './compiled'
+                server: './'
             }
         }
 
@@ -109,5 +110,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-sass');
 
-    grunt.registerTask('default', ['bake', 'sass:main', 'sass:core', 'sass:pages', 'sass:plugins', 'watch', 'browserSync']);
+    grunt.registerTask('default', ['bake', 'sass:main', 'sass:core', 'sass:pages', 'sass:plugins', 'browserSync', 'watch']);
 };
