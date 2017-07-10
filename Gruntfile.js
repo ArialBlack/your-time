@@ -3,6 +3,15 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+        svgstore: {
+            logos: {
+                files: {
+                    'app-assets/images/svg-images-sprite.svg': 'src/images-svg/*.svg'
+                    //use like <span class="svg-image logo"><svg preserveAspectRatio="xMidYMid" focusable="false"><use xlink:href="/app-assets/images/svg-images-sprite.svg#bihus-logo"></use></svg></span>
+                }
+            }
+        },
+
         bake: {
             your_target: {
                 options: {
@@ -29,9 +38,9 @@ module.exports = function(grunt) {
                     'app-assets/css/bootstrap.css': 'src/scss/bootstrap.scss',
                     'app-assets/css/bootstrap-extended.css': 'src/scss/bootstrap-extended.scss',
                     'app-assets/css/app.css': 'src/scss/app.scss',
-                    //'compiled/css/colors.css': 'src/scss/colors.scss',
+                    'app-assets/css/colors.css': 'src/scss/colors.scss',
                     //'compiled/css/custom-rtl.css': 'src/scss/custom-rtl.scss',
-                    //'compiled/css/style.css': 'assets/scss/style.scss',
+                    'assets/css/style.css': 'assets/scss/style.scss',
                     //'compiled/css/style-rtl.css': 'assets/scss/style-rtl.scss',
                 }
             },
@@ -67,6 +76,13 @@ module.exports = function(grunt) {
         watch: {
             grunt: {
                 files: ['Gruntfile.js']
+            },
+
+            svgstore: {
+                files: [
+                    'src/images-svg/*.svg'
+                ],
+                tasks: [ 'svgstore']
             },
 
             bake: {
@@ -109,6 +125,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-sass');
+    grunt.loadNpmTasks('grunt-svgstore');
 
-    grunt.registerTask('default', ['bake', 'sass:main', 'sass:core', 'sass:pages', 'sass:plugins', 'browserSync', 'watch']);
+    grunt.registerTask('default', ['svgstore', 'bake', 'sass:main', 'sass:core', 'sass:pages', 'sass:plugins', 'browserSync', 'watch']);
 };
