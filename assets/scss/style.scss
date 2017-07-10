@@ -46,12 +46,24 @@ svg:not(:root) {
   background-color: #26A69A !important;
 }
 
+.t {
+  font-family: $font-family-title;
+  font-weight: 700;
+
+  &.tn {
+    font-weight: 400;
+  }
+}
+
+.ib {
+  display: inline-block;
+}
+
 #all-tasks-list {
   .media-heading {
-    font-family: $font-family-title;
-    font-weight: 700;
     display: inline-block;
     margin-left: 0.5rem;
+    @extend .t;
   }
 
   .svg-image {
@@ -75,15 +87,36 @@ svg:not(:root) {
   }
 }
 
+#user-statistics {
+  h5 {
+    min-height: 38px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
 #fund-list {
   figure {
     .card-block {
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
+
       a {
         display: block;
         text-align: center;
       }
+    }
+  }
+}
+
+#user-achivments {
+  .user-badges-list {
+    img {
+      display: inline-block;
+      float: left;
+      margin-right: 1rem;
     }
   }
 }

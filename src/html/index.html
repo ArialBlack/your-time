@@ -60,7 +60,7 @@
                                             </tr>
                                             <tr>
                                                 <td><span class="text-xs-center font-small-2">Виконано 14 завданнь <progress class="progress progress-sm progress-primary mt-0 mb-0" value="14" max="100"></progress></span></td>
-                                                <td class="text-xs-center font-small-2"><a href="#" title="Канцелярська сотня"><!--(bake _svg-logo.html logo="logo")--></a></td>
+                                                <td class="text-xs-center font-small-2"><a href="#" title="Канцелярська сотня"><!--(bake _svg-logo.html logo="decl")--></a></td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -123,29 +123,72 @@
                             </div>
                             <div class="card-body collapse in">
                                 <div class="card-block">
-                                    <div class="my-1 text-xs-center">
-                                        <div class="card-header mb-2 pt-0">
-                                            <h5 class="primary">Steps</h5>
-                                            <h3 class="font-large-2 text-bold-200">3,261</h3>
+                                    <div class="my-1 text-xs-center col-md-6 pl-0 pr-0">
+                                        <div class="card-header mb-0 pt-0 pb-0">
+                                            <h5 class="primary t tn">Виконано завдань</h5>
+                                            <h3 class="font-large-2 text-bold-200">210<!--<span class="font-medium-1 grey darken-1 text-bold-400"> шт.</span>--></h3>
                                         </div>
                                         <div class="card-body">
-                                            <input type="text" value="65" class="knob hide-value responsive angle-offset" data-angleOffset="40" data-thickness=".15" data-linecap="round" data-width="130" data-height="130" data-inputColor="#BABFC7" data-readOnly="true" data-fgColor="#00B5B8" data-knob-icon="icon-trophy">
-                                            <ul class="list-inline clearfix pt-1 mb-0">
-                                                <li class="border-right-grey border-right-lighten-2 pr-2">
-                                                    <h2 class="grey darken-1 text-bold-400">65%</h2>
-                                                    <span class="primary"><span class="ft-arrow-up"></span> Completed</span>
-                                                </li>
-                                                <li class="pl-2">
-                                                    <h2 class="grey darken-1 text-bold-400">35%</h2>
-                                                    <span class="danger"><span class="ft-arrow-down"></span> Remaining</span>
-                                                </li>
-                                            </ul>
+                                            <input type="text" value="85" class="knob hide-value responsive angle-offset" data-angleOffset="40" data-thickness=".15" data-linecap="round" data-width="100" data-height="100" data-inputColor="#BABFC7" data-readOnly="true" data-fgColor="#00B5B8" data-knob-icon="icon-list">
+                                        </div>
+                                    </div>
+                                    <div class="my-1 text-xs-center col-md-6 pl-0 pr-0">
+                                        <div class="card-header mb-0 pt-0 pb-0">
+                                            <h5 class="danger t tn">Проектів</h5>
+                                            <h3 class="font-large-2 text-bold-200">3</h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <input type="text" value="15" class="knob hide-value responsive angle-offset" data-angleOffset="0" data-thickness=".15" data-linecap="round" data-width="100" data-height="100" data-inputColor="#BABFC7" data-readOnly="true" data-fgColor="#FF7588" data-knob-icon="icon-star">
+                                        </div>
+                                    </div>
+                                    <div class="text-xs-center col-md-6 pl-0 pr-0 mb-0">
+                                        <div class="card-header mb-0 pt-0 pb-0">
+                                            <h5 class="warning t tn">Витрачено часу</h5>
+                                            <h3 class="font-large-2 text-bold-200">180 <span class="font-medium-1 grey darken-1 text-bold-400">годин</span></h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <input type="text" value="50" class="knob hide-value responsive angle-offset" data-angleOffset="20" data-thickness=".15" data-linecap="round" data-width="100" data-height="100" data-inputColor="#BABFC7" data-readOnly="true" data-fgColor="#FFA87D" data-knob-icon="icon-clock">
+                                        </div>
+                                    </div>
+                                    <div class="text-xs-center col-md-6 pl-0 pr-0 mb-0">
+                                        <div class="card-header mb-0 pt-0 pb-0">
+                                            <h5 class="success t tn">Зароблено всього</h5>
+                                            <h3 class="font-large-2 text-bold-200">1500 <span class="font-medium-1 grey darken-1 text-bold-400">грн.</span></h3>
+                                        </div>
+                                        <div class="card-body">
+                                            <input type="text" value="65" class="knob hide-value responsive angle-offset" data-angleOffset="20" data-thickness=".15" data-linecap="round" data-width="100" data-height="100" data-inputColor="#BABFC7" data-readOnly="true" data-fgColor="#16D39A" data-knob-icon="icon-wallet">
+                                            <p class="notification-text font-small-3 text-muted">1000 потенційних / 500 активних</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- END OF USER Statistics -->
+
+                        <!-- USER achivments -->
+                        <div class="card" id="user-help">
+                            <div class="card-header">
+                                <h4 class="card-title">Ти допоміг</h4>
+                                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+                                <div class="heading-elements">
+                                    <ul class="list-inline mb-0">
+                                        <li><a data-action="close"><i class="ft-x"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body collapse in">
+                                <div class="card-block pb-0">
+                                    <div class="card-deck-wrapper mb-2">
+                                        <div class="card-deck">
+                                            <figure class="card card-img-top border-grey border-lighten-2">
+                                                <a href="#"><img class="gallery-thumbnail card-img-top" src="https://dummyimage.com/600x200/ccc/ffffff.png&amp;text=Армії/дитині" itemprop="thumbnail" alt="Image description"></a>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF USER achivments -->
 
                         <!-- USER achivments -->
                         <div class="card" id="user-achivments">
@@ -160,7 +203,20 @@
                             </div>
                             <div class="card-body collapse in">
                                 <div class="card-block">
-                                    fsdfsf
+                                    <div class="card card border-grey border-lighten-2">
+                                        <div class="text-xs-center">
+                                            <div class="card-block">
+                                                <h4 class="card-title mb-0">Крутий чувак</h4>
+                                                <a href="#" class="text-xs-center font-small-2">я на 34 рівні <progress class="progress progress-sm progress-success mb-0" value="35" max="50"></progress></a>
+                                            </div>
+                                        </div>
+                                        <div class="list-group list-group-flush user-badges-list">
+                                            <a href="#" class="list-group-item t tn col-md-6 pl-0 pr-0"><img src="../../../app-assets/images/badges/01.png" class="height-50 ib" alt="Card image"> <span>Я від Кононенка</span></a>
+                                            <a href="#" class="list-group-item t tn col-md-6 pr-0"><img src="../../../app-assets/images/badges/02.png" class="height-50 ib" alt="Card image"> <span>Рання пташка</span></a>
+                                            <a href="#" class="list-group-item t tn col-md-6 pl-0 pr-0"><img src="../../../app-assets/images/badges/03.png" class="height-50 ib" alt="Card image"> <span>Кльовий пацан</span></a>
+                                            <a href="#" class="list-group-item t tn col-md-6 pr-0"><img src="../../../app-assets/images/badges/04.png" class="height-50 ib" alt="Card image"> <span>Сумлінний декларант</span></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -178,9 +234,7 @@
       </div>
     </div>
 
-    <footer class="footer footer-static footer-light navbar-border">
-      <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span class="float-md-left d-xs-block d-md-inline-block">Copyright  &copy; 2017 <a href="https://themeforest.net/user/pixinvent/portfolio?ref=pixinvent" target="_blank" class="text-bold-800 grey darken-2">PIXINVENT </a>, All rights reserved. </span><span class="float-md-right d-xs-block d-md-inline-block">Hand-crafted & Made with <i class="ft-heart pink"></i></span></p>
-    </footer>
+    <!--(bake footer.html)-->
 
     <!-- BEGIN VENDOR JS-->
     <script src="../../../app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
