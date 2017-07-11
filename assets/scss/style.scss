@@ -59,6 +59,15 @@ svg:not(:root) {
   display: inline-block;
 }
 
+.col {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.border-primary {
+  border: #00B5B8 2px solid;
+}
+
 #all-tasks-list {
   .media-heading {
     display: inline-block;

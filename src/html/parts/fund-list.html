@@ -16,7 +16,7 @@
                     <div class="card-deck-wrapper">
                         <div class="card-deck">
                             <figure class="card card-img-top border-grey border-lighten-2">
-                                <a href="#"><img class="gallery-thumbnail card-img-top" src="https://dummyimage.com/640x480/ccc/ffffff.png&text=Лого" itemprop="thumbnail" alt="Image description"></a>
+                                <a href="#" data-toggle="modal" data-target="#primary"><img class="gallery-thumbnail card-img-top" src="https://dummyimage.com/640x480/ccc/ffffff.png&text=Лого" itemprop="thumbnail" alt="Image description"></a>
                                 <div class="card-block px-0">
                                     <a href="#" class="notification-text font-small-3 text-muted">Про фонд</a>
                                 </div>
@@ -105,4 +105,41 @@
         </div>
     </div>
     <!--/ Project Users -->
+</div>
+
+<div class="modal fade text-xs-left" id="primary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel8" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary white">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel8">Перерахувати до фонду "Таблєточки"</h4>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="media">
+                            <div class="p-2 text-xs-center bg-primary media-left media-middle">
+                                <i class="icon-basket-loaded font-large-2 white"></i>
+                            </div>
+                            <div class="p-2 media-body">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="500 грн." aria-describedby="button-addon2">
+                                    <span class="input-group-btn" id="button-addon2">
+                                        <button class="btn btn-primary border-primary" type="button">Добре</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5>Всього перераховано 5000 грн.</h5>
+                <progress class="progress progress-sm progress-success mt-1 mb-0" value="75" max="100"></progress>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn grey btn-outline-secondary" data-dismiss="modal">Закрити</button>
+            </div>
+        </div>
+    </div>
 </div>

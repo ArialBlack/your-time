@@ -64,6 +64,15 @@ $pad: 15px;
 		}
 	}
 
+	.col {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.card {
+		background: transparent;
+	}
+
 	.col > i {
 		font-size: 30px;
 		color: white;
