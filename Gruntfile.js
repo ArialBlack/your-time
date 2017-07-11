@@ -20,7 +20,8 @@ module.exports = function(grunt) {
 
                 files: {
                     "index.html": "src/html/index.html",
-                    "task-page.html": "src/html/task-page.html"
+                    "task-page.html": "src/html/task-page.html",
+                    "not-logged-index.html": "src/html/not-logged-index.html"
                 }
             }
         },
@@ -107,9 +108,10 @@ module.exports = function(grunt) {
                 src : [
                     'assets/css/**/*.css',
                     'app-assets/css/**/*.css',
-                    './*.html'
+                    './*.html',
                    // 'js/*.js',
-                  //  'assets/*',
+                    'app-assets/js/**/*.js',
+                    'assets/js/**/*.js'
                   //  'fonts/*'
                 ]
                 },
