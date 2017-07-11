@@ -1,7 +1,7 @@
 // Stick footer to the bottom of the page
 footer{
 	&.footer {
-		padding: 0.4rem;
+		padding: 0;
 	}
 
 	//shadow & border options
@@ -29,10 +29,15 @@ $pad20: 20px;
 $pad: 15px;
 
 #footer {
-	padding-top: $pad20 * 2;
 	background: #2e394b;
 	color: #c8c8c8;
 	overflow: hidden;
+
+	.footer-container {
+		padding-top: $pad20 * 2;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 
 	a {
 		color: #c8c8c8;

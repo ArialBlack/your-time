@@ -68,18 +68,8 @@ svg:not(:root) {
   border: #00B5B8 2px solid;
 }
 
+.sidebar .task-desc,
 #all-tasks-list {
-  .media-heading {
-    display: inline-block;
-    margin-left: 0.5rem;
-    @extend .t;
-  }
-
-  .svg-image {
-    width: 35px;
-    height: 35px;
-  }
-
   table {
     td {
       padding: 0.5rem 0;
@@ -93,6 +83,17 @@ svg:not(:root) {
     p {
       margin-bottom: 0;
     }
+  }
+
+  .media-heading {
+    display: inline-block;
+    margin-left: 0.5rem;
+    @extend .t;
+  }
+
+  .svg-image {
+    width: 35px;
+    height: 35px;
   }
 }
 

@@ -1,14 +1,7 @@
-/*=========================================================================================
-    File Name: content-sidebar.js
-    Description: Invoices list datables configurations
-    ----------------------------------------------------------------------------------------
-    
-    Version: 1.0
-    
-    
-==========================================================================================*/
 
 $(document).ready(function() {
+
+
 
     if($(".sidebar-sticky").length){
         var headerNavbarHeight,
@@ -29,5 +22,6 @@ $(document).ready(function() {
             topSpacing: headerNavbarHeight,
             bottomSpacing: footerNavbarHeight
         });
+
     }
 });

@@ -1,10 +1,18 @@
-(function(window, undefined) {
+(function(window, document, $) {
   'use strict';
 
-  /*
-  NOTE:
-  ------
-  PLACE HERE YOUR OWN JAVASCRIPT CODE IF NEEDED
-  WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR JAVASCRIPT CODE PLEASE CONSIDER WRITING YOUR SCRIPT HERE.  */
+  $(window).load(function() {
+    // Toggle menu
+    $.app.menu.toggle();
 
-})(window);
+    setTimeout(function(){
+      $(window).trigger( "resize" );
+    },100);
+  });
+
+
+
+})(window, document, jQuery);
+
+//vertical-layout vertical-menu 2-columns fixed-navbar collapsed  menu-collapsed pace-done
+//vertical-layout vertical-menu 2-columns fixed-navbar collapsed  menu-collapsed pace-done

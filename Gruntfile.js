@@ -19,7 +19,8 @@ module.exports = function(grunt) {
                 },
 
                 files: {
-                    "index.html": "src/html/index.html"
+                    "index.html": "src/html/index.html",
+                    "task-page.html": "src/html/task-page.html"
                 }
             }
         },

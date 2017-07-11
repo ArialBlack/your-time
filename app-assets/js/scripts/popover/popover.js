@@ -5,8 +5,8 @@
 	----------------------------------------------------------------------------------------
 	
 	Version: 1.0
-	Author: PIXINVENT
-	Author URL: http://www.themeforest.net/user/pixinvent
+	
+	
 ==========================================================================================*/
 (function(window, document, $) {
 'use strict';

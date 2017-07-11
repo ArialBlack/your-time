@@ -4,8 +4,8 @@
     ----------------------------------------------------------------------------------------
     
     Version: 1.0
-    Author: PIXINVENT
-    Author URL: http://www.themeforest.net/user/pixinvent
+    
+    
 ==========================================================================================*/
 
 // Wizard tabs with numbers setup
