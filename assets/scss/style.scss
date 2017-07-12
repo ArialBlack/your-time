@@ -115,6 +115,36 @@ nav {
   }
 }
 
+.imagebg-box{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.imagebg-box:before{
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.imagebg-content{
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+}
+.imagebg-content div {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.imagebg-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white
+}
+
 nav.navbar-fixed + .app-content {
   padding-top: 4rem;
 }
@@ -189,7 +219,23 @@ nav.navbar-fixed + .app-content {
   background: radial-gradient(ellipse at center, #c2dae1 0%,#96b6c0 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2dae1', endColorstr='#96b6c0',GradientType=1 );
 
-  .alert-info {
+  $h: 200px;
+
+  .imagebg-box {
+    height: $h;
+    background: url(/app-assets/images/pages/index-header.jpg) no-repeat center center;
+    background-size: cover;
+    //margin-top: 50px;
+
+    h1 {
+      text-align: center;
+      @include rft(40, 60);
+      @include letter-spacing(60, 30);
+      color: white;
+    }
+  }
+
+  /*.alert-info {
     background-color: #404E67 !important;
     border-color: #404E67 !important;
     color: white;
@@ -207,13 +253,13 @@ nav.navbar-fixed + .app-content {
         color: white;
       }
     }
-  }
+  }*/
 
   .steps-header {
-    margin-top: 80px;
+    //margin-top: 40px;
   }
 
-  h1 + h3 {
+  h2 + h3 {
     text-transform: uppercase;
     color: white;
     font-weight: 700;
@@ -221,10 +267,15 @@ nav.navbar-fixed + .app-content {
     @include rft(35, 56);
   }
 
+  #steps-1-2-3 {
+    text-align: center;
+  }
+
   .steps {
     display: flex;
-    padding: 80px 80px 40px 160px;
+    padding: 80px 80px 20px 160px;
     position: relative;
+    text-align: left;
 
     .curved-arrow {
       position: absolute;
@@ -238,7 +289,7 @@ nav.navbar-fixed + .app-content {
     }
 
     &.step-2 {
-      padding: 80px 200px 40px 200px;
+      padding: 60px 200px 20px 200px;
 
       .curved-arrow {
         -moz-transform: scaleX(-1);
@@ -269,5 +320,9 @@ nav.navbar-fixed + .app-content {
       }
     }
   }
+}
+
+.login-page {
+  background: url(../../app-assets/images/backgrounds/login.jpg) no-repeat center center fixed !important;
 }
 

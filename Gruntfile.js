@@ -21,7 +21,10 @@ module.exports = function(grunt) {
                 files: {
                     "index.html": "src/html/index.html",
                     "task-page.html": "src/html/task-page.html",
-                    "not-logged-index.html": "src/html/not-logged-index.html"
+                    "not-logged-index.html": "src/html/not-logged-index.html",
+                    "login.html": "src/html/login.html",
+                    "fund-page.html": "src/html/fund-page.html",
+                    "404.html": "src/html/404.html"
                 }
             }
         },
