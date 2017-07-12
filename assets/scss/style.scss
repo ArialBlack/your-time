@@ -105,6 +105,17 @@ svg:not(:root) {
   }
 }
 
+.list-group-item {
+  &.transparent {
+    background: none;
+    border: none;
+  }
+}
+
+.disabled-link {
+  cursor: default;
+}
+
 nav {
   &.navbar-fixed {
     width: 100%;
@@ -319,6 +330,21 @@ nav.navbar-fixed + .app-content {
         z-index: -1;
       }
     }
+  }
+}
+
+#top-fund-users {
+  background: none;
+
+  .card-header {
+    background: none;
+  }
+
+  .list-group-item {
+    background: none;
+    border: none;
+
+    color: #dcdcdc; //todo
   }
 }
 

@@ -22,9 +22,15 @@ module.exports = function(grunt) {
                     "index.html": "src/html/index.html",
                     "task-page.html": "src/html/task-page.html",
                     "not-logged-index.html": "src/html/not-logged-index.html",
-                    "login.html": "src/html/login.html",
                     "fund-page.html": "src/html/fund-page.html",
-                    "404.html": "src/html/404.html"
+                    
+                    "login.html": "src/html/login.html",
+                    "recover-password.html": "src/html/recover-password.html",
+                    "register.html": "src/html/register.html",
+                    "under-maintenance.html": "src/html/under-maintenance.html",
+                    "404.html": "src/html/404.html",
+                    "403.html": "src/html/403.html"
+                    
                 }
             }
         },
