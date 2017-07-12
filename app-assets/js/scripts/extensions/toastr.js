@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 	// Success Type
 	$('#type-info').on('click',function(){
-		toastr.info('We do have the Kapua suite available.', 'Turtle Bay Resort');
+		toastr.info('Ви відправили 200 грн. фонду Таблеточки', 'Дякуємо!');
 	});
 
 	// Success Type

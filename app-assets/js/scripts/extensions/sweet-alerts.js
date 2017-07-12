@@ -26,7 +26,7 @@ $(document).ready(function(){
 	});
 
 	$('#type-success').on('click',function(){
-		swal("Good job!", "You clicked the button!", "success");
+		swal("Гарна робота!", "Ви заробили 5 балів та 10 гривень!", "success");
 	});
 
 	$('#type-info').on('click',function(){

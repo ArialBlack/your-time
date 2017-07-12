@@ -160,6 +160,23 @@ nav.navbar-fixed + .app-content {
   padding-top: 4rem;
 }
 
+.site-stats {
+  .list-group-item {
+    padding: 0.25rem 1.25rem;
+    border: none;
+    color: #404E67; //todo
+  }
+}
+
+.intro-header-text {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.sidebar-detached.sidebar-left.sidebar-sticky {
+  z-index: 1 !important; //todo
+}
+
 .sidebar .task-desc,
 #all-tasks-list {
   table {
@@ -213,6 +230,59 @@ nav.navbar-fixed + .app-content {
   }
 }
 
+#block-sociallinksblock {
+  margin-right: 0.5rem;
+  margin-top: 20px;
+
+  ul {
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+  }
+
+  .fa {
+    color: white;
+    height: 32px;
+    width: 32px;
+    //.font-size(20);
+    border-radius: 100%;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+
+  .fa-facebook,
+  .fa-vk {
+    background: #4e71a8;
+  }
+
+  .fa-twitter {
+    background: #1cb7eb;
+  }
+
+  .fa-youtube-play {
+    background: #e13f4c;
+  }
+
+  .fa-telegram {
+    font-size: 32px;
+    color: #1cb7eb;
+  }
+
+  .fa-rss {
+    background: #e13f4c;
+  }
+}
+
+
 #user-achivments {
   .user-badges-list {
     img {
@@ -236,7 +306,7 @@ nav.navbar-fixed + .app-content {
     height: $h;
     background: url(/app-assets/images/pages/index-header.jpg) no-repeat center center;
     background-size: cover;
-    //margin-top: 50px;
+    margin-top: 50px;
 
     h1 {
       text-align: center;
@@ -349,6 +419,31 @@ nav.navbar-fixed + .app-content {
 }
 
 .login-page {
-  background: url(../../app-assets/images/backgrounds/login.jpg) no-repeat center center fixed !important;
+  background: url(../../app-assets/images/backgrounds/login.jpg) no-repeat center center !important;
+  background-size: cover;
+}
+
+.register-page {
+  background: url(../../app-assets/images/backgrounds/register.jpg) no-repeat center center !important;
+  background-size: cover;
+}
+
+.recover-password-page {
+  background: url(../../app-assets/images/backgrounds/recover-password.jpg) no-repeat center center !important;
+  background-size: cover;
+}
+
+.offline-page {
+  background: url(../../app-assets/images/backgrounds/hiload.jpg) no-repeat center center !important;
+  background-size: cover;
+}
+
+.error-page {
+  background: #404E67;
+  color: white;
+
+  img {
+    max-width: 100%;
+  }
 }
 

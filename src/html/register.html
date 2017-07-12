@@ -3,7 +3,7 @@
 
     <!--(bake parts/head.html title="Реєстрація")-->
 
-  <body data-open="click" data-menu="vertical-menu" data-col="1-column" class="vertical-layout vertical-menu 1-column bg-full-screen-image blank-page blank-page">
+  <body data-open="click" data-menu="vertical-menu" data-col="1-column" class="vertical-layout vertical-menu 1-column bg-full-screen-image blank-page blank-page register-page">
     <!-- ////////////////////////////////////////////////////////////////////////////-->
     <div class="app-content content container-fluid">
       <div class="content-wrapper">
@@ -14,34 +14,32 @@
         <div class="card border-grey border-lighten-3 px-1 py-1 m-0">
             <div class="card-header no-border pb-0">
                 <div class="card-title text-xs-center">
-                    <img src="../../../app-assets/images/logo/stack-logo-dark.png" alt="branding logo">
+                    <img alt="stack admin logo" src="app-assets/images/logo/stack-logo.png" class="brand-logo"> Ж.В.
                 </div>
-                <h6 class="card-subtitle line-on-side text-muted text-xs-center font-small-3 pt-2"><span>Easily Using</span></h6>
+                <h6 class="card-subtitle line-on-side text-muted text-xs-center font-small-3 pt-2"><span>Швидка реєстрація</span></h6>
             </div>
             <div class="card-body collapse in">
                 <div class="text-xs-center">
                     <a href="#" class="btn btn-social-icon mr-1 mb-1 btn-outline-facebook"><span class="fa fa-facebook"></span></a>
                     <a href="#" class="btn btn-social-icon mr-1 mb-1 btn-outline-twitter"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="btn btn-social-icon mr-1 mb-1 btn-outline-linkedin"><span class="fa fa-linkedin font-medium-4"></span></a>
-                    <a href="#" class="btn btn-social-icon mr-1 mb-1 btn-outline-github"><span class="fa fa-github font-medium-4"></span></a>
                 </div>
-                <p class="card-subtitle line-on-side text-muted text-xs-center font-small-3 mx-2 my-1"><span>OR Using Email</span></p>
+                <p class="card-subtitle line-on-side text-muted text-xs-center font-small-3 mx-2 my-1"><span>або за допомогою email</span></p>
                 <div class="card-block">
                     <form class="form-horizontal" action="index.html" novalidate>
                         <fieldset class="form-group position-relative has-icon-left">
-                            <input type="text" class="form-control" id="user-name" placeholder="User Name">
+                            <input type="text" class="form-control" id="user-name" placeholder="Ваш логін">
                             <div class="form-control-position">
                                 <i class="ft-user"></i>
                             </div>
                         </fieldset>
                         <fieldset class="form-group position-relative has-icon-left">
-                            <input type="email" class="form-control" id="user-email" placeholder="Your Email Address" required>
+                            <input type="email" class="form-control" id="user-email" placeholder="Ваш email" required>
                             <div class="form-control-position">
                                 <i class="ft-mail"></i>
                             </div>
                         </fieldset>
                         <fieldset class="form-group position-relative has-icon-left">
-                            <input type="password" class="form-control" id="user-password" placeholder="Enter Password" required>
+                            <input type="password" class="form-control" id="user-password" placeholder="Ваш пароль" required>
                             <div class="form-control-position">
                                 <i class="fa fa-key"></i>
                             </div>
@@ -50,16 +48,16 @@
                             <div class="col-md-6 col-xs-12 text-xs-center text-sm-left">
                                 <fieldset>
                                     <input type="checkbox" id="remember-me" class="chk-remember">
-                                    <label for="remember-me"> Remember Me</label>
+                                    <label for="remember-me"> Запам'ятати мене</label>
                                 </fieldset>
                             </div>
-                            <div class="col-md-6 col-xs-12 float-sm-left text-xs-center text-sm-right"><a href="recover-password.html" class="card-link">Forgot Password?</a></div>
+                            <div class="col-md-6 col-xs-12 float-sm-left text-xs-center text-sm-right"><a href="recover-password.html" class="card-link">Забули пароль?</a></div>
                         </fieldset>
-                        <button type="submit" class="btn btn-outline-primary btn-block"><i class="ft-user"></i> Register</button>
+                        <button type="submit" class="btn btn-outline-primary btn-block"><i class="ft-user"></i> Реєстрація</button>
                     </form>
                 </div>
                 <div class="card-block">
-                    <a href="login-with-bg-image.html" class="btn btn-outline-danger btn-block"><i class="ft-unlock"></i> Login</a>
+                    <a href="login.html" class="btn btn-outline-danger btn-block"><i class="ft-unlock"></i> Вхід</a>
                 </div>
             </div>
         </div>
