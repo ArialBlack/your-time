@@ -447,3 +447,63 @@ nav.navbar-fixed + .app-content {
   }
 }
 
+.heading-elements {
+  li {
+    a {
+      &.active {
+        i, & {
+          color: #E53935 !important;
+        }
+
+      }
+    }
+  }
+}
+
+.table-controls {
+  cursor: pointer;
+}
+
+
+.card-header {
+  a {
+      &:hover {
+          i, & {
+            color: #E53935 !important;
+          }
+      }
+    }
+}
+
+#all-tasks-list {
+  h4 a {
+    text-decoration: underline;
+    color: #E53935;
+
+    &:hover {
+      color: #11B0D0 !important;
+    }
+  }
+}
+
+
+#user-tasks-table_wrapper {
+  .dataTables_length,
+  .dataTables_filter {
+    display: none;
+  }
+
+  .table .table {
+     background: none;
+  }
+
+  #user-tasks-table thead,
+  #user-tasks-table > tbody > tr > td:nth-child(1),
+  #user-tasks-table > tbody > tr > td:nth-child(3),
+  #user-tasks-table > tbody > tr > td:nth-child(4),
+  #user-tasks-table > tbody > tr > td:nth-child(5){
+    display: none;
+  }
+}
+
+
