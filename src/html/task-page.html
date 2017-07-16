@@ -10,20 +10,6 @@
 
     <div class="app-content content container-fluid">
       <div class="content-wrapper">
-          <div class="content-header row">
-              <div class="content-header-left col-md-6 col-xs-12 mb-2">
-                  <div class="row breadcrumbs-top">
-                      <div class="breadcrumb-wrapper col-xs-12">
-                          <ol class="breadcrumb">
-                              <li class="breadcrumb-item"><a href="index.html">Головна</a></li>
-                              <li class="breadcrumb-item"><a href="#">Декларації</a></li>
-                              <li class="breadcrumb-item active">Додати декларацію</li>
-                          </ol>
-                      </div>
-                  </div>
-                  <h3 class="content-header-title mb-0">Завдання: Додати декларацію на сайт</h3>
-              </div>
-          </div>
 
           <div class="content-detached content-right">
               <div class="content-body">
@@ -130,39 +116,59 @@
           <div id="sticky-wrapper" class="sticky-wrapper">
               <div class="sidebar-detached sidebar-left sidebar-sticky">
                   <div class="sidebar">
-                      <div class="list-group-item task-desc">
-                          <table class="table mb-0 borderless">
-                              <tbody>
-                              <tr>
-                                  <td><i class="fa fa-plus-square icon-bg-circle bg-info"></i> <h6 class="media-heading info darken-4">Додай декларацію</h6></td>
-                                  <td class="text-xs-center font-small-2">15 балів</td>
-                              </tr>
-                              <tr>
-                                  <td><p class="notification-text font-small-3 text-muted">Ми все ще розшукуємо декларації за попередні роки</p>
-                                  </td>
-                                  <td class="text-xs-center font-small-2">5 гривень</td>
-                              </tr>
-                              <tr>
-                                  <td colspan="2">
-                                      <p class="mb-1"><strong>Ось що потрібно зробити</strong></p>
-                                      <ol class="notification-text font-small-3 text-muted">
-                                          <li>Знайди декларацію на сайті держустанови</li>
-                                          <li>Перевір чи немає її на сайті Декларацій</li>
-                                          <li>Завантаж у форму</li>
-                                          <li>Все. Після перевірки твої потенційні гроші стануть активними.</li>
-                                      </ol>
-                                  </td>
-                              </tr>
-                              <tr>
-                                  <td><span class="text-xs-center font-small-2">Виконано 14 завданнь <progress class="progress progress-sm progress-primary mt-0 mb-0" value="14" max="100"></progress></span></td>
-                                  <td class="text-xs-center font-small-2"><a href="#" title="Канцелярська сотня"><!--(bake _svg-logo.html logo="decl")--></a></td>
-                              </tr>
-                              <tr>
-                                  <td class="text-xs-center font-small-2">Заробленно на завданнях 1000 грн.</td>
-                              </tr>
-                              </tbody>
-                          </table>
+                      <div class="card">
+                          <div class="card-body collapse in">
+                              <div class="task-desc card-block">
+                                  <table class="table mb-0 borderless">
+                                      <tbody>
+                                      <tr>
+                                          <td><i class="fa fa-plus-square icon-bg-circle bg-info"></i> <h6 class="media-heading info darken-4">Додай декларацію</h6></td>
+                                          <td class="text-xs-center font-small-2">15 балів</td>
+                                      </tr>
+                                      <tr>
+                                          <td><p class="notification-text font-small-3 text-muted">Ми все ще розшукуємо декларації за попередні роки</p>
+                                          </td>
+                                          <td class="text-xs-center font-small-2">5 гривень</td>
+                                      </tr>
+                                      <tr>
+                                          <td colspan="2">
+                                              <p class="mb-1"><strong>Ось що потрібно зробити</strong></p>
+                                              <ol class="notification-text font-small-3 text-muted">
+                                                  <li>Знайди декларацію на сайті держустанови</li>
+                                                  <li>Перевір чи немає її на сайті Декларацій</li>
+                                                  <li>Завантаж у форму</li>
+                                                  <li>Все. Після перевірки твої потенційні гроші стануть активними.</li>
+                                              </ol>
+                                              <button data-toggle="modal" data-target="#taskDetails" class="btn btn-info" type="button">Детальніше</button>
+                                          </td>
+                                      </tr>
+                                      </tbody>
+                                  </table>
+                              </div>
+                          </div>
                       </div>
+
+                      <div class="card">
+                          <div class="card-body collapse in">
+                              <div class="task-desc">
+                                  <div class="list-group-item  border b-dashed b-danger">
+                                      <table class="table mb-0 borderless">
+                                          <tbody>
+                                          <tr>
+                                              <td class="font-small-3">Виконано 14 завданнь <progress class="progress progress-sm progress-danger mt-0 mb-0" value="14" max="100"></progress></td>
+                                              <td class="text-xs-center"><a href="#" title="Канцелярська сотня"><!--(bake _svg-logo.html logo="decl")--></a></td>
+                                          </tr>
+                                          <tr>
+                                              <td><i class="icon-wallet"></i> Заробленно на завданнях</td>
+                                              <td class="text-xs-center"><span class="tag tag tag-danger tag-pill float-xs-right mr-2">1000 грн.</span></td>
+                                          </tr>
+                                          </tbody>
+                                      </table>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
                   </div>
               </div>
           </div>
@@ -170,6 +176,65 @@
     </div>
 
     <!--(bake parts/footer.html)-->
+
+    <div class="modal fade text-xs-left" id="taskDetails" tabindex="-1" role="dialog" aria-labelledby="taskDetailsLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary white">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="taskDetailsLabel">Деталі завдання "Додай декларацію"</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-body">
+                            <table class="table mb-0 borderless">
+                                <tbody>
+                                <tr>
+                                    <td colspan="2">
+                                        <p class="mb-1"><strong>Ось що потрібно зробити</strong></p>
+                                        <ol class="notification-text text-muted">
+                                            <li>Знайди декларацію на сайті держустанови</li>
+                                            <li>Перевір чи немає її на сайті Декларацій</li>
+                                            <li>Завантаж у форму</li>
+                                            <li>Все. Після перевірки твої потенційні гроші стануть активними.</li>
+                                        </ol>
+                                        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
+
+                                        <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+
+                                        <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
+
+                                        <p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+
+                                        <p>Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни.</p>
+
+                                        <p>Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+
+                                        <p>Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.</p>
+
+                                        <p>Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
+
+                                        <p>Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка.</p>
+
+                                        <p>Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись.</p>
+
+                                        <p>Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и».</p>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn grey btn-outline-secondary" data-dismiss="modal">Закрити</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- BEGIN VENDOR JS-->
     <script src="../../../app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>

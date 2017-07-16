@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" data-textdirection="ltr" class="loading">
 
-  <!--(bake parts/head.html title="Головна")-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content=".">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>Головна</title>
+    <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/fonts/feather/style.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/fonts/simple-line-icons/style.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/pace.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/forms/icheck/icheck.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/forms/icheck/custom.css">
+
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/toastr.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css">
+
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN STACK CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/app.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/colors.css">
+    <!-- END STACK CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/horizontal-menu.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-overlay-menu.css">
+
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/gallery.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/pages/login-register.css">
+    <link rel='stylesheet' type='text/css'  href='app-assets/css/pages/users.css'>
+    <link rel="stylesheet" type="text/css" href="app-assets/css/plugins/extensions/toastr.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- END Custom CSS-->
+</head>
 
   <body data-open="click" data-menu="horizontal-menu" data-col="2-columns" class="horizontal-layout horizontal-menu 2-columns steps-page">
 
-    <!-- navbar-fixed-top-->
-    <nav class="header-navbar navbar navbar-with-menu navbar-static-top navbar-fixed navbar-light navbar-border navbar-brand-center">
+  <!-- navbar-fixed-top-->
+  <nav class="header-navbar navbar navbar-with-menu navbar-static-top navbar-dark bg-gradient-x-grey-blue navbar-border navbar-brand-center">
       <div class="navbar-wrapper">
-        <div class="navbar-header">
-          <ul class="nav navbar-nav">
-              <li class="nav-item hidden-md-up">
-                  <a href="index.html" class="navbar-brand">
-                      <img alt="stack admin logo" src="../../../app-assets/images/logo/stack-logo.png" class="brand-logo">
-                      <h2 class="brand-text">Ж.В.</h2>
-                  </a>
-              </li>
-            <li class="nav-item hidden-md-up float-xs-right"><a data-toggle="collapse" data-target="#navbar-mobile" class="nav-link open-navbar-container"><i class="fa fa-ellipsis-v"></i></a></li>
-          </ul>
-        </div>
-        <div class="navbar-container container center-layout">
-          <div id="navbar-mobile" class="collapse navbar-toggleable-sm">
-            <ul class="nav navbar-nav float-xs-left">
-
-                <li class="nav-item">
-                    <a href="index.html" class="navbar-brand">
-                        <img alt="stack admin logo" src="../../../app-assets/images/logo/stack-logo.png" class="brand-logo">
-                        <h2 class="brand-text">Ж.В.</h2>
-                    </a>
-                    <span class="muted-text small-text intro-header-text">Тут такий коротенький текст вступу і все таке. Бла бла бла.</span>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav float-xs-right">
-              <li class="nav-item">
-                  <section id="block-sociallinksblock" class="block block-sociallinks-block clearfix">
-                      <ul>
-                          <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                          <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                          <li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                      </ul>
-                  </section>
-              </li>
-              <li class="nav-item">
-                  <div class="list-group list-group-flush site-stats">
-                      <a href="#" class="list-group-item"><i class="fa fa fa-users"></i> 300 учасників</a>
-                      <a href="#" class="list-group-item"><i class="fa fa-check-square-o"></i> 20 завдань</a>
-                      <a href="#" class="list-group-item"><i class="fa fa-thumbs-o-up"></i> 180000 грн. передано до фондів</a>
-                  </div>
-              </li>
-            </ul>
+          <div class="navbar-header">
+              <ul class="nav navbar-nav">
+                  <li class="nav-item hidden-md-up"><a href="index.html" class="navbar-brand">
+                      <h2 class="brand-text">Ж.В.</h2></a>
+                  </li>
+                  <li class="nav-item mobile-menu hidden-md-up float-xs-left"><a href="#" class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="ft-menu font-large-1"></i></a></li>
+                  <li class="nav-item hidden-sm-down blue-grey lighten-4">Платформа суспільної допомоги. <br>Нам не потрібні ваші гроші. <br>Нам потрібно 15 хвилин вашого часу</li>
+              </ul>
           </div>
-        </div>
+          <div class="navbar-container container center-layout">
+              <div id="navbar-mobile" class="collapse navbar-toggleable-sm">
+                  <ul class="nav navbar-nav">
+                      <li class="nav-item"><a href="index.html" class="navbar-brand">
+                          <h2 class="brand-text">Ж.В.</h2></a>
+                      </li>
+                      <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="ft-menu"></i></a></li>
+                  </ul>
+                  <ul class="nav navbar-nav float-xs-right">
+                      <li class="nav-item">
+                          <div class="list-group list-group-flush site-stats">
+                              <a href="#" class="list-group-item"><i class="fa fa fa-users"></i> 300 учасників</a>
+                              <a href="#" class="list-group-item"><i class="fa fa-check-square-o"></i> 20 завдань</a>
+                              <a href="#" class="list-group-item"><i class="fa fa-thumbs-o-up"></i> 180000 грн. передано до фондів</a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
       </div>
-    </nav>
+  </nav>
+
+  <div role="navigation" data-menu="menu-wrapper" class="header-navbar navbar navbar-horizontal navbar-fixed navbar-light navbar-without-dd-arrow navbar-bordered navbar-shadow menu-border">
+      <div data-menu="menu-container" class="navbar-container main-menu-content container center-layout">
+          <!--(bake parts/_menu-tree-horizontal.html)-->
+      </div>
+  </div>
 
     <div class="imagebg-box">
-        <div class="imagebg-content"><div><span><h1 class="t">Допомогати — просто!</h1></span></div></div>
+        <div class="imagebg-content"><div><span><h1>Допомогати — просто!</h1></span></div></div>
     </div>
 
     <div class="app-content container center-layout mt-2">
@@ -66,12 +98,7 @@
               <div class="card-body collapse in">
                   <div class="card-block">
                       <div class="card-text">
-                          <!--<div class="steps-intro">
-                              <p>Тут такий коротенький текст вступу і все таке. Бла бла бла. Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
-                          </div>-->
-
                           <div class="steps-header">
-                              <h2>Як взагалі ти можеш допомогти?</h2>
                               <h3>Ось три прості кроки:</h3>
                           </div>
 
@@ -81,15 +108,7 @@
                                   <div class="step-text">
                                       <h5 class="bg-amber bg-lighten-1 white">Крок перший</h5>
                                       <h2 class="t tn amber lighten-1"><i class="fa fa-list-ol" aria-hidden="true"></i> Обери завдання</h2>
-                                      <div class="btn-group">
-                                          <button type="button" class="btn btn-danger bg-amber bg-lighten-1 border-amber border-lighten-1 btn-min-width dropdown-toggle ib btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-o"></i> Увійдіть</button>
-                                          <div class="dropdown-menu">
-                                              <a class="dropdown-item" href="#">Увійти за логіном</a>
-                                              <a class="dropdown-item" href="#">За допомогою Facebook</a>
-                                          </div>
-                                      </div>
-
-                                      <p>та оберіть одне із завдань та виконейте його. На свій смак. Вони не складні.</p>
+                                      <p>Увійдіть та оберіть одне із завдань на свій смак. Вони не складні.</p>
                                   </div>
                                   <img class="step-image" src="app-assets/images/pages/step-1.png" alt="Image description">
                               </div>
@@ -99,7 +118,7 @@
                                   <div class="step-text">
                                       <h5 class="bg-pink bg-lighten-2 white">Крок другий</h5>
                                       <h2 class="t tn pink lighten-2"><i class="fa fa-check-square-o" aria-hidden="true"></i> Виконай його</h2>
-                                      <p>Виконай обране завдання. Виконання завдання потребує від 5 секунд до 15 хвилин в залежності від типу та складності. За кожне ви отримуєте бали та віртуальні гроші.</p>
+                                      <p>Виконання завдання потребує від 5 секунд до 15 хвилин в залежності від типу та складності. За кожне ви отримуєте бали та віртуальні гроші.</p>
                                   </div>
                                   <img class="step-image" src="app-assets/images/pages/step-2.png" alt="Image description">
                               </div>
@@ -108,8 +127,8 @@
                                   <!--(bake _svg-logo.html logo="curved-arrow")-->
                                   <div class="step-text">
                                       <h5 class="bg-cyan bg-darken-2 white">Крок третій</h5>
-                                      <h2 class="t tn cyan darken-2"><i class="fa fa-handshake-o" aria-hidden="true"></i> Пожертвуй кошти</h2>
-                                      <p>Коли завдання буде перевірено, віртуальні гроші перетворяться на активні. Перерахуйте їх до одного з фондів у системі. І вони отримають реальні гривні.</p>
+                                      <h2 class="t tn cyan darken-2"><i class="fa fa-handshake-o" aria-hidden="true"></i> Отримай кошти</h2>
+                                      <p>та обери фонд, куди їх передати.</p>
                                   </div>
                                   <img class="step-image" src="app-assets/images/pages/step-3.png" alt="Image description">
                             </div>
