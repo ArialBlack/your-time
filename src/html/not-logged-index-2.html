@@ -44,7 +44,7 @@
     <!-- END Custom CSS-->
 </head>
 
-  <body data-open="click" data-menu="horizontal-menu" data-col="2-columns" class="horizontal-layout horizontal-menu 2-columns steps-page not-logged-in">
+  <body data-open="click" data-menu="horizontal-menu" data-col="2-columns" class="horizontal-layout horizontal-menu 2-columns steps-page-2 not-logged-in">
 
   <!-- navbar-fixed-top-->
   <nav class="header-navbar navbar navbar-with-menu navbar-static-top navbar-dark bg-gradient-x-grey-blue navbar-border navbar-brand-center">
@@ -55,7 +55,6 @@
                       <h2 class="brand-text">Ж.В.</h2></a>
                   </li>
                   <li class="nav-item mobile-menu hidden-md-up float-xs-left"><a href="#" class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="ft-menu font-large-1"></i></a></li>
-                  <li class="nav-item hidden-sm-down blue-grey lighten-4">Платформа суспільної допомоги. <br>Нам не потрібні ваші гроші. <br>Нам потрібно 15 хвилин вашого часу</li>
               </ul>
           </div>
           <div class="navbar-container container center-layout">
@@ -67,13 +66,7 @@
                       <li class="nav-item hidden-sm-down"><a href="#" class="nav-link nav-menu-main menu-toggle hidden-xs"><i class="ft-menu"></i></a></li>
                   </ul>
                   <ul class="nav navbar-nav float-xs-right">
-                      <li class="nav-item">
-                          <div class="list-group list-group-flush site-stats">
-                              <a href="#" class="list-group-item"><i class="fa fa fa-users"></i> 300 учасників</a>
-                              <a href="#" class="list-group-item"><i class="fa fa-check-square-o"></i> 20 завдань</a>
-                              <a href="#" class="list-group-item"><i class="fa fa-thumbs-o-up"></i> 180000 грн. передано до фондів</a>
-                          </div>
-                      </li>
+                      <li class="nav-item hidden-sm-down text-xs-right white">Платформа суспільної допомоги. <br>Нам не потрібні ваші гроші. Нам потрібно 15 хвилин вашого часу</li>
                   </ul>
               </div>
           </div>
@@ -86,71 +79,75 @@
       </div>
   </div>
 
-    <div class="imagebg-box">
-        <div class="imagebg-content"><div><span><h1>Допомогати — просто!</h1></span></div></div>
-    </div>
-
-    <div class="app-content container center-layout mt-2">
+  <div class="app-content container center-layout mt-2">
       <div class="content-wrapper">
-        <div class="content-body">
-            <!-- Description -->
-            <section id="description" class="card transparent-card">
-              <div class="card-body collapse in">
-                  <div class="card-block">
-                      <div class="card-text">
-                          <div class="steps-header">
-                              <h3>Ось три прості кроки:</h3>
+          <div class="content-body">
+              <!-- Description -->
+              <section id="description" class="card transparent-card mb-0">
+                  <div class="card-body collapse in">
+                          <div class="card-text">
+                              <div id="site-stats" class="mb-2">
+                                  <a href="#" class="stat-user"><i class="fa fa fa-users"></i> <span>300 учасників</span></a>
+                                  <a href="#" class="stat-tasks"><i class="fa fa-check-square-o"></i> <span>20 завдань</span></a>
+                                  <a href="#" class="stat-money"><i class="fa fa-thumbs-o-up"></i> <span>180000 грн.<br>передано до фондів</span></a>
+                              </div>
+
+                              <div class="intro-text mt-1">
+                                  <h1><span>Допомогати — просто!</span></h1>
+                                  <h3 class="mb-0">Ось три прості кроки:</h3>
+                              </div>
                           </div>
 
-                          <div id="steps-1-2-3">
-                              <div class="steps step-1">
-                                  <!--(bake _svg-logo.html logo="curved-arrow")-->
-                                  <div class="step-text">
-                                      <h5 class="bg-amber bg-lighten-1 white">Крок перший</h5>
-                                      <h2 class="t tn amber lighten-1"><i class="fa fa-list-ol" aria-hidden="true"></i> Увійди та обери завдання</h2>
-                                      <p>Після реєстрації/логіну оберіть одне із завдань на свій смак. Вони не складні.</p>
-                                  </div>
-                                  <img class="step-image" src="app-assets/images/pages/step-1.png" alt="Image description">
-                              </div>
-
-                              <div class="steps step-2">
-                                  <!--(bake _svg-logo.html logo="curved-arrow")-->
-                                  <div class="step-text">
-                                      <h5 class="bg-pink bg-lighten-2 white">Крок другий</h5>
-                                      <h2 class="t tn pink lighten-2"><i class="fa fa-check-square-o" aria-hidden="true"></i> Виконай його</h2>
-                                      <p>Виконання завдання потребує від 5 секунд до 15 хвилин в залежності від типу та складності. За кожне ви отримуєте бали та віртуальні гроші.</p>
-                                  </div>
-                                  <img class="step-image" src="app-assets/images/pages/step-2.png" alt="Image description">
-                              </div>
-
-                              <div class="steps step-3">
-                                  <!--(bake _svg-logo.html logo="curved-arrow")-->
-                                  <div class="step-text">
-                                      <h5 class="bg-cyan bg-darken-2 white">Крок третій</h5>
-                                      <h2 class="t tn cyan darken-2"><i class="fa fa-handshake-o" aria-hidden="true"></i> Отримай кошти</h2>
-                                      <p>та обери фонд, куди їх передати.</p>
-                                  </div>
-                                  <img class="step-image" src="app-assets/images/pages/step-3.png" alt="Image description">
-                            </div>
-
-                              <div class="btn-group mt-2 mb-2">
-                                  <button type="button" class="btn btn-primary btn-min-width dropdown-toggle ib" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-o"></i> Увійти</button>
-                                  <div class="dropdown-menu">
-                                      <a class="dropdown-item" href="#">Увійти за логіном</a>
-                                      <a class="dropdown-item" href="#">За допомогою Facebook</a>
-                                  </div>
-                              </div>
-                        </div>
-
-                      </div>
                   </div>
-              </div>
-          </section>
-        </div>
+              </section>
+          </div>
       </div>
-    </div>
+  </div>
 
-    <section id="image-grid" class="card transparent-card">
+  <section class="fsbanner" id="stepbanner-1-2-3">
+      <div class="fsbanner-slide slide-1">
+          <span class="title">
+               <span class="label amber lighten-1">Крок 1:</span>
+               <span class="sub-label t tn amber lighten-1"><i class="fa fa-list-ol" aria-hidden="true"></i> Увійди та обери завдання</span>
+               <span class="step-text">
+                    <p>Після реєстрації/логіну оберіть одне із завдань на свій смак. Вони не складні.</p>
+               </span>
+          </span>
+
+      </div>
+      <div class="fsbanner-slide slide-2">
+          <span class="title">
+              <span class="label pink lighten-2">Крок 2:</span>
+              <span class="sub-label t tn pink lighten-2"><i class="fa fa-check-square-o" aria-hidden="true"></i> Виконай його</span>
+              <span class="step-text">
+                    <p>Виконання завдання потребує від 5 секунд до 15 хвилин в залежності від типу та складності. За кожне ви отримуєте бали та віртуальні гроші.</p>
+              </span>
+          </span>
+
+      </div>
+      <div class="fsbanner-slide slide-3">
+          <span class="title">
+              <span class="label">Крок 3:</span>
+              <span class="sub-label t tn"><i class="fa fa-handshake-o" aria-hidden="true"></i> Отримай кошти</span>
+              <span class="step-text">
+                    <p>та обери фонд, куди їх передати.</p>
+              </span>
+          </span>
+
+      </div>
+  </section>
+
+  <div class="text-xs-center mt-2 mb-1">
+      <div class="btn-group">
+          <button type="button" class="btn btn-info btn-info-light-blue dropdown-toggle nav-login-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-o"></i> Увійдіть</button>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Увійти за логіном</a>
+              <a class="dropdown-item" href="#">За допомогою Facebook</a>
+          </div>
+      </div>
+  </div>
+
+  <section id="image-grid" class="card transparent-card">
         <div class="card-body collapse in">
             <div class="card-block my-gallery" itemscope="" itemtype="http://schema.org/ImageGallery">
                 <div class="row">
@@ -290,6 +287,9 @@
                     </div>
                 </div>
             </div>
+            <div class="card-header">
+                <a href="#">Повний F.A.Q.</a>
+            </div>
         </div>
     </div>
 
@@ -305,6 +305,10 @@
     <!-- BEGIN STACK JS-->
     <script src="../../../app-assets/js/core/app-menu.js" type="text/javascript"></script>
     <script src="../../../app-assets/js/core/app.js" type="text/javascript"></script>
+
+    <script src="../../../app-assets/js/scripts/gallery/fsbanner.js" type="text/javascript"></script>
+
+    <script src="../../../assets/js/scripts.js" type="text/javascript"></script>
     <!-- END STACK JS-->
     <!-- BEGIN PAGE LEVEL JS-->
     <!-- END PAGE LEVEL JS-->

@@ -22,6 +22,7 @@ module.exports = function(grunt) {
                     "index.html": "src/html/index.html",
                     "task-page.html": "src/html/task-page.html",
                     "not-logged-index.html": "src/html/not-logged-index.html",
+                    "not-logged-index-2.html": "src/html/not-logged-index-2.html",
                     "fund-page.html": "src/html/fund-page.html",
                     
                     "login.html": "src/html/login.html",

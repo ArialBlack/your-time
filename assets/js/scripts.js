@@ -10,4 +10,6 @@
     },100);
   });
 
+  $('#stepbanner-1-2-3').fsBanner({'trigger':'mouse'});
+
 })(window, document, jQuery);
