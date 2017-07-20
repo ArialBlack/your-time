@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,900&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=cyrillic-ext');
+
 @import "../../assets/scss/variables/variables";
 
 /*
@@ -641,6 +644,26 @@ $light-blue: #18bcee;
         display: flex;
         justify-content: space-between;
       }
+
+      h1 {
+        text-transform: uppercase;
+        color: white;
+        @include rft(18, 26);
+
+        span {
+          display: inline-block;
+          background: #7f7f7f;
+        }
+      }
+
+      h3 {
+        text-transform: uppercase;
+        color: $light-blue;
+        font-weight: 700;
+        text-align: center;
+        @include rft(35, 56);
+      }
+
     }
 
     #site-stats {
@@ -709,24 +732,6 @@ $light-blue: #18bcee;
       }
     }
 
-    h1 {
-      text-transform: uppercase;
-      color: white;
-      @include rft(18, 26);
-
-      span {
-        display: inline-block;
-        background: #7f7f7f;
-      }
-    }
-
-    h3 {
-      text-transform: uppercase;
-      color: $light-blue;
-      font-weight: 700;
-      text-align: center;
-      @include rft(35, 56);
-    }
 
 
   }

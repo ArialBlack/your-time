@@ -3,7 +3,5 @@ node_modules/
 npm-debug.log
 
 _src_template/
-/app-assets/css/
-/*.html
-/assets/css/
-/app-assets/images/svg-images-sprite.svg
+
+
