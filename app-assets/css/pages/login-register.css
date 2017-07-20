@@ -1,0 +1,27 @@
+/* line 1, E:/domains/your-time.dev/src/scss/pages/login-register.scss */
+.form-simple input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+/* line 6, E:/domains/your-time.dev/src/scss/pages/login-register.scss */
+.form-simple input[type="mail"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+/* line 13, E:/domains/your-time.dev/src/scss/pages/login-register.scss */
+.form-simple input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+/* line 20, E:/domains/your-time.dev/src/scss/pages/login-register.scss */
+.help-block ul {
+  margin: 0  !important;
+  padding: 0 !important; }
+  /* line 23, E:/domains/your-time.dev/src/scss/pages/login-register.scss */
+  .help-block ul li {
+    list-style: none; }

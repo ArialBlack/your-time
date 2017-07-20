@@ -1,205 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" data-textdirection="ltr" class="loading">
-  <!--(bake parts/head.html title="Сторінка завдання")-->
+<!--(bake parts/head.html title="Сторінка завдання")-->
 
-  <body data-open="click" data-menu="vertical-menu" data-col="2-columns" class="vertical-layout vertical-menu 2-columns fixed-navbar logged-in">
+<body data-open="click" data-menu="vertical-menu" data-col="2-columns" class="vertical-layout vertical-menu 2-columns fixed-navbar logged-in task-page">
 
-    <!--(bake parts/navbar-top.html)-->
+<!--(bake parts/navbar-top.html)-->
 
-    <!--(bake parts/left-sidebar-menu.html)-->
+<!--(bake parts/left-sidebar-menu.html)-->
 
-    <div class="app-content content container-fluid">
-      <div class="content-wrapper">
+<div class="app-content content container-fluid">
+    <div class="content-wrapper">
 
-          <div class="content-detached content-right">
-              <div class="content-body">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- USERS TASKS LIST -->
-                            <div class="card" id="all-tasks-list">
-                                <div class="card-header">
-                                    <h4 class="card-title">Завдання</h4>
-                                    <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
-                                    <div class="heading-elements">
-                                        <ul class="list-inline mb-0">
-                                            <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
-                                        </ul>
-                                    </div>
+        <div class="content-detached content-right">
+            <div class="content-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- USERS TASKS LIST -->
+                        <div class="card" id="all-tasks-list">
+                            <div class="card-header">
+                                <h4 class="card-title">Завдання</h4>
+                                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
+                                <div class="heading-elements">
+                                    <ul class="list-inline mb-0">
+                                        <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                    </ul>
                                 </div>
-                                <div class="card-body collapse in">
-                                    <div class="card-block">
-                                        <div class="list-group-item">
-                                            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
-
-                                            <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
-
-                                            <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
-
-                                            <p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
-
-                                            <p>Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни.</p>
-
-                                            <p>Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
-
-                                            <p>Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.</p>
-
-                                            <p>Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
-
-                                            <p>Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка.</p>
-
-                                            <p>Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись.</p>
-
-                                            <p>Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и».</p>
-
-                                            <p>Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p>
-
-                                            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
-
-                                            <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
-
-                                            <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
-
-                                            <p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
-
-                                            <p>Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни.</p>
-
-                                            <p>Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
-
-                                            <p>Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.</p>
-
-                                            <p>Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
-
-                                            <p>Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка.</p>
-
-                                            <p>Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись.</p>
-
-                                            <p>Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и».</p>
-
-                                            <p>Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p>
-
-                                            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
-
-                                            <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
-
-                                            <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
-
-                                            <p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
-
-                                            <p>Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни.</p>
-
-                                            <p>Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
-
-                                            <p>Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.</p>
-
-                                            <p>Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
-
-                                            <p>Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка.</p>
-
-                                            <p>Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись.</p>
-
-                                            <p>Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и».</p>
-
-                                            <p>Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6 mb-2 mt-2">
-                                            <button type="button" class="btn btn-lg btn-block btn-outline-success " id="type-success">Например все</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            <!-- END OF USERS TASKS LIST -->
-                        </div>
-                    </div>
-                </div>
-              </div>
-          </div>
-
-          <div id="sticky-wrapper" class="sticky-wrapper">
-              <div class="sidebar-detached sidebar-left sidebar-sticky">
-                  <div class="sidebar">
-                      <div class="card">
-                          <div class="card-body collapse in">
-                              <div class="task-desc card-block">
-                                  <table class="table mb-0 borderless">
-                                      <tbody>
-                                      <tr>
-                                          <td><i class="fa fa-plus-square icon-bg-circle bg-info"></i> <h6 class="media-heading info darken-4">Додай декларацію</h6></td>
-                                          <td class="text-xs-center font-small-2">15 балів</td>
-                                      </tr>
-                                      <tr>
-                                          <td><p class="notification-text font-small-3 text-muted">Ми все ще розшукуємо декларації за попередні роки</p>
-                                          </td>
-                                          <td class="text-xs-center font-small-2">5 гривень</td>
-                                      </tr>
-                                      <tr>
-                                          <td colspan="2">
-                                              <p class="mb-1"><strong>Ось що потрібно зробити</strong></p>
-                                              <ol class="notification-text font-small-3 text-muted">
-                                                  <li>Знайди декларацію на сайті держустанови</li>
-                                                  <li>Перевір чи немає її на сайті Декларацій</li>
-                                                  <li>Завантаж у форму</li>
-                                                  <li>Все. Після перевірки твої потенційні гроші стануть активними.</li>
-                                              </ol>
-                                              <button data-toggle="modal" data-target="#taskDetails" class="btn btn-info" type="button">Детальніше</button>
-                                          </td>
-                                      </tr>
-                                      </tbody>
-                                  </table>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="card">
-                          <div class="card-body collapse in">
-                              <div class="task-desc">
-                                  <div class="list-group-item  border b-dashed b-danger">
-                                      <table class="table mb-0 borderless">
-                                          <tbody>
-                                          <tr>
-                                              <td class="font-small-3">Виконано 14 завданнь <progress class="progress progress-sm progress-danger mt-0 mb-0" value="14" max="100"></progress></td>
-                                              <td class="text-xs-center"><a href="#" title="Канцелярська сотня"><!--(bake _svg-logo.html logo="decl")--></a></td>
-                                          </tr>
-                                          <tr>
-                                              <td><i class="icon-wallet"></i> Заробленно на завданнях</td>
-                                              <td class="text-xs-center"><span class="tag tag tag-danger tag-pill float-xs-right mr-2">1000 грн.</span></td>
-                                          </tr>
-                                          </tbody>
-                                      </table>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                  </div>
-              </div>
-          </div>
-      </div>
-    </div>
-
-    <!--(bake parts/footer.html)-->
-
-    <div class="modal fade text-xs-left" id="taskDetails" tabindex="-1" role="dialog" aria-labelledby="taskDetailsLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header bg-primary white">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title" id="taskDetailsLabel">Деталі завдання "Додай декларацію"</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="card">
-                        <div class="card-body">
-                            <table class="table mb-0 borderless">
-                                <tbody>
-                                <tr>
-                                    <td colspan="2">
-                                        <p class="mb-1"><strong>Ось що потрібно зробити</strong></p>
-                                        <ol class="notification-text text-muted">
-                                            <li>Знайди декларацію на сайті держустанови</li>
-                                            <li>Перевір чи немає її на сайті Декларацій</li>
-                                            <li>Завантаж у форму</li>
-                                            <li>Все. Після перевірки твої потенційні гроші стануть активними.</li>
-                                        </ol>
+                            </div>
+                            <div class="card-body collapse in">
+                                <div class="card-block">
+                                    <div class="list-group-item">
                                         <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
 
                                         <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
@@ -221,44 +50,214 @@
                                         <p>Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись.</p>
 
                                         <p>Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и».</p>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+
+                                        <p>Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p>
+
+                                        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
+
+                                        <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+
+                                        <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
+
+                                        <p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+
+                                        <p>Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни.</p>
+
+                                        <p>Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+
+                                        <p>Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.</p>
+
+                                        <p>Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
+
+                                        <p>Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка.</p>
+
+                                        <p>Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись.</p>
+
+                                        <p>Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и».</p>
+
+                                        <p>Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p>
+
+                                        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
+
+                                        <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+
+                                        <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
+
+                                        <p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+
+                                        <p>Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни.</p>
+
+                                        <p>Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+
+                                        <p>Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.</p>
+
+                                        <p>Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
+
+                                        <p>Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка.</p>
+
+                                        <p>Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись.</p>
+
+                                        <p>Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и».</p>
+
+                                        <p>Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-2 mt-2">
+                                        <button type="button" class="btn btn-lg btn-block btn-outline-success " id="type-success">Например все</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END OF USERS TASKS LIST -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sticky-wrapper" class="sticky-wrapper">
+            <div class="sidebar-detached sidebar-left sidebar-sticky">
+                <div class="sidebar">
+                    <div class="card">
+                        <div class="card-body collapse in">
+                            <div class="task-desc card-block">
+                                <table class="table mb-0 borderless">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <i class="fa fa-plus-square icon-bg-circle bg-info"></i>
+                                            <h6 class="media-heading info darken-4">Додай декларацію</h6>
+                                        </td>
+                                        <td class="text-xs-center font-small-2">15 балів</td>
+                                    </tr>
+                                    <tr>
+                                        <td><p class="notification-text font-small-3 text-muted">Ми все ще розшукуємо декларації за попередні роки</p>
+                                        </td>
+                                        <td class="text-xs-center font-small-2">5 гривень</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <p class="mb-1"><strong>Ось що потрібно зробити</strong></p>
+                                            <ol class="notification-text font-small-3 text-muted">
+                                                <li>Знайди декларацію на сайті держустанови</li>
+                                                <li>Перевір чи немає її на сайті Декларацій</li>
+                                                <li>Завантаж у форму</li>
+                                                <li>Все. Після перевірки твої потенційні гроші стануть активними.</li>
+                                            </ol>
+                                            <button data-toggle="modal" data-target="#taskDetails" class="btn btn-info" type="button">Детальніше</button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body collapse in">
+                            <div class="task-desc">
+                                <div class="list-group-item  border b-dashed b-danger">
+                                    <table class="table mb-0 borderless">
+                                        <tbody>
+                                        <tr>
+                                            <td class="font-small-3">Виконано 14 завданнь <progress class="progress progress-sm progress-danger mt-0 mb-0" value="14" max="100"></progress></td>
+                                            <td class="text-xs-center">
+                                                <a href="#" title="Канцелярська сотня"><!--(bake _svg-logo.html logo="decl")--></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="icon-wallet"></i> Заробленно на завданнях</td>
+                                            <td class="text-xs-center">
+                                                <span class="tag tag tag-danger tag-pill float-xs-right mr-2">1000 грн.</span>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn grey btn-outline-secondary" data-dismiss="modal">Закрити</button>
-                </div>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- BEGIN VENDOR JS-->
-    <script src="../../../app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
-    <!-- BEGIN VENDOR JS-->
-    <!-- BEGIN PAGE VENDOR JS-->
-    <script src="../../../app-assets/vendors/js/charts/chart.min.js" type="text/javascript"></script>
-    <script src="../../../app-assets/vendors/js/extensions/jquery.knob.min.js" type="text/javascript"></script>
-    <script src="../../../app-assets/vendors/js/ui/jquery.sticky.js" type="text/javascript"></script>
-    <script src="../../../app-assets/vendors/js/extensions/sweetalert.min.js" type="text/javascript"></script>
+<!--(bake parts/footer.html)-->
 
+<div class="modal fade text-xs-left" id="taskDetails" tabindex="-1" role="dialog" aria-labelledby="taskDetailsLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary white">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="taskDetailsLabel">Деталі завдання "Додай декларацію"</h4>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table mb-0 borderless">
+                            <tbody>
+                            <tr>
+                                <td colspan="2">
+                                    <p class="mb-1"><strong>Ось що потрібно зробити</strong></p>
+                                    <ol class="notification-text text-muted">
+                                        <li>Знайди декларацію на сайті держустанови</li>
+                                        <li>Перевір чи немає її на сайті Декларацій</li>
+                                        <li>Завантаж у форму</li>
+                                        <li>Все. Після перевірки твої потенційні гроші стануть активними.</li>
+                                    </ol>
+                                    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
 
-    <!-- END PAGE VENDOR JS-->
-    <!-- BEGIN STACK JS-->
-    <script src="../../../app-assets/js/core/app-menu.js" type="text/javascript"></script>
-    <script src="../../../app-assets/js/core/app.js" type="text/javascript"></script>
-    <!-- END STACK JS-->
-    <!-- BEGIN PAGE LEVEL JS-->
-    <script src="../../../app-assets/js/scripts/charts/user-stats.js" type="text/javascript"></script>
-    <script src="../../../app-assets/js/scripts/pages/sidebar.js" type="text/javascript"></script>
+                                    <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
 
-    <script src="../../../app-assets/js/scripts/extensions/sweet-alerts.js" type="text/javascript"></script>
+                                    <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
 
-    <!-- END PAGE LEVEL JS-->
+                                    <p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
 
-    <script src="../../../assets/js/scripts.js" type="text/javascript"></script>
-  </body>
+                                    <p>Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни.</p>
+
+                                    <p>Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+
+                                    <p>Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку.</p>
+
+                                    <p>Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.</p>
+
+                                    <p>Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка.</p>
+
+                                    <p>Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись.</p>
+
+                                    <p>Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и».</p>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn grey btn-outline-secondary" data-dismiss="modal">Закрити</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+<script src="/app-assets/vendors/js/charts/chart.min.js" type="text/javascript"></script>
+<script src="/app-assets/vendors/js/extensions/jquery.knob.min.js" type="text/javascript"></script>
+<script src="/app-assets/vendors/js/ui/jquery.sticky.js" type="text/javascript"></script>
+<script src="/app-assets/vendors/js/extensions/sweetalert.min.js" type="text/javascript"></script>
+
+<script src="/app-assets/js/core/app-menu.js" type="text/javascript"></script>
+<script src="/app-assets/js/core/app.js" type="text/javascript"></script>
+<script src="/app-assets/js/scripts/pages/sidebar.js" type="text/javascript"></script>
+<script src="/app-assets/js/scripts/extensions/sweet-alerts.js" type="text/javascript"></script>
+
+<!-- BEGIN very custom JS-->
+<script src="/assets/js/user-stats.js" type="text/javascript"></script>
+<script src="/assets/js/scripts.js" type="text/javascript"></script>
+<!-- END very custom JS-->
+
+</body>
 </html>

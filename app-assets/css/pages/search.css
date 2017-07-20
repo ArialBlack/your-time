@@ -1,0 +1,13 @@
+/* line 11, E:/domains/your-time.dev/src/scss/pages/search.scss */
+#search-nav .nav {
+  border-bottom: 2px solid #e0e0e0; }
+
+/* line 15, E:/domains/your-time.dev/src/scss/pages/search.scss */
+#search-nav .nav-link.active {
+  padding-bottom: 6px;
+  border-bottom: 2px solid #00B5B8;
+  margin-bottom: -2px; }
+
+/* line 24, E:/domains/your-time.dev/src/scss/pages/search.scss */
+#search-results .media-search {
+  padding-top: 5px; }

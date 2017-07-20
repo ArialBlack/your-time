@@ -21,8 +21,7 @@ module.exports = function(grunt) {
                 files: {
                     "index.html": "src/html/index.html",
                     "task-page.html": "src/html/task-page.html",
-                    "not-logged-index.html": "src/html/not-logged-index.html",
-                    "not-logged-index-2.html": "src/html/not-logged-index-2.html",
+                    "not-logged-index.html": "src/html/not-logged-index-2.html",
                     "fund-page.html": "src/html/fund-page.html",
                     
                     "login.html": "src/html/login.html",
@@ -51,9 +50,7 @@ module.exports = function(grunt) {
                     'app-assets/css/bootstrap-extended.css': 'src/scss/bootstrap-extended.scss',
                     'app-assets/css/app.css': 'src/scss/app.scss',
                     'app-assets/css/colors.css': 'src/scss/colors.scss',
-                    //'compiled/css/custom-rtl.css': 'src/scss/custom-rtl.scss',
                     'assets/css/style.css': 'assets/scss/style.scss',
-                    //'compiled/css/style-rtl.css': 'assets/scss/style-rtl.scss',
                 }
             },
             core: {
@@ -119,10 +116,8 @@ module.exports = function(grunt) {
                     'assets/css/**/*.css',
                     'app-assets/css/**/*.css',
                     './*.html',
-                   // 'js/*.js',
                     'app-assets/js/**/*.js',
                     'assets/js/**/*.js'
-                  //  'fonts/*'
                 ]
                 },
             options: {

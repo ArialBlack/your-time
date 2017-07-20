@@ -1,0 +1,54 @@
+@media screen and (min-width: 0px) {
+  /* line 25, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  head {
+    font-family: "xs 0px"; }
+  /* line 26, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  body:after {
+    content: "xs - min-width: 0px"; } }
+
+@media screen and (min-width: 544px) {
+  /* line 25, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  head {
+    font-family: "sm 544px"; }
+  /* line 26, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  body:after {
+    content: "sm - min-width: 544px"; } }
+
+@media screen and (min-width: 768px) {
+  /* line 25, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  head {
+    font-family: "md 768px"; }
+  /* line 26, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  body:after {
+    content: "md - min-width: 768px"; } }
+
+@media screen and (min-width: 992px) {
+  /* line 25, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  head {
+    font-family: "lg 992px"; }
+  /* line 26, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  body:after {
+    content: "lg - min-width: 992px"; } }
+
+@media screen and (min-width: 1200px) {
+  /* line 25, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  head {
+    font-family: "xl 1200px"; }
+  /* line 26, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  body:after {
+    content: "xl - min-width: 1200px"; } }
+
+/* line 30, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+head {
+  clear: both; }
+  /* line 34, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+  head title {
+    font-family: "xs 0px, sm 544px, md 768px, lg 992px, xl 1200px"; }
+
+/* line 38, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+body:after {
+  display: none; }
+
+/* line 62, E:/domains/your-time.dev/src/scss/plugins/ui/coming-soon.scss */
+*[data-usn-if] {
+  display: none; }
