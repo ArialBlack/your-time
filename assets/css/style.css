@@ -73,32 +73,36 @@ ol li {
   list-style: decimal; }
 
 /* line 135, E:/domains/your-time.dev/assets/scss/style.scss */
+.breadcrumb li {
+  list-style: none; }
+
+/* line 139, E:/domains/your-time.dev/assets/scss/style.scss */
 .ib {
   display: inline-block; }
 
-/* line 139, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 143, E:/domains/your-time.dev/assets/scss/style.scss */
 .col {
   margin-left: 1rem;
   margin-right: 1rem; }
 
-/* line 144, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 148, E:/domains/your-time.dev/assets/scss/style.scss */
 .border-primary {
   border: #00B5B8 2px solid; }
 
-/* line 149, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 153, E:/domains/your-time.dev/assets/scss/style.scss */
 .card.transparent-card {
   background: transparent; }
 
-/* line 155, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 159, E:/domains/your-time.dev/assets/scss/style.scss */
 .list-group-item.transparent {
   background: none;
   border: none; }
 
-/* line 161, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 165, E:/domains/your-time.dev/assets/scss/style.scss */
 .disabled-link {
   cursor: default; }
 
-/* line 166, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 170, E:/domains/your-time.dev/assets/scss/style.scss */
 nav.navbar-fixed {
   width: 100%;
   position: fixed;
@@ -106,27 +110,27 @@ nav.navbar-fixed {
   top: 0;
   border-radius: 0; }
 
-/* line 176, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 180, E:/domains/your-time.dev/assets/scss/style.scss */
 .is-sticky .navbar-horizontal {
   min-height: 70px; }
 
-/* line 181, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 185, E:/domains/your-time.dev/assets/scss/style.scss */
 .navbar-horizontal {
   border-radius: 0; }
 
-/* line 185, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 189, E:/domains/your-time.dev/assets/scss/style.scss */
 .imagebg-box {
   position: relative;
   overflow: hidden;
   width: 100%; }
 
-/* line 190, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 194, E:/domains/your-time.dev/assets/scss/style.scss */
 .imagebg-box:before {
   content: "";
   display: block;
   padding-top: 100%; }
 
-/* line 195, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 199, E:/domains/your-time.dev/assets/scss/style.scss */
 .imagebg-content {
   position: absolute;
   top: 0;
@@ -135,218 +139,218 @@ nav.navbar-fixed {
   right: 0;
   color: white; }
 
-/* line 203, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 207, E:/domains/your-time.dev/assets/scss/style.scss */
 .imagebg-content div {
   display: table;
   width: 100%;
   height: 100%; }
 
-/* line 208, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 212, E:/domains/your-time.dev/assets/scss/style.scss */
 .imagebg-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   color: white; }
 
-/* line 215, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 219, E:/domains/your-time.dev/assets/scss/style.scss */
 nav.navbar-fixed + .app-content {
   padding-top: 4rem; }
 
-/* line 220, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 224, E:/domains/your-time.dev/assets/scss/style.scss */
 .site-stats .list-group-item {
   padding: 0.25rem 1.25rem;
   border: none;
   color: white;
   background: none; }
 
-/* line 228, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 232, E:/domains/your-time.dev/assets/scss/style.scss */
 .intro-header-text {
   margin-top: 20px;
   display: inline-block; }
 
-/* line 233, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 237, E:/domains/your-time.dev/assets/scss/style.scss */
 .header-navbar.navbar-brand-center .navbar-header {
   width: 200px; }
 
-/* line 237, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 241, E:/domains/your-time.dev/assets/scss/style.scss */
 .sidebar-detached.sidebar-left.sidebar-sticky {
   z-index: 1 !important; }
 
-/* line 245, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 249, E:/domains/your-time.dev/assets/scss/style.scss */
 .sidebar .task-desc table td,
 #all-tasks-list table td,
 .vip-task table td {
   padding: 0.5rem 0;
   vertical-align: middle; }
 
-/* line 250, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 254, E:/domains/your-time.dev/assets/scss/style.scss */
 .sidebar .task-desc table td + td,
 #all-tasks-list table td + td,
 .vip-task table td + td {
   padding-left: 1rem; }
 
-/* line 254, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 258, E:/domains/your-time.dev/assets/scss/style.scss */
 .sidebar .task-desc table p,
 #all-tasks-list table p,
 .vip-task table p {
   margin-bottom: 0; }
 
-/* line 259, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 263, E:/domains/your-time.dev/assets/scss/style.scss */
 .sidebar .task-desc .media-heading,
 #all-tasks-list .media-heading,
 .vip-task .media-heading {
   display: inline-block;
   margin-left: 0.5rem; }
 
-/* line 265, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 269, E:/domains/your-time.dev/assets/scss/style.scss */
 .sidebar .task-desc .svg-image,
 #all-tasks-list .svg-image,
 .vip-task .svg-image {
   width: 35px;
   height: 35px; }
 
-/* line 272, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 276, E:/domains/your-time.dev/assets/scss/style.scss */
 .vip-task .list-group-item {
   border: #11B0D0 1px dashed; }
 
-/* line 279, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 283, E:/domains/your-time.dev/assets/scss/style.scss */
 .border.b-dashed.b-danger {
   border: 1px #E53935 dashed; }
 
-/* line 286, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 290, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-statistics h5 {
   min-height: 38px; }
 
-/* line 290, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 294, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-statistics p {
   margin-bottom: 0; }
 
-/* line 297, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 301, E:/domains/your-time.dev/assets/scss/style.scss */
 #fund-list figure .card-block {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
-  /* line 301, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 305, E:/domains/your-time.dev/assets/scss/style.scss */
   #fund-list figure .card-block a {
     display: block;
     text-align: center; }
 
-/* line 309, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 313, E:/domains/your-time.dev/assets/scss/style.scss */
 #block-sociallinksblock {
   margin-right: 0.5rem;
   margin-top: 12px; }
-  /* line 314, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 318, E:/domains/your-time.dev/assets/scss/style.scss */
   #block-sociallinksblock ul li {
     list-style: none;
     display: inline-block;
     margin-left: 3px;
     margin-right: 3px; }
-  /* line 322, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 326, E:/domains/your-time.dev/assets/scss/style.scss */
   #block-sociallinksblock .fa {
     color: white;
     height: 32px;
     width: 32px;
     border-radius: 100%;
     position: relative; }
-    /* line 330, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 334, E:/domains/your-time.dev/assets/scss/style.scss */
     #block-sociallinksblock .fa:before {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); }
-  /* line 338, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 342, E:/domains/your-time.dev/assets/scss/style.scss */
   #block-sociallinksblock .fa-facebook,
   #block-sociallinksblock .fa-vk {
     background: #4e71a8; }
-  /* line 343, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 347, E:/domains/your-time.dev/assets/scss/style.scss */
   #block-sociallinksblock .fa-twitter {
     background: #1cb7eb; }
-  /* line 347, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 351, E:/domains/your-time.dev/assets/scss/style.scss */
   #block-sociallinksblock .fa-youtube-play {
     background: #e13f4c; }
-  /* line 351, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 355, E:/domains/your-time.dev/assets/scss/style.scss */
   #block-sociallinksblock .fa-telegram {
     font-size: 32px;
     color: #1cb7eb; }
-  /* line 356, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 360, E:/domains/your-time.dev/assets/scss/style.scss */
   #block-sociallinksblock .fa-rss {
     background: #e13f4c; }
 
-/* line 364, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 368, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-achivments .user-badges-list img {
   display: inline-block;
   float: left;
   margin-right: 1rem; }
 
-/* line 372, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 376, E:/domains/your-time.dev/assets/scss/style.scss */
 #top-fund-users {
   background: none; }
-  /* line 375, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 379, E:/domains/your-time.dev/assets/scss/style.scss */
   #top-fund-users .card-header {
     background: none; }
-  /* line 379, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 383, E:/domains/your-time.dev/assets/scss/style.scss */
   #top-fund-users .list-group-item {
     background: none;
     border: none;
     color: #dcdcdc; }
 
-/* line 387, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 391, E:/domains/your-time.dev/assets/scss/style.scss */
 .login-page {
   background: url(../../app-assets/images/backgrounds/login.jpg) no-repeat center center !important;
   background-size: cover; }
 
-/* line 392, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 396, E:/domains/your-time.dev/assets/scss/style.scss */
 .register-page {
   background: url(../../app-assets/images/backgrounds/register.jpg) no-repeat center center !important;
   background-size: cover; }
 
-/* line 397, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 401, E:/domains/your-time.dev/assets/scss/style.scss */
 .recover-password-page {
   background: url(../../app-assets/images/backgrounds/recover-password.jpg) no-repeat center center !important;
   background-size: cover; }
 
-/* line 402, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 406, E:/domains/your-time.dev/assets/scss/style.scss */
 .offline-page {
   background: url(../../app-assets/images/backgrounds/hiload.jpg) no-repeat center center !important;
   background-size: cover; }
 
-/* line 407, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 411, E:/domains/your-time.dev/assets/scss/style.scss */
 .error-page {
   background: #404E67;
   color: white; }
-  /* line 411, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 415, E:/domains/your-time.dev/assets/scss/style.scss */
   .error-page img {
     max-width: 100%; }
 
-/* line 420, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 424, E:/domains/your-time.dev/assets/scss/style.scss */
 .heading-elements li a.active i, .heading-elements li a.active {
   color: #E53935 !important; }
 
-/* line 429, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 433, E:/domains/your-time.dev/assets/scss/style.scss */
 .table-controls {
   cursor: pointer; }
 
-/* line 437, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 441, E:/domains/your-time.dev/assets/scss/style.scss */
 .card-header a:hover i, .card-header a:hover {
   color: #E53935 !important; }
 
-/* line 445, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 449, E:/domains/your-time.dev/assets/scss/style.scss */
 #all-tasks-list h4 a {
   text-decoration: underline;
   color: #E53935; }
-  /* line 449, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 453, E:/domains/your-time.dev/assets/scss/style.scss */
   #all-tasks-list h4 a:hover {
     color: #11B0D0 !important; }
 
-/* line 457, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 461, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-tasks-table_wrapper .dataTables_length,
 #user-tasks-table_wrapper .dataTables_filter {
   display: none; }
 
-/* line 462, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 466, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-tasks-table_wrapper .table .table {
   background: none; }
 
-/* line 466, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 470, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-tasks-table_wrapper #user-tasks-table thead,
 #user-tasks-table_wrapper #user-tasks-table > tbody > tr > td:nth-child(1),
 #user-tasks-table_wrapper #user-tasks-table > tbody > tr > td:nth-child(3),
@@ -354,38 +358,38 @@ nav.navbar-fixed + .app-content {
 #user-tasks-table_wrapper #user-tasks-table > tbody > tr > td:nth-child(5) {
   display: none; }
 
-/* line 474, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 478, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-tasks-table_wrapper #user-tasks-table > tbody > tr > td {
   padding-left: 0 !important; }
 
-/* line 480, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 484, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-profile .nav.navbar-nav {
   margin-left: 130px; }
-  /* line 483, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 487, E:/domains/your-time.dev/assets/scss/style.scss */
   #user-profile .nav.navbar-nav button {
     margin-top: 5px; }
 
-/* line 489, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 493, E:/domains/your-time.dev/assets/scss/style.scss */
 #user-profile .nav-stats p + p {
   margin-top: 5px; }
 
-/* line 496, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 500, E:/domains/your-time.dev/assets/scss/style.scss */
 body.vertical-layout.vertical-menu.menu-collapsed .hidden-collapsed {
   display: none; }
 
-/* line 503, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 507, E:/domains/your-time.dev/assets/scss/style.scss */
 .my-gallery .grid-hover figure {
   min-width: 0; }
 
-/* line 509, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 513, E:/domains/your-time.dev/assets/scss/style.scss */
 .header-navbar.navbar-brand-center .navbar-header {
   width: 230px; }
 
-/* line 513, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 517, E:/domains/your-time.dev/assets/scss/style.scss */
 .nav-login-button {
   margin-top: 8px; }
 
-/* line 517, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 521, E:/domains/your-time.dev/assets/scss/style.scss */
 .steps-page {
   background: #b7cfd6;
   background: -moz-radial-gradient(center, ellipse cover, #c2dae1 0%, #96b6c0 100%);
@@ -411,12 +415,12 @@ body.vertical-layout.vertical-menu.menu-collapsed .hidden-collapsed {
         }
       }
     }*/ }
-  /* line 526, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 530, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page .imagebg-box {
     height: 170px;
     background: url(/app-assets/images/pages/index-header.jpg) no-repeat center top;
     background-size: cover; }
-    /* line 532, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 536, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page .imagebg-box h1 {
       text-transform: uppercase;
       color: white;
@@ -424,18 +428,18 @@ body.vertical-layout.vertical-menu.menu-collapsed .hidden-collapsed {
       font-weight: normal;
       font-size: 20px; }
       @media (min-width: 768px) {
-        /* line 532, E:/domains/your-time.dev/assets/scss/style.scss */
+        /* line 536, E:/domains/your-time.dev/assets/scss/style.scss */
         .steps-page .imagebg-box h1 {
           font-size: 26.666667px; } }
       @media (min-width: 992px) {
-        /* line 532, E:/domains/your-time.dev/assets/scss/style.scss */
+        /* line 536, E:/domains/your-time.dev/assets/scss/style.scss */
         .steps-page .imagebg-box h1 {
           font-size: 33.333333px; } }
       @media (min-width: 1200px) {
-        /* line 532, E:/domains/your-time.dev/assets/scss/style.scss */
+        /* line 536, E:/domains/your-time.dev/assets/scss/style.scss */
         .steps-page .imagebg-box h1 {
           font-size: 40px; } }
-  /* line 565, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 569, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page h3 {
     text-transform: uppercase;
     color: white;
@@ -443,39 +447,39 @@ body.vertical-layout.vertical-menu.menu-collapsed .hidden-collapsed {
     text-align: center;
     font-size: 35px; }
     @media (min-width: 768px) {
-      /* line 565, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 569, E:/domains/your-time.dev/assets/scss/style.scss */
       .steps-page h3 {
         font-size: 42px; } }
     @media (min-width: 992px) {
-      /* line 565, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 569, E:/domains/your-time.dev/assets/scss/style.scss */
       .steps-page h3 {
         font-size: 49px; } }
     @media (min-width: 1200px) {
-      /* line 565, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 569, E:/domains/your-time.dev/assets/scss/style.scss */
       .steps-page h3 {
         font-size: 56px; } }
-  /* line 573, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 577, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page #steps-1-2-3 {
     text-align: center; }
-  /* line 577, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 581, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page .steps {
     display: flex;
     padding: 80px 80px 20px 160px;
     position: relative;
     text-align: left; }
-    /* line 583, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 587, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page .steps .curved-arrow {
       position: absolute;
       top: 0;
       left: 0; }
-    /* line 589, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 593, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page .steps h5 {
       display: inline-block;
       padding: 2px 5px; }
-    /* line 594, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 598, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page .steps.step-2 {
       padding: 60px 200px 20px 200px; }
-      /* line 597, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 601, E:/domains/your-time.dev/assets/scss/style.scss */
       .steps-page .steps.step-2 .curved-arrow {
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
@@ -487,18 +491,18 @@ body.vertical-layout.vertical-menu.menu-collapsed .hidden-collapsed {
         right: -120px;
         top: -80px;
         z-index: -1; }
-      /* line 610, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 614, E:/domains/your-time.dev/assets/scss/style.scss */
       .steps-page .steps.step-2 .step-text {
         order: 2; }
-      /* line 614, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 618, E:/domains/your-time.dev/assets/scss/style.scss */
       .steps-page .steps.step-2 img {
         order: 1; }
-    /* line 620, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 624, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page .steps.step-3 .curved-arrow {
       top: -80px;
       z-index: -1; }
 
-/* line 629, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 633, E:/domains/your-time.dev/assets/scss/style.scss */
 .not-logged-in .navbar-static-top {
   background: #135296;
   background: -moz-linear-gradient(left, #135296 0%, #2c8ddd 100%);
@@ -507,34 +511,34 @@ body.vertical-layout.vertical-menu.menu-collapsed .hidden-collapsed {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#135296', endColorstr='#2c8ddd',GradientType=1 );
   border-radius: 0; }
 
-/* line 643, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 647, E:/domains/your-time.dev/assets/scss/style.scss */
 .steps-page-2 #description .card-text {
   display: flex;
   justify-content: space-between; }
 
-/* line 648, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 652, E:/domains/your-time.dev/assets/scss/style.scss */
 .steps-page-2 #description h1 {
   text-transform: uppercase;
   color: white;
   font-size: 18px; }
   @media (min-width: 768px) {
-    /* line 648, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 652, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #description h1 {
       font-size: 20.666667px; } }
   @media (min-width: 992px) {
-    /* line 648, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 652, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #description h1 {
       font-size: 23.333333px; } }
   @media (min-width: 1200px) {
-    /* line 648, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 652, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #description h1 {
       font-size: 26px; } }
-  /* line 653, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 657, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page-2 #description h1 span {
     display: inline-block;
     background: #7f7f7f; }
 
-/* line 659, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 663, E:/domains/your-time.dev/assets/scss/style.scss */
 .steps-page-2 #description h3 {
   text-transform: uppercase;
   color: #18bcee;
@@ -542,136 +546,136 @@ body.vertical-layout.vertical-menu.menu-collapsed .hidden-collapsed {
   text-align: center;
   font-size: 35px; }
   @media (min-width: 768px) {
-    /* line 659, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 663, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #description h3 {
       font-size: 42px; } }
   @media (min-width: 992px) {
-    /* line 659, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 663, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #description h3 {
       font-size: 49px; } }
   @media (min-width: 1200px) {
-    /* line 659, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 663, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #description h3 {
       font-size: 56px; } }
 
-/* line 669, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 673, E:/domains/your-time.dev/assets/scss/style.scss */
 .steps-page-2 #site-stats {
   width: 250px; }
-  /* line 672, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 676, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page-2 #site-stats a {
     display: block;
     font-size: 20px; }
-    /* line 676, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 680, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #site-stats a i,
     .steps-page-2 #site-stats a span {
       display: inline-block;
       vertical-align: middle; }
-  /* line 683, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 687, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page-2 #site-stats .fa {
     color: white;
     height: 32px;
     width: 32px;
     border-radius: 100%;
     position: relative; }
-    /* line 690, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 694, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #site-stats .fa:before {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); }
-  /* line 698, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 702, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page-2 #site-stats .stat-user {
     color: #4e71a8; }
-    /* line 701, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 705, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #site-stats .stat-user .fa {
       background: #4e71a8; }
-      /* line 704, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 708, E:/domains/your-time.dev/assets/scss/style.scss */
       .steps-page-2 #site-stats .stat-user .fa:before {
         font-size: 16px; }
-  /* line 710, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 714, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page-2 #site-stats .stat-tasks {
     color: #1cb7eb;
     margin-top: 5px;
     margin-bottom: 5px; }
-    /* line 715, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 719, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #site-stats .stat-tasks .fa {
       background: #1cb7eb; }
-      /* line 718, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 722, E:/domains/your-time.dev/assets/scss/style.scss */
       .steps-page-2 #site-stats .stat-tasks .fa:before {
         font-size: 16px; }
-  /* line 724, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 728, E:/domains/your-time.dev/assets/scss/style.scss */
   .steps-page-2 #site-stats .stat-money {
     color: #e13f4c;
     font-size: 16px;
     line-height: 18px; }
-    /* line 729, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 733, E:/domains/your-time.dev/assets/scss/style.scss */
     .steps-page-2 #site-stats .stat-money .fa {
       background: #e13f4c; }
 
-/* line 739, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 743, E:/domains/your-time.dev/assets/scss/style.scss */
 .fsbanner,
 .fsbanner > div > span {
   display: none; }
 
-/* line 744, E:/domains/your-time.dev/assets/scss/style.scss */
+/* line 748, E:/domains/your-time.dev/assets/scss/style.scss */
 .fsbanner {
   position: relative;
   overflow: hidden;
   height: 600px;
   color: white;
   font-size: 20px; }
-  /* line 751, E:/domains/your-time.dev/assets/scss/style.scss */
+  /* line 755, E:/domains/your-time.dev/assets/scss/style.scss */
   .fsbanner .fsbanner-slide {
     position: absolute;
     cursor: pointer;
     top: 0;
     left: 0; }
-    /* line 757, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 761, E:/domains/your-time.dev/assets/scss/style.scss */
     .fsbanner .fsbanner-slide.slide-1 {
       background: url(/app-assets/images/pages/step-1.jpg) no-repeat center center;
       background-size: cover; }
-    /* line 762, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 766, E:/domains/your-time.dev/assets/scss/style.scss */
     .fsbanner .fsbanner-slide.slide-2 {
       background: url(/app-assets/images/pages/step-2.jpg) no-repeat center center;
       background-size: cover; }
-    /* line 767, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 771, E:/domains/your-time.dev/assets/scss/style.scss */
     .fsbanner .fsbanner-slide.slide-3 {
       background: url(/app-assets/images/pages/step-3.jpg) no-repeat center center;
       background-size: cover; }
-    /* line 772, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 776, E:/domains/your-time.dev/assets/scss/style.scss */
     .fsbanner .fsbanner-slide .title {
       display: block;
       position: absolute;
       left: 10px;
       bottom: 10px; }
-      /* line 778, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 782, E:/domains/your-time.dev/assets/scss/style.scss */
       .fsbanner .fsbanner-slide .title .label,
       .fsbanner .fsbanner-slide .title .sub-label {
         font-size: 18px; }
         @media (min-width: 768px) {
-          /* line 778, E:/domains/your-time.dev/assets/scss/style.scss */
+          /* line 782, E:/domains/your-time.dev/assets/scss/style.scss */
           .fsbanner .fsbanner-slide .title .label,
           .fsbanner .fsbanner-slide .title .sub-label {
             font-size: 20.666667px; } }
         @media (min-width: 992px) {
-          /* line 778, E:/domains/your-time.dev/assets/scss/style.scss */
+          /* line 782, E:/domains/your-time.dev/assets/scss/style.scss */
           .fsbanner .fsbanner-slide .title .label,
           .fsbanner .fsbanner-slide .title .sub-label {
             font-size: 23.333333px; } }
         @media (min-width: 1200px) {
-          /* line 778, E:/domains/your-time.dev/assets/scss/style.scss */
+          /* line 782, E:/domains/your-time.dev/assets/scss/style.scss */
           .fsbanner .fsbanner-slide .title .label,
           .fsbanner .fsbanner-slide .title .sub-label {
             font-size: 26px; } }
-      /* line 783, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 787, E:/domains/your-time.dev/assets/scss/style.scss */
       .fsbanner .fsbanner-slide .title.minimized {
         transform: rotate(-90deg);
         transform-origin: left top 0;
         bottom: -13px;
         left: 7px; }
-      /* line 790, E:/domains/your-time.dev/assets/scss/style.scss */
+      /* line 794, E:/domains/your-time.dev/assets/scss/style.scss */
       .fsbanner .fsbanner-slide .title .step-text {
         display: none; }
-    /* line 796, E:/domains/your-time.dev/assets/scss/style.scss */
+    /* line 800, E:/domains/your-time.dev/assets/scss/style.scss */
     .fsbanner .fsbanner-slide.active .step-text {
       display: block; }

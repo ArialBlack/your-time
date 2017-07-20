@@ -132,6 +132,10 @@ $light-blue: #18bcee;
     list-style: decimal;
   }
 
+  .breadcrumb li {
+    list-style: none;
+  }
+
   .ib {
     display: inline-block;
   }

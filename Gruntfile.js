@@ -23,6 +23,8 @@ module.exports = function(grunt) {
                     "task-page.html": "src/html/task-page.html",
                     "not-logged-index.html": "src/html/not-logged-index-2.html",
                     "fund-page.html": "src/html/fund-page.html",
+                    "basic-static-not-logged-in-page.html": "src/html/static-not-logged-in-page.html",
+                    "static-logged-in-page.html": "src/html/static-logged-in-page.html",
                     
                     "login.html": "src/html/login.html",
                     "recover-password.html": "src/html/recover-password.html",
