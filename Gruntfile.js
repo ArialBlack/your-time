@@ -46,10 +46,10 @@ module.exports = function(grunt) {
             },
             main: {
                 files: {
-                    'app-assets/css/bootstrap.css': 'src/scss/bootstrap.scss',
-                    'app-assets/css/bootstrap-extended.css': 'src/scss/bootstrap-extended.scss',
-                    'app-assets/css/app.css': 'src/scss/app.scss',
-                    'app-assets/css/colors.css': 'src/scss/colors.scss',
+                    'app-assets/css/bootstrap.css': 'app-assets/scss/bootstrap.scss',
+                    'app-assets/css/bootstrap-extended.css': 'app-assets/scss/bootstrap-extended.scss',
+                    'app-assets/css/app.css': 'app-assets/scss/app.scss',
+                    'app-assets/css/colors.css': 'app-assets/scss/colors.scss',
 
                     'assets/css/style.css': 'assets/scss/style.scss',
                 }

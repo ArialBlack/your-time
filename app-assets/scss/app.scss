@@ -31,17 +31,17 @@
 // ------------------------------
 @import "components/helper";
 @import "components/avatar";
-@import "components/search";
-@import "components/chart";
-@import "components/callout";
-@import "components/bootstrap-social";
-@import "components/demo"; // Plugins demo, remove in real project
+
+//@import "components/chart";
+//@import "components/callout";
+//@import "components/bootstrap-social";
+
 
 // Plugins
 // ------------------------------
-@import "plugins/menu/perfect-scrollbar/ps-custom";
+//@import "plugins/menu/perfect-scrollbar/ps-custom";
 @import "plugins/ui/breakpoints";
 // TODO:A: Set this scss page specific
-@import "plugins/forms/tags/basic-input";
-@import "plugins/forms/select2/select2";
+//@import "plugins/forms/tags/basic-input";
+//@import "plugins/forms/select2/select2";
 @import "plugins/tables/datatables";

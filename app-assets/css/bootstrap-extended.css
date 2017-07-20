@@ -1,92 +1,92 @@
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_reboot.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_reboot.scss */
 a:focus {
   outline: none; }
 
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-small-1 {
   font-size: 0.7rem !important; }
 
-/* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-small-2 {
   font-size: 0.8rem !important; }
 
-/* line 8, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 8, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-small-3 {
   font-size: 0.9rem !important; }
 
-/* line 12, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 12, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-medium-1 {
   font-size: 1.1rem !important; }
 
-/* line 15, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 15, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-medium-2 {
   font-size: 1.2rem !important; }
 
-/* line 18, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 18, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-medium-3 {
   font-size: 1.3rem !important; }
 
-/* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-medium-4 {
   font-size: 1.4rem !important; }
 
-/* line 24, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 24, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-medium-5 {
   font-size: 1.5rem !important; }
 
-/* line 28, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 28, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-large-1 {
   font-size: 2rem !important; }
 
-/* line 31, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 31, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-large-2 {
   font-size: 3rem !important; }
 
-/* line 34, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 34, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-large-3 {
   font-size: 4rem !important; }
 
-/* line 37, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 37, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-large-4 {
   font-size: 5rem !important; }
 
-/* line 40, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 40, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .font-large-5 {
   font-size: 6rem !important; }
 
-/* line 49, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 49, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .text-bold-300 {
   font-weight: 300; }
 
-/* line 52, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 52, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .text-bold-400 {
   font-weight: 400; }
 
-/* line 55, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 55, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .text-bold-500 {
   font-weight: 500; }
 
-/* line 58, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 58, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .text-bold-600 {
   font-weight: 600; }
 
-/* line 61, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 61, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .text-bold-700 {
   font-weight: 700; }
 
-/* line 66, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 66, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .text-italic {
   font-style: italic; }
 
-/* line 69, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 69, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 .text-highlight {
   padding: 4px 6px; }
 
-/* line 75, E:/domains/your-time.dev/src/scss/bootstrap-extended/_type.scss */
+/* line 75, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_type.scss */
 ol li, ul li, dl li {
   line-height: 1.8; }
 
-/* line 3, E:/domains/your-time.dev/src/scss/bootstrap-extended/_code.scss */
+/* line 3, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_code.scss */
 code {
   padding: .2rem .4rem;
   font-size: 90%;
@@ -94,252 +94,252 @@ code {
   background-color: rgba(237, 85, 100, 0.07);
   border-radius: 0.25rem; }
 
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_grid.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_grid.scss */
 .bs-example [class^="col-"] {
   margin-bottom: 1rem; }
-  /* line 3, E:/domains/your-time.dev/src/scss/bootstrap-extended/_grid.scss */
+  /* line 3, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_grid.scss */
   .bs-example [class^="col-"] span {
     padding: .75rem;
     background-color: rgba(86, 61, 124, 0.15);
     border: 1px solid rgba(86, 61, 124, 0.2);
     display: block; }
 
-/* line 11, E:/domains/your-time.dev/src/scss/bootstrap-extended/_grid.scss */
+/* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_grid.scss */
 .bs-example .row + .row {
   margin-top: 1rem; }
 
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table-white-space th, .table-white-space td {
   white-space: nowrap; }
 
-/* line 8, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 8, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table-borderless td, .table-borderless th {
   border: none; }
 
-/* line 13, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 13, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table thead th {
   vertical-align: bottom;
   border-bottom: 2px solid #e3ebf3;
   border-top: 1px solid #e3ebf3; }
 
-/* line 20, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 20, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table-bordered th, .table-bordered td {
   border: 1px solid #e3ebf3; }
 
-/* line 26, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 26, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table th, .table td {
   border-bottom: 1px solid #e3ebf3; }
 
-/* line 31, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 31, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table-bordered {
   border: 1px solid #e3ebf3; }
 
-/* line 35, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 35, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table-inverse {
   color: #eceeef;
   background-color: #00A5A8; }
 
-/* line 42, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 42, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table.table-column th, .table.table-column td {
   border: none;
   border-left: 1px solid #e3ebf3; }
 
-/* line 46, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 46, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table.table-column th:first-child, .table.table-column td:first-child {
   border-left: none; }
 
-/* line 50, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 50, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table th, .table td {
   border-top: table-borderless; }
 
-/* line 53, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 53, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table th, .table td {
   padding: 0.75rem 2rem; }
 
-/* line 57, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 57, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table.table-xl th, .table.table-xl td {
   padding: 1.25rem 2rem; }
 
-/* line 62, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 62, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table.table-lg th, .table.table-lg td {
   padding: 0.9rem 2rem; }
 
-/* line 67, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 67, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table.table-de th, .table.table-de td {
   padding: 0.75rem 2rem; }
 
-/* line 72, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 72, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table.table-sm th, .table.table-sm td {
   padding: 0.6rem 2rem; }
 
-/* line 77, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 77, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table.table-xs th, .table.table-xs td {
   padding: 0.4rem 2rem; }
 
 /*
 * Table sizing
 */
-/* line 90, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 90, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table-borderless thead th {
   border-top: 1px solid #e3ebf3; }
 
-/* line 94, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 94, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table-borderless > tbody > tr > td, .table-borderless > tbody > tr > th {
   border: 0; }
 
-/* line 104, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 104, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table > thead > tr.border-solid > th {
   border-bottom-width: 2px; }
 
-/* line 107, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 107, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table > thead > tr.border-double > th {
   border-bottom-width: 4px;
   border-bottom-style: double; }
 
-/* line 112, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 112, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .table > tbody > tr.border-dashed > td {
   border-top-style: dashed; }
 
-/* line 121, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tables.scss */
+/* line 121, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tables.scss */
 .border-custom-color td {
   border-top: inherit;
   border-bottom: inherit; }
 
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form label {
   color: #2e405c; }
 
-/* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form .form-group {
   margin-bottom: 1.5rem; }
 
-/* line 9, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 9, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form .form-control {
   border: 1px solid #ccd6e6;
   color: #3f587e; }
-  /* line 13, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 13, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-control::-webkit-input-placeholder {
     color: #b1c1d8; }
-  /* line 17, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-control:-moz-placeholder {
     /* Firefox 18- */
     color: #b1c1d8; }
-  /* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-control::-moz-placeholder {
     /* Firefox 19+ */
     color: #b1c1d8; }
-  /* line 25, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 25, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-control:-ms-input-placeholder {
     color: #b1c1d8; }
 
-/* line 29, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 29, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form .form-section {
   color: #404E67;
   line-height: 3rem;
   margin-bottom: 20px;
   border-bottom: 1px solid #404E67; }
-  /* line 35, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 35, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-section i {
     font-size: 20px;
     margin-left: 5px;
     margin-right: 10px; }
 
-/* line 42, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 42, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form .form-body {
   overflow: hidden; }
 
-/* line 46, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 46, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form .form-actions {
   border-top: 1px solid #d3dce9;
   padding: 20px 0;
   margin-top: 20px; }
-  /* line 51, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 51, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-actions.filled {
     background-color: #F5F7FA; }
-  /* line 54, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 54, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-actions.center {
     text-align: center; }
-  /* line 57, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 57, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-actions.right {
     text-align: right; }
-  /* line 61, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 61, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form .form-actions.top {
     border-top: 0;
     border-bottom: 1px solid #d3dce9;
     margin-top: 0;
     margin-bottom: 20px; }
   @media (max-width: 767px) {
-    /* line 69, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+    /* line 69, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
     form .form-actions .buttons-group {
       float: left !important;
       margin-bottom: 10px; } }
 
 @media (min-width: 544px) {
-  /* line 79, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 79, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.form-horizontal .form-group .label-control {
     text-align: right; } }
 
-/* line 87, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 87, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form.row-separator .form-group {
   margin: 0;
   border-bottom: 1px solid #ebeff5; }
-  /* line 90, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 90, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.row-separator .form-group .label-control {
     padding-top: 1.5rem; }
-  /* line 93, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 93, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.row-separator .form-group > div {
     padding: 1.2rem;
     padding-right: 0; }
-  /* line 97, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 97, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.row-separator .form-group.last {
     border-bottom: 0; }
 
-/* line 104, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 104, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form.form-bordered .form-group {
   margin: 0;
   border-bottom: 1px solid #ebeff5; }
-  /* line 107, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 107, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.form-bordered .form-group .label-control {
     padding-top: 1.5rem; }
-  /* line 110, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 110, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.form-bordered .form-group > div {
     padding: 1.2rem;
     padding-right: 0;
     border-left: 1px solid #ebeff5; }
-  /* line 115, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 115, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.form-bordered .form-group.last {
     border-bottom: 0; }
 
-/* line 122, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 122, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form.striped-rows .form-group {
   margin: 0; }
-  /* line 125, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 125, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.striped-rows .form-group .label-control {
     padding-top: 1.5rem; }
-  /* line 129, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 129, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.striped-rows .form-group > div {
     padding: 1.2rem;
     padding-right: 0; }
-  /* line 134, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 134, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.striped-rows .form-group:nth-child(even) {
     background-color: #F5F7FA; }
 
-/* line 141, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 141, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 form.striped-labels .form-group {
   margin: 0; }
-  /* line 144, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 144, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.striped-labels .form-group .label-control {
     padding-top: 1.5rem; }
-  /* line 148, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 148, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.striped-labels .form-group > div {
     padding: 1.2rem;
     padding-right: 0;
     background-color: white; }
-  /* line 154, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 154, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   form.striped-labels .form-group:nth-child(even) {
     background-color: #F5F7FA; }
 
-/* line 161, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 161, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 select.form-control {
   padding-top: 0 !important;
   padding-bottom: 0 !important; }
@@ -347,124 +347,124 @@ select.form-control {
 /* 
 TODO:M: To check with latest bootstrap version and remove it. 
 Bootstrap Enhance */
-/* line 171, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 171, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 .custom-control {
   display: block; }
-  /* line 173, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 173, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   .custom-control.inline {
     display: inline; }
 
-/* line 177, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 177, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 .custom-checkbox input:disabled:checked ~ .custom-control-indicator {
   opacity: 0.5; }
 
-/* line 180, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 180, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 .custom-checkbox input:disabled ~ .custom-control-indicator {
   cursor: not-allowed; }
 
-/* line 183, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 183, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 .custom-control-input > input:focus ~ .custom-control-indicator {
   padding: 0.51rem; }
 
-/* line 186, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 186, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 .custom-control-indicator {
   width: 1.1rem;
   height: 1.075rem;
   line-height: 1.05rem;
   top: 0.085rem; }
-  /* line 191, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+  /* line 191, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
   .custom-control-indicator + .custom-control-description {
     margin-left: 1rem; }
 
-/* line 196, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 196, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 .form-control:disabled, .form-control[readonly] {
   background-color: #ECEFF1; }
 
-/* line 201, E:/domains/your-time.dev/src/scss/bootstrap-extended/_forms.scss */
+/* line 201, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_forms.scss */
 .input-group-addon {
   background-color: #ECEFF1; }
 
-/* line 3, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 3, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn:focus, .btn.focus {
   outline: none; }
 
-/* line 10, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 10, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
   outline: none; }
 
-/* line 16, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn.btn-icon i {
   font-size: 1.1rem; }
 
-/* line 19, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn.btn-icon.btn-pure {
   background-color: transparent;
   border-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none; }
-  /* line 24, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+  /* line 24, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
   .btn.btn-icon.btn-pure i {
     font-size: 1.25rem; }
 
-/* line 29, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 29, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn.btn-social {
   padding: 0.7rem 0.25rem 0.85rem 3.75rem; }
 
-/* line 34, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 34, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn-min-width {
   min-width: 8.5rem; }
 
-/* line 37, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 37, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn-default.active, .btn-default:hover:active, .open > .dropdown-toggle.btn-default {
   background-color: #ccd5db;
   border-color: #ccd5db; }
 
-/* line 41, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 41, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn-default.focus, .btn-default:focus, .btn-default:hover {
   background-color: #f3f7f9;
   border-color: #f3f7f9; }
 
-/* line 45, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 45, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .color-box {
   width: 100%;
   height: 2.75rem;
   border-radius: 0.25rem; }
 
-/* line 50, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+/* line 50, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
 .btn-float {
   padding: 15px;
   white-space: normal;
   -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); }
-  /* line 55, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+  /* line 55, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
   .btn-float.btn-link {
     padding: 10px; }
-  /* line 58, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+  /* line 58, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
   .btn-float i {
     display: block;
     margin: 0;
     top: 0; }
-  /* line 63, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+  /* line 63, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
   .btn-float.btn-float-lg i, .btn-float.btn-float-lg span {
     font-size: 2rem; }
-  /* line 66, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+  /* line 66, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
   .btn-float.btn-float-lg i + span {
     font-size: 1.1rem; }
-  /* line 69, E:/domains/your-time.dev/src/scss/bootstrap-extended/_buttons.scss */
+  /* line 69, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_buttons.scss */
   .btn-float > i + span {
     display: block;
     padding-top: 10px;
     margin-bottom: -6px; }
 
-/* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/_display.scss */
+/* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_display.scss */
 .d-none {
   display: none !important; }
 
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
 .collapse-icon .card-header {
   position: relative; }
 
-/* line 6, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+/* line 6, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
 .collapse-icon a[data-toggle="collapse"]:after {
   position: absolute;
   top: 40%;
@@ -474,7 +474,7 @@ Bootstrap Enhance */
   content: "\e950";
   transition: all 300ms linear 0s; }
 
-/* line 15, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+/* line 15, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
 .collapse-icon a[data-toggle="collapse"]:before {
   position: absolute;
   top: 40%;
@@ -484,31 +484,31 @@ Bootstrap Enhance */
   content: "\e962";
   transition: all 300ms linear 0s; }
 
-/* line 26, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+/* line 26, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
 .collapse-icon.left a {
   padding-left: 28px; }
-  /* line 28, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+  /* line 28, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
   .collapse-icon.left a:before, .collapse-icon.left a:after {
     left: 20px;
     right: auto; }
 
-/* line 35, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+/* line 35, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
 .collapse-icon a[aria-expanded="true"]:before {
   opacity: 0; }
 
-/* line 40, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+/* line 40, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
 .collapse-icon a[aria-expanded="false"]:after {
   opacity: 0; }
 
-/* line 46, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+/* line 46, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
 .collapse-icon.accordion-icon-rotate a[aria-expanded="true"]:before {
   transform: rotate(180deg); }
 
-/* line 51, E:/domains/your-time.dev/src/scss/bootstrap-extended/_animation.scss */
+/* line 51, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_animation.scss */
 .collapse-icon.accordion-icon-rotate a[aria-expanded="false"]:after {
   transform: rotate(-180deg); }
 
-/* line 3, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 3, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown .dropdown-menu {
   display: block;
   min-width: 160px;
@@ -520,31 +520,31 @@ Bootstrap Enhance */
   transform: scale(1, 0);
   transition: all 0.2s linear;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
-  /* line 15, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown .dropdown-menu .dropdown-header {
     padding: 10px 20px;
     margin-top: 10px;
     text-transform: uppercase;
     color: #626E82; }
-  /* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown .dropdown-menu .dropdown-item {
     padding: 10px 20px;
     width: auto; }
 
-/* line 26, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 26, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown i {
   margin-right: 0.5rem; }
 
-/* line 31, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 31, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .nav-item i {
   margin-right: 0.5rem; }
 
-/* line 37, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 37, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .open > .dropdown-menu {
   transform: scale(1, 1);
   opacity: 1; }
 
-/* line 46, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 46, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-toggle::after {
   font-family: 'FontAwesome';
   content: "\f107";
@@ -555,40 +555,40 @@ Bootstrap Enhance */
   padding: 0 2px 0 6px;
   margin: 0 0.3em 0 0; }
 
-/* line 58, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 58, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-toggle.nav-hide-arrow::after {
   display: none; }
 
-/* line 64, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 64, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-toggle:focus {
   outline: 0; }
 
-/* line 70, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 70, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .navbar-horizontal .dropdown-toggle::after {
   top: -9px !important; }
 
-/* line 77, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 77, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-menu-right {
   left: auto !important;
   right: 0; }
 
-/* line 85, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 85, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-menu .dropdown-submenu {
   position: relative; }
-  /* line 88, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 88, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .dropdown-submenu:hover .dropdown-menu {
     display: block; }
-  /* line 92, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 92, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .dropdown-submenu > .dropdown-menu {
     top: 0;
     left: 100%;
     margin-top: -6px;
     margin-left: -1px; }
-    /* line 97, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+    /* line 97, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
     .dropdown-menu .dropdown-submenu > .dropdown-menu.open-left {
       left: auto;
       right: 100%; }
-  /* line 102, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 102, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .dropdown-submenu > a:after, .dropdown-menu .dropdown-submenu > button:after {
     font-family: 'FontAwesome';
     content: "\f105";
@@ -599,54 +599,54 @@ Bootstrap Enhance */
     border: none;
     margin-top: 1.15rem;
     position: absolute; }
-  /* line 114, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 114, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .dropdown-submenu :hover > a:after, .dropdown-menu .dropdown-submenu :hover > button:after {
     border-left-color: #555; }
-  /* line 118, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 118, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .dropdown-submenu .pull-left {
     float: none; }
-    /* line 120, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+    /* line 120, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
     .dropdown-menu .dropdown-submenu .pull-left > .dropdown-menu {
       left: -100%;
       margin-left: 10px; }
 
-/* line 129, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 129, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-header {
   text-transform: uppercase; }
-  /* line 131, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 131, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-header.highlight {
     color: #2b2d2f;
     text-decoration: none;
     background-color: #f5f5f5; }
 
-/* line 140, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 140, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .btn-secondary ~ .dropdown-menu .dropdown-item.active {
   background-color: #cccccc; }
 
-/* line 145, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 145, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .btn-primary ~ .dropdown-menu .dropdown-item.active {
   background-color: #00B5B8; }
 
-/* line 151, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 151, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .btn-success ~ .dropdown-menu .dropdown-item.active {
   background-color: #16D39A; }
 
-/* line 157, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 157, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .btn-danger ~ .dropdown-menu .dropdown-item.active {
   background-color: #FF7588; }
 
-/* line 163, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 163, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .btn-info ~ .dropdown-menu .dropdown-item.active {
   background-color: #2DCEE3; }
 
-/* line 169, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 169, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .btn-warning ~ .dropdown-menu .dropdown-item.active {
   background-color: #FFA87D; }
 
-/* line 176, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 176, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-menu.arrow {
   margin-top: 12px; }
-  /* line 178, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 178, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu.arrow:after, .dropdown-menu.arrow:before {
     position: absolute;
     left: 10px;
@@ -656,19 +656,19 @@ Bootstrap Enhance */
     content: '';
     border: 7px solid transparent;
     border-top-width: 0; }
-  /* line 188, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 188, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu.arrow:before {
     top: -7px;
     border-bottom-color: #b3b3b3; }
-  /* line 192, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 192, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu.arrow:after {
     top: -6px;
     border-bottom-color: #fff; }
 
-/* line 197, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 197, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-menu .arrow-left {
   margin-left: 7px !important; }
-  /* line 199, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 199, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .arrow-left:after, .dropdown-menu .arrow-left:before {
     position: absolute;
     top: 10px;
@@ -678,19 +678,19 @@ Bootstrap Enhance */
     content: '';
     border: 7px solid transparent;
     border-left-width: 0; }
-  /* line 209, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 209, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .arrow-left:before {
     left: -8px;
     border-right-color: #b3b3b3; }
-  /* line 213, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 213, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .arrow-left:after {
     left: -7px;
     border-right-color: #fff; }
 
-/* line 218, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 218, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-menu .arrow-right {
   margin-right: 7px !important; }
-  /* line 220, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 220, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .arrow-right:after, .dropdown-menu .arrow-right:before {
     position: absolute;
     top: 10px;
@@ -700,38 +700,38 @@ Bootstrap Enhance */
     content: '';
     border: 7px solid transparent;
     border-right-width: 0; }
-  /* line 230, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 230, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .arrow-right:before {
     right: -7px;
     border-left-color: #b3b3b3; }
-  /* line 234, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 234, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropdown-menu .arrow-right:after {
     right: -6px;
     border-left-color: #fff; }
 
-/* line 243, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 243, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropup .dropdown-menu.arrow {
   margin-bottom: 12px; }
-  /* line 245, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 245, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropup .dropdown-menu.arrow:after, .dropup .dropdown-menu.arrow:before {
     top: auto;
     border-top-width: 7px;
     border-bottom-width: 0; }
-  /* line 250, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 250, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropup .dropdown-menu.arrow:before {
     bottom: -8px;
     border-top-color: #b3b3b3; }
-  /* line 254, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+  /* line 254, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
   .dropup .dropdown-menu.arrow:after {
     bottom: -6px;
     border-top-color: #fff; }
 
-/* line 261, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 261, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropup .dropdown-submenu .dropdown-menu {
   bottom: auto;
   top: 0; }
 
-/* line 270, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 270, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-menu-xl a,
 .dropdown-menu-xl button {
   padding-top: 9px;
@@ -739,13 +739,13 @@ Bootstrap Enhance */
   font-size: 1rem;
   line-height: 1.43; }
 
-/* line 277, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 277, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-menu-lg a,
 .dropdown-menu-lg button {
   padding-top: 6px;
   padding-bottom: 6px; }
 
-/* line 282, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 282, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 .dropdown-menu-sm a,
 .dropdown-menu-sm button {
   padding-top: 5px;
@@ -753,34 +753,34 @@ Bootstrap Enhance */
   font-size: 0.86rem;
   line-height: 1.67; }
 
-/* line 289, E:/domains/your-time.dev/src/scss/bootstrap-extended/_dropdown.scss */
+/* line 289, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_dropdown.scss */
 button:focus {
   outline: none; }
 
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-dark .hamburger-inner, .navbar-dark .hamburger-inner::before, .navbar-dark .hamburger-inner::after {
   background-color: #FFFFFF; }
 
-/* line 9, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 9, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .header-navbar {
   padding: 0px;
   min-height: 4rem;
   font-family: "Source Sans Pro";
   transition: 300ms ease all;
   /* For sm screen*/ }
-  /* line 18, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar.navbar-border {
     border-bottom: 1px solid #E4E7ED; }
-  /* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar.navbar-dark.navbar-border {
     border-bottom: 1px solid #8596B5; }
-  /* line 25, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 25, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar.navbar-shadow {
     box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.1); }
-  /* line 31, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 31, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar.navbar-without-dd-arrow .nav-link.dropdown-toggle::after {
     display: none; }
-  /* line 38, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 38, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar.navbar-brand-center .navbar-header {
     width: 150px;
     position: absolute;
@@ -788,7 +788,7 @@ button:focus {
     padding: 0;
     margin: 0;
     transform: translate(-50%, 0); }
-  /* line 47, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 47, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-header {
     height: 100%;
     width: 240px;
@@ -797,107 +797,107 @@ button:focus {
     position: relative;
     padding: 0rem 1rem;
     transition: 300ms ease all; }
-    /* line 55, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 55, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-header .navbar-brand {
       padding: 14px 6px; }
-      /* line 57, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 57, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-header .navbar-brand .brand-logo {
         vertical-align: sub; }
-      /* line 60, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 60, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-header .navbar-brand .brand-text {
         display: inline;
         padding-left: 10px;
         font-weight: 500;
         letter-spacing: 1px; }
-  /* line 68, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 68, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container {
     padding: 0rem 18px;
     height: 4rem;
     transition: 300ms ease all;
     background: inherit; }
-    /* line 75, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 75, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li > a.nav-link {
       padding: 1.5rem 0.6rem; }
-      /* line 77, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 77, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-container ul.nav li > a.nav-link i.flag-icon {
         margin-right: 0.5rem; }
-    /* line 81, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 81, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li a.dropdown-user-link {
       padding: 0.9rem 0.6rem; }
-      /* line 83, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 83, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-container ul.nav li a.dropdown-user-link .user-name {
         display: inline-block;
         margin-bottom: 0.4rem;
         margin-left: 0.2rem; }
-    /* line 89, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 89, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li a.menu-toggle {
       padding: 1.1rem 0.8rem 1rem 1rem; }
-      /* line 91, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 91, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-container ul.nav li a.menu-toggle i {
         font-size: 1.6rem; }
-    /* line 95, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 95, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li a.nav-link-label {
       padding: 1.4rem 0rem 1rem 0.8rem; }
-    /* line 99, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 99, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li a.dropdown-user-link .avatar {
       margin-right: 0.5rem; }
-    /* line 103, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 103, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li a.nav-link-search,
     .header-navbar .navbar-container ul.nav li a.nav-link-expand {
       padding: 1.4rem 1rem 1.3rem 1rem; }
-    /* line 107, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 107, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li div.input-group {
       padding: 0.7rem 1rem; }
-    /* line 110, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 110, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li i.ficon {
       font-size: 1.2rem; }
-    /* line 113, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 113, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li .list-group {
       max-height: 18.2rem; }
-    /* line 116, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 116, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li .scrollable-container {
       position: relative; }
-    /* line 122, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 122, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container .dropdown-menu-media {
       width: 24rem; }
-      /* line 125, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 125, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-container .dropdown-menu-media .list-group .list-group-item {
         padding: 1rem;
         border: none;
         border-top: 1px solid #E6E6E6;
         border-bottom: 1px solid #E6E6E6; }
-      /* line 132, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 132, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-container .dropdown-menu-media .dropdown-menu-header {
         border-bottom: 1px solid #E6E6E6; }
-      /* line 136, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 136, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-container .dropdown-menu-media .dropdown-menu-footer a {
         padding: 0.3rem;
         border-top: 1px solid #E6E6E6; }
-  /* line 144, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 144, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar.navbar-without-menu .navbar-container {
     margin-left: 0; }
-  /* line 151, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 151, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .nav-item + .nav-item {
     margin-left: 0rem; }
   @media (max-width: 767px) {
-    /* line 156, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 156, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-header {
       width: 100% !important;
       padding: 0.5rem 1rem; }
-      /* line 159, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 159, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-header .menu-toggle {
         top: 2px;
         position: relative; }
-      /* line 163, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 163, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-header .open-navbar-container i {
         font-size: 1.8rem; }
-      /* line 166, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 166, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .header-navbar .navbar-header .navbar-brand {
         position: absolute;
         left: 50%;
         top: 0;
         transform: translate(-50%, 0); }
-    /* line 174, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 174, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar.navbar-with-menu .navbar-container {
       width: 100%;
       display: table;
@@ -906,92 +906,92 @@ button:focus {
       margin: 0;
       height: auto; } }
 
-/* line 185, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 185, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-light {
   background: #FFFFFF; }
-  /* line 187, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 187, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-light.navbar-horizontal {
     background: #FFFFFF; }
-  /* line 191, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 191, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-light .navbar-nav li {
     line-height: 1; }
-  /* line 195, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 195, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-light .navbar-nav .active.nav-link {
     background-color: rgba(0, 0, 0, 0.03); }
-  /* line 200, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 200, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-light .navbar-nav .disabled.nav-link {
     color: #626E82; }
 
-/* line 206, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 206, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-dark {
   background: #404E67; }
-  /* line 208, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 208, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-dark.navbar-horizontal {
     background: #404E67; }
-  /* line 213, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 213, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-dark .nav-search .form-control,
   .navbar-dark .nav-search .btn-secondary {
     color: #FFFFFF;
     background: #404E67; }
-  /* line 220, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 220, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-dark .navbar-nav li {
     line-height: 1; }
-  /* line 224, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 224, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-dark .navbar-nav .active.nav-link {
     background-color: rgba(255, 255, 255, 0.05); }
-  /* line 229, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 229, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-dark .navbar-nav .disabled.nav-link {
     color: #98A4B8; }
 
-/* line 235, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 235, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-semi-dark {
   background: #FFFFFF; }
-  /* line 236, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 236, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-dark .navbar-header {
     background: #404E67; }
-    /* line 238, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 238, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .navbar-semi-dark .navbar-header .brand-text {
       color: #FFFFFF; }
-  /* line 244, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 244, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-dark .navbar-nav li {
     line-height: 1; }
-  /* line 247, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 247, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-dark .navbar-nav .nav-link {
     color: #404E67; }
-  /* line 251, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 251, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-dark .navbar-nav .active.nav-link {
     background-color: rgba(0, 0, 0, 0.03); }
-  /* line 256, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 256, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-dark .navbar-nav .disabled.nav-link {
     color: #626E82; }
 
-/* line 262, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 262, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-semi-light {
   background: #404E67; }
-  /* line 263, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 263, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-light .navbar-header {
     background: #FFFFFF; }
-    /* line 265, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 265, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .navbar-semi-light .navbar-header .brand-text {
       color: #404E67; }
-  /* line 271, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 271, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-light .navbar-nav li {
     line-height: 1; }
-  /* line 274, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 274, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-light .navbar-nav .nav-link {
     color: #FFFFFF; }
-  /* line 278, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 278, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-light .navbar-nav .active.nav-link {
     background-color: rgba(0, 0, 0, 0.03); }
-  /* line 283, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 283, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-semi-light .navbar-nav .disabled.nav-link {
     color: #626E82; }
 
-/* line 292, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 292, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .mega-dropdown {
   position: static !important; }
 
-/* line 296, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 296, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navigation-main .mega-dropdown-menu, .navbar-nav .mega-dropdown-menu {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   width: calc(100% - 50px);
@@ -1001,99 +1001,99 @@ button:focus {
   box-shadow: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   z-index: 9999; }
-  /* line 306, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 306, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navigation-main .mega-dropdown-menu ul, .navbar-nav .mega-dropdown-menu ul {
     padding: 0;
     margin: 0; }
-    /* line 309, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 309, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .navigation-main .mega-dropdown-menu ul li, .navbar-nav .mega-dropdown-menu ul li {
       list-style: none; }
-      /* line 311, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+      /* line 311, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
       .navigation-main .mega-dropdown-menu ul li a, .navbar-nav .mega-dropdown-menu ul li a {
         display: block;
         color: #1B2942; }
-        /* line 314, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+        /* line 314, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
         .navigation-main .mega-dropdown-menu ul li a .children-in, .navbar-nav .mega-dropdown-menu ul li a .children-in {
           float: right; }
-        /* line 317, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+        /* line 317, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
         .navigation-main .mega-dropdown-menu ul li a:hover, .navbar-nav .mega-dropdown-menu ul li a:hover {
           text-decoration: none;
           color: #404E67; }
-        /* line 321, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+        /* line 321, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
         .navigation-main .mega-dropdown-menu ul li a:focus, .navbar-nav .mega-dropdown-menu ul li a:focus {
           text-decoration: none;
           color: #404E67; }
-    /* line 327, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 327, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .navigation-main .mega-dropdown-menu ul a.dropdown-item, .navbar-nav .mega-dropdown-menu ul a.dropdown-item {
       padding: 10px; }
-  /* line 331, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 331, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navigation-main .mega-dropdown-menu p.accordion-text, .navbar-nav .mega-dropdown-menu p.accordion-text {
     line-height: 1.45; }
-  /* line 334, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 334, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navigation-main .mega-dropdown-menu .dropdown-menu-header, .navbar-nav .mega-dropdown-menu .dropdown-menu-header {
     padding: 0.5rem 0;
     border-bottom: 1px solid #E6E6E6; }
 
-/* line 342, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 342, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .horizontal-top-icon-menu .mega-dropdown-menu {
   margin: 0px 25px !important; }
 
 @media (min-width: 544px) {
-  /* line 349, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 349, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .container .mega-dropdown-menu {
     max-width: 576px;
     margin: 0 calc((100% - 576px)/2); } }
 
 @media (min-width: 768px) {
-  /* line 349, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 349, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .container .mega-dropdown-menu {
     max-width: 720px;
     margin: 0 calc((100% - 720px)/2); } }
 
 @media (min-width: 992px) {
-  /* line 349, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 349, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .container .mega-dropdown-menu {
     max-width: 940px;
     margin: 0 calc((100% - 940px)/2); } }
 
 @media (min-width: 1200px) {
-  /* line 349, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 349, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .container .mega-dropdown-menu {
     max-width: 1140px;
     margin: 0 calc((100% - 1140px)/2); } }
 
 @-moz-document url-prefix() {
-  /* line 358, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 358, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   ul li a .children-in {
     position: relative;
     right: 3px;
     top: -14px; } }
 
-/* line 370, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 370, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .menu-list {
   list-style: none;
   padding: 0;
   overflow: hidden; }
 
-/* line 376, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 376, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .menu-panel {
   padding: 0; }
 
-/* line 380, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 380, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .sliding-menu {
   overflow: hidden;
   position: relative; }
-  /* line 383, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 383, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .sliding-menu ul {
     float: left;
     margin: 0;
     padding: 0; }
-    /* line 387, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 387, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .sliding-menu ul li {
       list-style: none;
       margin: 0; }
 
-/* line 396, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 396, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-menu-icon {
   width: 24px;
   margin: 16px 2px !important;
@@ -1103,7 +1103,7 @@ button:focus {
   transition: .5s ease-in-out;
   cursor: pointer; }
 
-/* line 407, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 407, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-menu-icon span {
   display: block;
   position: absolute;
@@ -1116,41 +1116,41 @@ button:focus {
   transform: rotate(0deg);
   transition: .25s ease-in-out; }
 
-/* line 421, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 421, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-menu-icon span:nth-child(1) {
   top: 0px; }
 
-/* line 425, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 425, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-menu-icon span:nth-child(2) {
   top: 10px; }
 
-/* line 429, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 429, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-menu-icon span:nth-child(3) {
   top: 20px; }
 
-/* line 433, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 433, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-menu-icon.open span:nth-child(1) {
   top: 10px;
   transform: rotate(135deg); }
 
-/* line 438, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 438, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-menu-icon.open span:nth-child(2) {
   opacity: 0;
   left: -60px; }
 
-/* line 443, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 443, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .navbar-menu-icon.open span:nth-child(3) {
   top: 10px;
   transform: rotate(-135deg); }
 
 @media (max-width: 767px) {
-  /* line 454, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 454, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-nav .open {
     position: static; }
-  /* line 457, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 457, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-nav .open-navbar-container {
     padding-top: 0.625rem; }
-  /* line 463, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 463, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container .open .dropdown-menu {
     right: 0;
     left: 0;
@@ -1160,30 +1160,30 @@ button:focus {
     max-height: 400px;
     overflow-x: hidden;
     overflow-y: scroll; }
-  /* line 476, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 476, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li.nav-item i {
     margin-right: 0.2rem; }
-  /* line 479, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 479, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li > a.nav-link {
     padding: 1.2rem 0.4rem; }
-    /* line 481, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 481, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li > a.nav-link i.flag-icon {
       margin-right: 0.2rem; }
-  /* line 485, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 485, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li a.dropdown-user-link {
     padding: 0.8rem 0.6rem; }
-  /* line 488, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 488, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li a.nav-link-label {
     padding: 1.4rem 0rem 1rem 0.8rem; }
-  /* line 491, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 491, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li a.nav-link-search,
   .header-navbar .navbar-container ul.nav li a.nav-link-expand {
     padding: 1.4rem 1rem 1rem 1rem; }
-  /* line 495, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 495, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li .dropdown-toggle::after {
     margin-right: 0;
     margin-left: -2px; }
-  /* line 506, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 506, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-dark .hamburger-inner,
   .navbar-dark .hamburger-inner::before,
   .navbar-dark .hamburger-inner::after,
@@ -1191,122 +1191,122 @@ button:focus {
   .navbar-semi-dark .hamburger-inner::before,
   .navbar-semi-dark .hamburger-inner::after {
     background-color: #FFFFFF; }
-  /* line 513, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 513, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-dark .navbar-header .navbar-nav .nav-link,
   .navbar-semi-dark .navbar-header .navbar-nav .nav-link {
     color: #FFFFFF; }
-  /* line 523, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 523, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-dark .navbar-container .navbar-nav .nav-link,
   .navbar-semi-dark .navbar-container .navbar-nav .nav-link {
     color: #404E67; }
-  /* line 534, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 534, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-light .navbar-header .navbar-nav .nav-link,
   .navbar-semi-light .navbar-header .navbar-nav .nav-link {
     color: #404E67; }
-  /* line 544, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 544, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .navbar-light .navbar-container .navbar-nav .nav-link,
   .navbar-semi-light .navbar-container .navbar-nav .nav-link {
     color: #404E67; } }
 
-/* line 552, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 552, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .headroom {
   will-change: transform;
   transition: transform 200ms linear; }
 
-/* line 557, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 557, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .headroom--pinned-top {
   transform: translateY(0%); }
 
-/* line 561, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 561, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .headroom--unpinned-top {
   transform: translateY(-100%); }
 
-/* line 565, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 565, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .headroom--pinned-bottom {
   transform: translateY(0%); }
 
-/* line 569, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 569, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .headroom--unpinned-bottom {
   transform: translateY(100%); }
 
 @media (max-width: 1199px) {
-  /* line 579, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 579, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li > a.nav-link {
     padding: 1.4rem 0.4rem 0.8rem 0.4rem; }
-    /* line 581, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 581, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     .header-navbar .navbar-container ul.nav li > a.nav-link i.flag-icon {
       margin-right: 0.2rem; }
-  /* line 585, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 585, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li a.dropdown-user-link {
     padding: 0.8rem 0.6rem; }
-  /* line 588, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 588, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li a.nav-link-label {
     padding: 1.2rem 0rem 1rem 0.8rem; }
-  /* line 591, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 591, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li a.nav-link-search,
   .header-navbar .navbar-container ul.nav li a.nav-link-expand {
     padding: 1.5rem 1rem 1rem 1rem; }
-  /* line 595, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 595, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li .dropdown-toggle::after {
     margin-right: 0;
     margin-left: -2px; } }
 
 @media (max-width: 1199px) {
-  /* line 611, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 611, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li .selected-language {
     display: none; }
-  /* line 615, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 615, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container ul.nav li a.dropdown-user-link .user-name {
     display: none; } }
 
 @media (max-width: 767px) {
-  /* line 640, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 640, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   #navbar-mobile.navbar-toggleable-sm .navbar-nav {
     margin: 0; }
-    /* line 642, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 642, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     #navbar-mobile.navbar-toggleable-sm .navbar-nav .dropdown-menu {
       position: absolute; }
-    /* line 645, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+    /* line 645, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
     #navbar-mobile.navbar-toggleable-sm .navbar-nav .nav-item {
       float: left; } }
 
 /* ----------- iPhone 5, 5S  iPhone 6----------- */
 /* Landscape */
 @media only screen and (min-device-width: 26.78em) and (max-device-width: 47.64em) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  /* line 629, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 629, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container .open .dropdown-menu {
     max-height: 180px; } }
 
 /* ----------- iPhone 6+ ----------- */
 /* Landscape */
 @media only screen and (min-device-width: 29.57em) and (max-device-width: 52.57em) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  /* line 629, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+  /* line 629, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
   .header-navbar .navbar-container .open .dropdown-menu {
     max-height: 280px; } }
 
-/* line 674, E:/domains/your-time.dev/src/scss/bootstrap-extended/_navbar.scss */
+/* line 674, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_navbar.scss */
 .menu-expanded .nav-usermenu .ft-user {
   display: none; }
 
-/* line 1, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 1, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-group, .card-deck {
   margin-bottom: 0.75rem; }
 
-/* line 4, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 4, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card {
   margin-bottom: 1.875rem;
   border: none;
   border-radius: 0; }
-  /* line 10, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 10, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card .card-title {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.05rem;
     font-size: 1.12rem; }
-  /* line 16, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 16, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card .card-bordered {
     border: 1px solid rgba(0, 0, 0, 0.06); }
-  /* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card.card-fullscreen {
     display: block;
     z-index: 9999;
@@ -1318,99 +1318,99 @@ button:focus {
     left: 0;
     bottom: 0;
     overflow: auto; }
-  /* line 33, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 33, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card .card-block[class*='border-bottom-'] {
     border-bottom-width: 2px !important; }
-  /* line 37, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 37, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card .card-img-overlay.bg-overlay {
     background: rgba(0, 0, 0, 0.45); }
-  /* line 40, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 40, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card .card-img-overlay .text-muted {
     color: #1B2942 !important; }
-  /* line 44, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 44, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card.card-minimal {
     border: none;
     box-shadow: none; }
 
-/* line 52, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 52, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-moved .card, .card-moved .card-header {
   background-color: #FFA87D;
   color: #FFFFFF; }
 
-/* line 57, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 57, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .handle, .titleArea {
   cursor: move; }
 
-/* line 61, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 61, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-header {
   border-bottom: none; }
-  /* line 64, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 64, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card-header .card-title {
     margin-bottom: 0; }
-  /* line 68, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 68, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card-header .heading-elements,
   .card-header .heading-elements-toggle {
     background-color: inherit;
     position: absolute;
     top: 14px;
     right: 21px; }
-    /* line 74, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+    /* line 74, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
     .card-header .heading-elements.heading-top-elements,
     .card-header .heading-elements-toggle.heading-top-elements {
       top: 0px; }
-    /* line 78, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+    /* line 78, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
     .card-header .heading-elements i,
     .card-header .heading-elements-toggle i {
       color: #626E82; }
-    /* line 82, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+    /* line 82, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
     .card-header .heading-elements a,
     .card-header .heading-elements-toggle a {
       padding: 0 8px; }
-      /* line 84, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+      /* line 84, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
       .card-header .heading-elements a.btn,
       .card-header .heading-elements-toggle a.btn {
         padding-top: 6px;
         padding-bottom: 6px; }
 
-/* line 91, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 91, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-footer {
   border-top: 1px solid #EEEEEE; }
 
-/* line 95, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 95, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-inverse .card-text {
   color: white; }
 
-/* line 100, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 100, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-inverse .card-img-overlay .text-muted {
   color: #FFF !important; }
 
-/* line 104, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 104, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-inverse code {
   background-color: white; }
 
-/* line 108, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 108, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-inverse .heading-elements i {
   color: #FFF; }
 
-/* line 114, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 114, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-head-inverse {
   color: #FFF; }
-  /* line 116, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 116, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .card-head-inverse .heading-elements i {
     color: #FFF; }
 
-/* line 122, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+/* line 122, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
 .card-transparent {
   background-color: transparent; }
 
 @media (max-width: 991px) {
-  /* line 126, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 126, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .heading-elements {
     text-align: center; }
-    /* line 128, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+    /* line 128, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
     .heading-elements .list-inline {
       display: none; }
-    /* line 131, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+    /* line 131, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
     .heading-elements.visible {
       display: block;
       margin-top: 0;
@@ -1423,191 +1423,191 @@ button:focus {
       z-index: 997;
       position: absolute;
       width: 100%; }
-      /* line 132, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+      /* line 132, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
       .heading-elements.visible .list-inline {
         display: block; } }
 
 @media (min-width: 992px) {
-  /* line 150, E:/domains/your-time.dev/src/scss/bootstrap-extended/_card.scss */
+  /* line 150, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_card.scss */
   .heading-elements-toggle {
     display: none; } }
 
-/* line 1, E:/domains/your-time.dev/src/scss/bootstrap-extended/_breadcrumb.scss */
+/* line 1, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_breadcrumb.scss */
 .breadcrumb {
   font-size: 0.9rem;
   font-family: "Source Sans Pro";
   text-transform: uppercase;
   background-color: transparent;
   padding: 0 0 0.75rem 0rem; }
-  /* line 8, E:/domains/your-time.dev/src/scss/bootstrap-extended/_breadcrumb.scss */
+  /* line 8, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_breadcrumb.scss */
   .breadcrumb > li + li::before {
     padding-right: .6rem;
     padding-left: .6rem; }
 
 /* Custom scss for page headers style */
-/* line 16, E:/domains/your-time.dev/src/scss/bootstrap-extended/_breadcrumb.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_breadcrumb.scss */
 .breadcrumbs-right .breadcrumb {
   float: right; }
 
-/* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_breadcrumb.scss */
+/* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_breadcrumb.scss */
 .breadcrumbs-top .breadcrumb {
   margin: 0;
   padding: 0; }
 
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag {
   font-weight: 400; }
-  /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+  /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
   .tag[class*='tag-'] [class*='icon-'] {
     line-height: 1; }
-    /* line 7, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+    /* line 7, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
     .tag[class*='tag-'] [class*='icon-'] ~ span {
       position: relative;
       bottom: 2px;
       padding: 0 5px; }
-  /* line 13, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+  /* line 13, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
   .tag[class*='tag-'] span {
     position: relative;
     bottom: 2px;
     padding: 0 5px; }
-  /* line 18, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
   .tag[class*='tag-'] a {
     color: #fff; }
-  /* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+  /* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
   .tag[class*='tag-'] .dropdown-toggle::after, .tag[class*='tag-'].dropdown-toggle::after {
     position: relative;
     top: -10px;
     right: 5px;
     font-size: 1rem; }
-  /* line 29, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+  /* line 29, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
   .tag[class*='tag-'] .dropdown-menu a {
     color: #555; }
-  /* line 34, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+  /* line 34, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
   .tag.tag-square {
     border-radius: 0; }
-  /* line 37, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+  /* line 37, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
   .tag.tag.float-xs-right {
     margin-left: 0.5rem;
     margin-top: 0.15rem; }
 
-/* line 45, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 45, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-xl {
   font-size: 1.8rem; }
 
-/* line 48, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 48, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-lg {
   font-size: 1.2rem; }
 
-/* line 51, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 51, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-md {
   font-size: 1rem; }
 
-/* line 54, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 54, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-sm {
   font-size: 0.8rem; }
 
-/* line 62, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 62, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-default {
   background-color: #626E82; }
-  /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_label.scss */
+  /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_label.scss */
   .tag-default.tag-glow {
     box-shadow: 0px 0px 10px #626E82; }
-  /* line 17, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-default[href]:focus {
     background-color: #4c5565; }
-  /* line 11, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-default[href]:hover {
     background-color: #4c5565; }
 
-/* line 66, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 66, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-primary {
   background-color: #00B5B8; }
-  /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_label.scss */
+  /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_label.scss */
   .tag-primary.tag-glow {
     box-shadow: 0px 0px 10px #00B5B8; }
-  /* line 17, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-primary[href]:focus {
     background-color: #008385; }
-  /* line 11, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-primary[href]:hover {
     background-color: #008385; }
 
-/* line 70, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 70, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-success {
   background-color: #16D39A; }
-  /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_label.scss */
+  /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_label.scss */
   .tag-success.tag-glow {
     box-shadow: 0px 0px 10px #16D39A; }
-  /* line 17, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-success[href]:focus {
     background-color: #11a578; }
-  /* line 11, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-success[href]:hover {
     background-color: #11a578; }
 
-/* line 74, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 74, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-info {
   background-color: #2DCEE3; }
-  /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_label.scss */
+  /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_label.scss */
   .tag-info.tag-glow {
     box-shadow: 0px 0px 10px #2DCEE3; }
-  /* line 17, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-info[href]:focus {
     background-color: #1ab0c3; }
-  /* line 11, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-info[href]:hover {
     background-color: #1ab0c3; }
 
-/* line 78, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 78, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-warning {
   background-color: #FFA87D; }
-  /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_label.scss */
+  /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_label.scss */
   .tag-warning.tag-glow {
     box-shadow: 0px 0px 10px #FFA87D; }
-  /* line 17, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-warning[href]:focus {
     background-color: #ff864a; }
-  /* line 11, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-warning[href]:hover {
     background-color: #ff864a; }
 
-/* line 82, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 82, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-danger {
   background-color: #FF7588; }
-  /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_label.scss */
+  /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_label.scss */
   .tag-danger.tag-glow {
     box-shadow: 0px 0px 10px #FF7588; }
-  /* line 17, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-danger[href]:focus {
     background-color: #ff425c; }
-  /* line 11, E:/domains/your-time.dev/src/scss/bootstrap/mixins/_hover.scss */
+  /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap/mixins/_hover.scss */
   .tag-danger[href]:hover {
     background-color: #ff425c; }
 
-/* line 87, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 87, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-up {
   position: relative;
   top: -13px;
   right: 14px; }
 
-/* line 93, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 93, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .tag-icon i {
   font-size: 100%;
   margin-right: 5px; }
 
-/* line 99, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 99, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .form-control + .block-tag {
   display: block; }
 
-/* line 102, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 102, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .block-tag {
   margin-top: 0.5rem; }
 
-/* line 105, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 105, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .block-area {
   padding: 0.24rem 0.3rem; }
 
-/* line 110, E:/domains/your-time.dev/src/scss/bootstrap-extended/_tags.scss */
+/* line 110, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_tags.scss */
 .token.property,
 .token.tag,
 .token.boolean,
@@ -1620,240 +1620,240 @@ button:focus {
   font-weight: 400;
   padding: 0; }
 
-/* line 1, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+/* line 1, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
 .nav {
   border-radius: 0.25rem; }
-  /* line 4, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 4, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.wrap-border {
     border: 1px solid #ddd; }
-    /* line 6, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 6, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.wrap-border li.nav-header {
       margin: 0 0.5rem; }
-    /* line 9, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 9, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.wrap-border li.nav-item, .nav.wrap-border div {
       padding: 2px 10px; }
-  /* line 14, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 14, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.no-hover-bg .nav-item:hover {
     background-color: transparent; }
-  /* line 20, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav .dropdown .dropdown-item.active {
     background-color: transparent;
     color: #55595c; }
-    /* line 23, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 23, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav .dropdown .dropdown-item.active:focus {
       background-color: transparent;
       color: #55595c; }
-  /* line 31, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 31, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.square-border {
     border-radius: 0; }
-    /* line 34, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 34, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.square-border .nav-item .nav-link.active {
       border-radius: 0; }
-  /* line 40, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 40, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav .nav-item .nav-link {
     display: block; }
-  /* line 44, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 44, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav .dropdown-divider {
     margin: 0.5rem 0; }
-  /* line 53, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 53, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills .nav-item .nav-link i.float-xs-right:before {
     position: relative;
     top: 7px;
     left: 7px; }
-  /* line 60, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 60, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills .nav-item .nav-link .tag.float-xs-right {
     position: relative;
     top: 1px;
     left: 3px; }
-  /* line 66, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 66, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills .nav-item .nav-link.dropdown-toggle::after {
     top: -15px; }
-  /* line 72, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 72, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills.nav-justified {
     width: 100%; }
-    /* line 7, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+    /* line 7, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
     .nav.nav-pills.nav-justified .nav-item {
       float: none; }
-    /* line 11, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+    /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
     .nav.nav-pills.nav-justified .nav-link {
       text-align: center;
       margin-bottom: 5px; }
-    /* line 16, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+    /* line 16, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
     .nav.nav-pills.nav-justified > .dropdown .dropdown-menu {
       top: auto;
       left: auto; }
     @media (min-width: 544px) {
-      /* line 22, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+      /* line 22, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
       .nav.nav-pills.nav-justified .nav-item {
         display: table-cell;
         width: 1%; }
-      /* line 26, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+      /* line 26, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
       .nav.nav-pills.nav-justified .nav-link {
         margin-bottom: 0; } }
-    /* line 37, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+    /* line 37, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
     .nav.nav-pills.nav-justified .nav-link {
       margin-right: 0;
       border-radius: 0.25rem; }
     @media (min-width: 544px) {
-      /* line 44, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+      /* line 44, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
       .nav.nav-pills.nav-justified .nav-link.active,
       .nav.nav-pills.nav-justified .nav-link.active:hover,
       .nav.nav-pills.nav-justified .nav-link.active:focus {
         border-bottom-color: transparent; } }
-    /* line 76, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 76, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-pills.nav-justified .nav-link.active {
       border: none; }
-      /* line 78, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 78, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-pills.nav-justified .nav-link.active:hover, .nav.nav-pills.nav-justified .nav-link.active:focus {
         border: none; }
-  /* line 86, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 86, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills.nav-pill-bordered .nav-item {
     border: 1px solid #d3d3d3;
     border-radius: 0.25rem; }
-  /* line 94, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 94, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills.nav-pill-with-active-bordered .nav-item a.nav-link {
     border: 1px solid #d3d3d3;
     border-radius: 0.25rem;
     background-color: #ffffff;
     color: #55595c; }
-    /* line 99, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 99, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-pills.nav-pill-with-active-bordered .nav-item a.nav-link.active {
       border: 1px solid #00B5B8;
       color: #00B5B8; }
-  /* line 110, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 110, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills.nav-active-bordered-pill .nav-item a.nav-link {
     color: #55595c; }
-    /* line 112, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 112, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-pills.nav-active-bordered-pill .nav-item a.nav-link.active {
       border: 1px solid #00B5B8;
       border-radius: 0.25rem;
       color: #00B5B8;
       background-color: #ffffff; }
-  /* line 127, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 127, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills.nav-pill-toolbar.nav-stacked .nav-item ~ .nav-item a.nav-link {
     border-left: 1px solid #d3d3d3;
     border-top: 0; }
-  /* line 135, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 135, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills.nav-pill-toolbar.nav-stacked .nav-item:first-child a.nav-link {
     border-radius: 0.25rem 0.25rem 0 0; }
-  /* line 142, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 142, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills.nav-pill-toolbar.nav-stacked .nav-item:last-child a.nav-link {
     border-radius: 0 0 0.25rem 0.25rem; }
-  /* line 149, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 149, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-pills.nav-pill-toolbar .nav-item {
     margin-top: 0;
     margin-left: 0; }
-    /* line 154, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 154, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-pills.nav-pill-toolbar .nav-item ~ .nav-item a.nav-link {
       border-left: 0; }
-    /* line 161, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 161, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-pills.nav-pill-toolbar .nav-item:first-child a.nav-link {
       border-radius: 0.25rem 0 0 0.25rem; }
-    /* line 168, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 168, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-pills.nav-pill-toolbar .nav-item:last-child a.nav-link {
       border-radius: 0 0.25rem 0.25rem 0; }
-    /* line 174, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 174, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-pills.nav-pill-toolbar .nav-item a.nav-link {
       border: 1px solid #d3d3d3;
       border-radius: 0; }
-  /* line 186, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 186, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs .nav-item .nav-link {
     padding: 0.5rem 0.7rem;
     display: block; }
-    /* line 192, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 192, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs .nav-item .nav-link.active {
       background-color: #fff;
       border-radius: 0.25rem 0.25rem 0 0; }
-    /* line 197, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 197, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs .nav-item .nav-link i.float-xs-right {
       margin-left: 0.5rem; }
-    /* line 202, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 202, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs .nav-item .nav-link.dropdown-toggle::after {
       top: -15px; }
-  /* line 207, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 207, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs .nav-item:hover {
     color: #333; }
-  /* line 212, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 212, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.wrap-border {
     border: 1px solid #ddd; }
-  /* line 216, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 216, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.no-hover-bg .nav-item:hover {
     background-color: transparent; }
-  /* line 222, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 222, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs .dropdown .dropdown-item.active {
     background-color: transparent;
     color: #55595c; }
-    /* line 225, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 225, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs .dropdown .dropdown-item.active:focus {
       background-color: transparent;
       color: #55595c; }
-  /* line 234, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 234, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.square-border {
     border-radius: 0; }
-    /* line 237, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 237, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.square-border .nav-item .nav-link.active {
       border-radius: 0; }
-  /* line 243, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 243, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.nav-justified {
     width: 100%; }
-    /* line 7, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+    /* line 7, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
     .nav.nav-tabs.nav-justified .nav-item {
       float: none; }
-    /* line 11, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+    /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
     .nav.nav-tabs.nav-justified .nav-link {
       text-align: center;
       margin-bottom: 5px; }
-    /* line 16, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+    /* line 16, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
     .nav.nav-tabs.nav-justified > .dropdown .dropdown-menu {
       top: auto;
       left: auto; }
     @media (min-width: 544px) {
-      /* line 22, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+      /* line 22, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
       .nav.nav-tabs.nav-justified .nav-item {
         display: table-cell;
         width: 1%; }
-      /* line 26, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+      /* line 26, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
       .nav.nav-tabs.nav-justified .nav-link {
         margin-bottom: 0; } }
-    /* line 37, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+    /* line 37, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
     .nav.nav-tabs.nav-justified .nav-link {
       margin-right: 0;
       border-radius: 0.25rem; }
     @media (min-width: 544px) {
-      /* line 44, E:/domains/your-time.dev/src/scss/bootstrap-extended/mixins/_navs.scss */
+      /* line 44, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/mixins/_navs.scss */
       .nav.nav-tabs.nav-justified .nav-link.active,
       .nav.nav-tabs.nav-justified .nav-link.active:hover,
       .nav.nav-tabs.nav-justified .nav-link.active:focus {
         border-bottom-color: transparent; } }
-    /* line 247, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 247, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-justified .nav-item a.nav-link.active {
       background-color: #fff; }
-  /* line 258, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 258, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.nav-top-border .nav-item a {
     color: #16D39A; }
-    /* line 260, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 260, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-top-border .nav-item a.nav-link.active {
       border-top: 3px solid #16D39A;
       border-top-left-radius: 0;
       border-top-right-radius: 0;
       color: #555; }
-    /* line 266, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 266, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-top-border .nav-item a:hover {
       color: #084835; }
-  /* line 276, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 276, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.nav-topline {
     border-bottom: none; }
-    /* line 279, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 279, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-topline .nav-item:hover {
       background-color: transparent; }
-    /* line 282, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 282, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-topline .nav-item:not(:last-child) {
       border-right: none; }
-    /* line 285, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 285, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-topline .nav-item a {
       border: 1px solid rgba(40, 44, 42, 0.1);
       border-bottom: none; }
-      /* line 288, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 288, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-topline .nav-item a.nav-link {
         padding: 0.8rem 0.5rem;
         background: rgba(40, 44, 42, 0.05);
@@ -1861,7 +1861,7 @@ button:focus {
         line-height: 1;
         -webkit-transition: color 0.2s;
         transition: color 0.2s; }
-        /* line 295, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 295, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-topline .nav-item a.nav-link.active {
           background: none;
           box-shadow: inset 0 3px 0 #FF7588;
@@ -1869,18 +1869,18 @@ button:focus {
           border-radius: 0;
           border-top-color: #FF7588;
           border-bottom: none; }
-        /* line 303, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 303, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-topline .nav-item a.nav-link:hover, .nav.nav-tabs.nav-topline .nav-item a.nav-link:focus {
           color: #FF7588; }
-        /* line 306, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 306, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-topline .nav-item a.nav-link.dropdown-toggle::after {
           top: -10px; }
-  /* line 317, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 317, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.nav-underline {
     background: #fff;
     position: relative;
     border-bottom: 1px solid #2DCEE3; }
-    /* line 321, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 321, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-underline .nav-item {
       position: relative;
       z-index: 1;
@@ -1891,14 +1891,14 @@ button:focus {
       -ms-flex: 1;
       flex: 1;
       margin-left: 0; }
-      /* line 333, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 333, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-underline .nav-item.open a .nav-link {
         background-color: transparent; }
-        /* line 335, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 335, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-underline .nav-item.open a .nav-link:focus, .nav.nav-tabs.nav-underline .nav-item.open a .nav-link:hover {
           background-color: transparent;
           color: #2DCEE3; }
-      /* line 343, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 343, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-underline .nav-item a.nav-link {
         position: relative;
         display: block;
@@ -1911,25 +1911,25 @@ button:focus {
         transition: color 0.2s;
         color: #2DCEE3;
         border: none; }
-        /* line 355, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 355, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-underline .nav-item a.nav-link.dropdown-toggle::after {
           margin-top: -1rem; }
-        /* line 358, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 358, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-underline .nav-item a.nav-link.active {
           border: none;
           background-color: transparent; }
-          /* line 361, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+          /* line 361, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
           .nav.nav-tabs.nav-underline .nav-item a.nav-link.active:focus, .nav.nav-tabs.nav-underline .nav-item a.nav-link.active:hover {
             color: #55595c;
             background-color: transparent; }
-          /* line 365, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+          /* line 365, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
           .nav.nav-tabs.nav-underline .nav-item a.nav-link.active:before {
             -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0); }
-        /* line 370, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 370, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-underline .nav-item a.nav-link:hover, .nav.nav-tabs.nav-underline .nav-item a.nav-link:focus {
           color: #2DCEE3; }
-        /* line 373, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 373, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-underline .nav-item a.nav-link:before {
           position: absolute;
           bottom: -1px;
@@ -1942,10 +1942,10 @@ button:focus {
           transition: transform 0.3s;
           -webkit-transform: translate3d(0, 150%, 0);
           transform: translate3d(0, 150%, 0); }
-  /* line 394, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 394, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.nav-linetriangle {
     border-bottom-color: #FFA87D; }
-    /* line 396, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 396, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-linetriangle .nav-item {
       position: relative;
       z-index: 1;
@@ -1955,7 +1955,7 @@ button:focus {
       -moz-flex: 1;
       -ms-flex: 1;
       flex: 1; }
-      /* line 406, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 406, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link {
         position: relative;
         display: block;
@@ -1965,12 +1965,12 @@ button:focus {
         line-height: 2.5;
         border: none;
         color: #55595c; }
-        /* line 415, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 415, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link.active {
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
           border-bottom-color: #FFA87D;
           color: #FFA87D; }
-          /* line 419, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+          /* line 419, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
           .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link.active:after, .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link.active:before {
             position: absolute;
             top: 100%;
@@ -1980,37 +1980,37 @@ button:focus {
             border: solid transparent;
             content: '';
             pointer-events: none; }
-          /* line 429, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+          /* line 429, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
           .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link.active:before {
             margin-left: -11px;
             border-width: 12px;
             border-top-color: #FFA87D; }
-          /* line 434, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+          /* line 434, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
           .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link.active:after {
             margin-left: -10px;
             border-width: 10px;
             border-top-color: #fff; }
-          /* line 439, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+          /* line 439, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
           .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link.active:focus {
             color: #FFA87D; }
-        /* line 444, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 444, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link.dropdown-toggle:after {
           margin-top: -1rem; }
-        /* line 448, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 448, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-linetriangle .nav-item a.nav-link.dropdown-toggle.active:after {
           margin-top: 0; }
-    /* line 456, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 456, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-linetriangle.nav-justified {
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       border-bottom-color: #FFA87D; }
-      /* line 462, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 462, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-linetriangle.nav-justified .nav-item a.nav-link.active {
         top: 0px; }
-  /* line 474, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 474, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.nav-iconfall {
     overflow: visible;
     border-bottom: none; }
-    /* line 477, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 477, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav.nav-tabs.nav-iconfall .nav-item {
       position: relative;
       z-index: 1;
@@ -2021,10 +2021,10 @@ button:focus {
       -ms-flex: 1;
       flex: 1;
       margin: 0.5rem 0.7rem 0; }
-      /* line 487, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 487, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-iconfall .nav-item:hover, .nav.nav-tabs.nav-iconfall .nav-item:focus {
         background-color: transparent; }
-      /* line 491, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 491, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-iconfall .nav-item a.nav-link {
         display: inline-block;
         padding: 1em 0 2em;
@@ -2035,30 +2035,30 @@ button:focus {
         border: none;
         -webkit-transition: color 0.3s cubic-bezier(0.7, 0, 0.3, 1);
         transition: color 0.3s cubic-bezier(0.7, 0, 0.3, 1); }
-      /* line 502, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 502, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-iconfall .nav-item a:hover, .nav.nav-tabs.nav-iconfall .nav-item a:focus {
         color: #2CC185;
         border: none; }
-      /* line 506, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 506, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-iconfall .nav-item a.active {
         color: #2CC185;
         border: none;
         background-color: transparent; }
-        /* line 511, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 511, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-iconfall .nav-item a.active i:after {
           opacity: 1;
           -webkit-transform: scale3d(1, 1, 1);
           transform: scale3d(1, 1, 1); }
-        /* line 516, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 516, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-iconfall .nav-item a.active i:before {
           opacity: 1;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); }
-      /* line 523, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 523, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-iconfall .nav-item a i {
         display: block;
         margin-right: 0; }
-        /* line 526, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 526, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-iconfall .nav-item a i:after {
           position: absolute;
           bottom: 1em;
@@ -2073,7 +2073,7 @@ button:focus {
           transition: transform 0.2s ease-in;
           -webkit-transform: scale3d(0, 1, 1);
           transform: scale3d(0, 1, 1); }
-        /* line 541, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+        /* line 541, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
         .nav.nav-tabs.nav-iconfall .nav-item a i:before {
           display: block;
           margin: 0 0 0.35em;
@@ -2083,134 +2083,134 @@ button:focus {
           -webkit-transform: translate3d(0, -100px, 0);
           transform: translate3d(0, -100px, 0);
           pointer-events: none; }
-      /* line 553, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+      /* line 553, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
       .nav.nav-tabs.nav-iconfall .nav-item a.dropdown-toggle:after {
         margin-top: -1rem; }
-  /* line 562, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 562, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav .nav-item .nav-link {
     display: block; }
-  /* line 566, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 566, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav .dropdown-divider {
     margin: 0.5rem 0; }
 
 @media (min-width: 544px) {
-  /* line 575, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 575, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.nav-linetriangle.nav-justified .nav-item,
   .nav.nav-tabs.nav-iconfall.nav-justified .nav-item,
   .nav.nav-tabs.nav-underline.nav-justified .nav-item {
     display: table-cell !important; } }
 
-/* line 584, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+/* line 584, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
 .nav-vertical .nav-left.nav-tabs {
   float: left;
   border-bottom: 0;
   border-right: 1px solid #ddd;
   border-radius: 0;
   display: table; }
-  /* line 591, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 591, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav-vertical .nav-left.nav-tabs li.nav-item {
     float: none;
     margin: 0;
     margin-right: -1px; }
-    /* line 595, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 595, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav-vertical .nav-left.nav-tabs li.nav-item a.nav-link.active {
       border: 1px solid #ddd;
       border-right: 0;
       border-radius: 0.25rem 0 0 0.25rem; }
-  /* line 603, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 603, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav-vertical .nav-left.nav-tabs.nav-border-left li.nav-item a.nav-link {
     color: #FF7588; }
-    /* line 605, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 605, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav-vertical .nav-left.nav-tabs.nav-border-left li.nav-item a.nav-link.active {
       border-left: 3px solid #FF7588;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
       color: #555; }
 
-/* line 615, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+/* line 615, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
 .nav-vertical .nav-left ~ .tab-content {
   margin-left: 45px; }
-  /* line 618, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 618, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav-vertical .nav-left ~ .tab-content .tab-pane {
     display: none;
     background-color: #fff;
     padding: 0 0 0.6rem 1rem;
     overflow-y: auto; }
-    /* line 623, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 623, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav-vertical .nav-left ~ .tab-content .tab-pane.active {
       display: block; }
 
-/* line 628, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+/* line 628, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
 .nav-vertical .nav-right.nav-tabs {
   float: right;
   border-bottom: 0;
   border-left: 1px solid #ddd;
   border-radius: 0;
   display: table; }
-  /* line 635, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 635, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav-vertical .nav-right.nav-tabs li.nav-item {
     float: none;
     margin: 0;
     margin-left: -1px; }
-    /* line 639, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 639, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav-vertical .nav-right.nav-tabs li.nav-item a.nav-link.active {
       border: 1px solid #ddd;
       border-left: 0;
       border-radius: 0 0.25rem 0.25rem 0; }
-  /* line 647, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 647, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav-vertical .nav-right.nav-tabs.nav-border-right li.nav-item a.nav-link {
     color: #FF7588; }
-    /* line 649, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+    /* line 649, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
     .nav-vertical .nav-right.nav-tabs.nav-border-right li.nav-item a.nav-link.active {
       border-right: 3px solid #FF7588;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
       color: #555; }
 
-/* line 661, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+/* line 661, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
 .nav-vertical .nav-right ~ .tab-content .tab-pane {
   display: none;
   background-color: #fff;
   padding: 0 0 0.6rem 1rem;
   overflow-y: auto; }
-  /* line 666, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 666, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav-vertical .nav-right ~ .tab-content .tab-pane.active {
     display: block; }
 
-/* line 675, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+/* line 675, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
 .nav.nav-tabs.nav-only-icon .nav-item .nav-link {
   font-size: 1.25rem; }
-  /* line 677, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+  /* line 677, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
   .nav.nav-tabs.nav-only-icon .nav-item .nav-link i {
     margin-left: 0.5rem; }
 
-/* line 684, E:/domains/your-time.dev/src/scss/bootstrap-extended/_nav.scss */
+/* line 684, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_nav.scss */
 .nav.nav-tabs .nav-item.open .nav-link,
 .nav.nav-tabs .nav-item.open .nav-link:focus {
   background-color: transparent; }
 
-/* line 1, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+/* line 1, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
 .alert {
   position: relative; }
-  /* line 3, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 3, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert .alert-link {
     color: #fff; }
-    /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+    /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
     .alert .alert-link:hover {
       text-decoration: underline; }
-  /* line 9, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 9, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert.alert-icon-left {
     border-left-width: 4rem; }
-  /* line 12, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 12, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert.alert-icon-right {
     border-right-width: 4rem; }
-  /* line 15, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert.alert-icon-left[class*=bg-] {
     border-left-color: rgba(0, 0, 0, 0.15) !important; }
-  /* line 18, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert.alert-icon-right[class*=bg-] {
     border-right-color: rgba(0, 0, 0, 0.15) !important; }
-  /* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert[class*=alert-icon-]:after {
     content: '\f006';
     font-family: FontAwesome;
@@ -2226,81 +2226,81 @@ button:focus {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-  /* line 37, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 37, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert .close {
     font-size: 2rem;
     line-height: 1rem; }
-  /* line 41, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 41, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert[class*=bg-] {
     color: #fff; }
-    /* line 43, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+    /* line 43, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
     .alert[class*=bg-] .close {
       color: #fff;
       opacity: 1;
       text-shadow: none; }
-  /* line 49, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 49, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert[class*=alert-icon-].alert-primary:after, .alert[class*=alert-icon-][class*=alert-primary]:after, .alert[class*=alert-icon-][class*=bg-primary]:after {
     content: '\f08a'; }
-  /* line 54, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 54, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert[class*=alert-icon-].alert-danger:after, .alert[class*=alert-icon-][class*=alert-danger]:after, .alert[class*=alert-icon-][class*=bg-danger]:after {
     content: '\f088'; }
-  /* line 59, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 59, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert[class*=alert-icon-].alert-success:after, .alert[class*=alert-icon-][class*=alert-success]:after, .alert[class*=alert-icon-][class*=bg-success]:after {
     content: '\f087'; }
-  /* line 64, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 64, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert[class*=alert-icon-].alert-warning:after, .alert[class*=alert-icon-][class*=alert-warning]:after, .alert[class*=alert-icon-][class*=bg-warning]:after {
     content: '\f071'; }
-  /* line 69, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 69, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert[class*=alert-icon-].alert-info:after, .alert[class*=alert-icon-][class*=alert-info]:after, .alert[class*=alert-icon-][class*=bg-info]:after {
     content: '\f129'; }
-  /* line 74, E:/domains/your-time.dev/src/scss/bootstrap-extended/_alert.scss */
+  /* line 74, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_alert.scss */
   .alert.alert-icon-right:after {
     left: auto;
     right: -4rem; }
 
-/* line 2, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
 .media-list .media {
   padding: 1.25rem;
   margin-top: 0; }
-  /* line 5, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 5, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media .media-left {
     padding-right: 1rem; }
-  /* line 8, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 8, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media .media-right {
     padding-left: 1rem; }
-  /* line 11, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 11, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media .media-head {
     font-weight: 600; }
-  /* line 14, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 14, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media:first-child {
     padding-top: 0; }
-  /* line 17, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media.list-group-item:first-child {
     padding-top: 1.25rem; }
-  /* line 20, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media.list-group-item:last-child {
     padding-bottom: 1.25rem; }
-  /* line 23, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 23, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media:last-child {
     padding-bottom: 0; }
-  /* line 26, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 26, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media .media-notation {
     color: #b1c1d8;
     font-size: 0.666667rem;
     margin-left: 5px; }
-    /* line 30, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+    /* line 30, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
     .media-list .media .media-notation a {
       padding-right: 0.5rem; }
-    /* line 33, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+    /* line 33, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
     .media-list .media .media-notation i[class^="icon-"] {
       font-size: 0.7rem;
       margin-right: 0.3rem; }
-  /* line 38, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 38, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list .media [class*="avatar-"] {
     position: relative;
     padding-right: 0 !important;
     margin-right: 0; }
-    /* line 42, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+    /* line 42, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
     .media-list .media [class*="avatar-"] i {
       position: absolute;
       right: 1px;
@@ -2310,103 +2310,103 @@ button:focus {
       border: 2px solid white;
       border-radius: 100%; }
 
-/* line 54, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+/* line 54, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
 .media-list.media-bordered .media {
   border-top: 1px solid #E4E7ED; }
-  /* line 56, E:/domains/your-time.dev/src/scss/bootstrap-extended/_media.scss */
+  /* line 56, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_media.scss */
   .media-list.media-bordered .media:first-child {
     border-top: 0; }
 
-/* line 4, E:/domains/your-time.dev/src/scss/bootstrap-extended/_progress.scss */
+/* line 4, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_progress.scss */
 .progress {
   margin-bottom: 3rem; }
-  /* line 6, E:/domains/your-time.dev/src/scss/bootstrap-extended/_progress.scss */
+  /* line 6, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_progress.scss */
   .progress:last-child {
     margin-bottom: 1rem; }
-  /* line 9, E:/domains/your-time.dev/src/scss/bootstrap-extended/_progress.scss */
+  /* line 9, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_progress.scss */
   .progress.progress-xl {
     height: 2rem; }
-  /* line 12, E:/domains/your-time.dev/src/scss/bootstrap-extended/_progress.scss */
+  /* line 12, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_progress.scss */
   .progress.progress-lg {
     height: 1.5rem; }
-  /* line 15, E:/domains/your-time.dev/src/scss/bootstrap-extended/_progress.scss */
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_progress.scss */
   .progress.progress-md {
     height: 1rem; }
-  /* line 18, E:/domains/your-time.dev/src/scss/bootstrap-extended/_progress.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_progress.scss */
   .progress.progress-sm {
     height: 0.5rem; }
-  /* line 21, E:/domains/your-time.dev/src/scss/bootstrap-extended/_progress.scss */
+  /* line 21, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_progress.scss */
   .progress.progress-xs {
     height: 0.25rem; }
 
-/* line 4, E:/domains/your-time.dev/src/scss/bootstrap-extended/_list-group.scss */
+/* line 4, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_list-group.scss */
 ul.list-inline li {
   display: inline-block; }
 
-/* line 8, E:/domains/your-time.dev/src/scss/bootstrap-extended/_list-group.scss */
+/* line 8, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_list-group.scss */
 ul.list-inline.list-inline-pipe > li + li:before {
   content: ' | ';
   color: #626E82; }
 
-/* line 1, E:/domains/your-time.dev/src/scss/bootstrap-extended/_modal.scss */
+/* line 1, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_modal.scss */
 .modal-sm {
   max-width: 400px; }
 
-/* line 4, E:/domains/your-time.dev/src/scss/bootstrap-extended/_modal.scss */
+/* line 4, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_modal.scss */
 .modal-xs {
   max-width: 300px; }
 
-/* line 7, E:/domains/your-time.dev/src/scss/bootstrap-extended/_modal.scss */
+/* line 7, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_modal.scss */
 .modal-xl {
   max-width: 94%;
   margin-left: 3%;
   margin-right: 3%; }
 
-/* line 12, E:/domains/your-time.dev/src/scss/bootstrap-extended/_modal.scss */
+/* line 12, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_modal.scss */
 .icon-align {
   margin-top: 0.6rem;
   margin-left: 0.5rem; }
 
-/* line 3, E:/domains/your-time.dev/src/scss/bootstrap-extended/_popover.scss */
+/* line 3, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_popover.scss */
 .popover.popover-top:after, .popover.popover-top:before, .popover.bs-tether-element-attached-top:after, .popover.bs-tether-element-attached-top:before {
   margin-left: -10px; }
 
-/* line 8, E:/domains/your-time.dev/src/scss/bootstrap-extended/_popover.scss */
+/* line 8, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_popover.scss */
 .popover.popover-right:after, .popover.popover-right:before, .popover.bs-tether-element-attached-right:after, .popover.bs-tether-element-attached-right:before {
   margin-top: -10px; }
 
-/* line 13, E:/domains/your-time.dev/src/scss/bootstrap-extended/_popover.scss */
+/* line 13, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_popover.scss */
 .popover.popover-bottom:after, .popover.popover-bottom:before, .popover.bs-tether-element-attached-bottom:after, .popover.bs-tether-element-attached-bottom:before {
   margin-left: -10px; }
 
-/* line 18, E:/domains/your-time.dev/src/scss/bootstrap-extended/_popover.scss */
+/* line 18, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_popover.scss */
 .popover.popover-left:after, .popover.popover-left:before, .popover.bs-tether-element-attached-left:after, .popover.bs-tether-element-attached-left:before {
   margin-top: -10px; }
 
-/* line 1, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 1, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .icon-bg-circle {
   color: #FFFFFF;
   padding: 0.5rem;
   border-radius: 50%; }
 
-/* line 6, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 6, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .icon-left {
   margin-right: 0.5rem; }
 
-/* line 9, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 9, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .icon-right {
   margin-right: 0.5rem; }
 
-/* line 12, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 12, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .icon-spin {
   display: inline-block;
   animation: spin 1s infinite linear; }
 
-/* line 17, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 17, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .blockOverlay {
   z-index: 1050 !important; }
 
-/* line 20, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 20, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .blockElement, .blockPage {
   z-index: 1051 !important; }
 
@@ -2428,78 +2428,78 @@ ul.list-inline.list-inline-pipe > li + li:before {
   to {
     transform: rotate(360deg); } }
 
-/* line 51, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 51, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .hidden {
   display: none;
   visibility: hidden; }
 
-/* line 61, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 61, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 a:hover {
   cursor: pointer; }
 
-/* line 66, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 66, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .round {
   border-radius: 1.5rem; }
 
-/* line 67, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 67, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .square {
   border-radius: 0; }
 
-/* line 71, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 71, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .accordion .panel-title {
   line-height: 2.3rem; }
-  /* line 73, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+  /* line 73, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
   .accordion .panel-title:before, .accordion .panel-title:after {
     position: absolute;
     right: 20px;
     font-family: 'icomoon';
     transition: all 300ms linear 0s; }
-  /* line 80, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+  /* line 80, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
   .accordion .panel-title:before {
     content: "\e114"; }
-  /* line 83, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+  /* line 83, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
   .accordion .panel-title:after {
     content: "\e115"; }
-  /* line 86, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+  /* line 86, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
   .accordion .panel-title[aria-expanded="false"]:before {
     opacity: .8; }
-  /* line 89, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+  /* line 89, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
   .accordion .panel-title[aria-expanded="false"]:after {
     opacity: 0;
     transform: rotate(-180deg); }
-  /* line 93, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+  /* line 93, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
   .accordion .panel-title[aria-expanded="true"]:before {
     opacity: 0;
     transform: rotate(180deg); }
 
-/* line 101, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 101, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .mega-dropdown-menu p.accordion-text {
   line-height: 1.45; }
 
-/* line 104, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 104, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .mega-dropdown-menu a[aria-expanded="true"] {
   padding-bottom: 1rem; }
 
-/* line 111, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 111, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .line-on-side {
   border-bottom: 1px solid #dadada;
   line-height: 0.1em;
   margin: 10px 0 20px; }
 
-/* line 116, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 116, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .line-on-side span {
   background: #fff;
   padding: 0 10px; }
 
-/* line 121, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 121, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .icon-line-height {
   line-height: 1.5rem !important; }
 
-/* line 128, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 128, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .table-middle td {
   vertical-align: middle; }
 
-/* line 134, E:/domains/your-time.dev/src/scss/bootstrap-extended/_utilities.scss */
+/* line 134, E:/domains/your-time.dev/app-assets/scss/bootstrap-extended/_utilities.scss */
 .spinner {
   display: inline-block;
   -webkit-animation: spin 1s linear infinite;

@@ -34,7 +34,7 @@
     /* line 58, E:/domains/your-time.dev/app-assets/scss/core/menu/menu-types/vertical-overlay-menu.scss */
     .vertical-overlay-menu .main-menu .navigation > li > a > i:before {
       transition: 200ms ease all; }
-  /* line 30, E:/domains/your-time.dev/app-assets/scss/core/mixins/main-menu-mixin.scss */
+  /* line 40, E:/domains/your-time.dev/app-assets/scss/core/mixins/main-menu-mixin.scss */
   .vertical-overlay-menu .main-menu .navigation li.has-sub > a:not(.mm-next):after {
     content: "\f105";
     font-family: 'FontAwesome';
@@ -45,7 +45,7 @@
     top: 10px;
     transform: rotate(0deg);
     transition: -webkit-transform 0.2s ease-in-out; }
-  /* line 43, E:/domains/your-time.dev/app-assets/scss/core/mixins/main-menu-mixin.scss */
+  /* line 53, E:/domains/your-time.dev/app-assets/scss/core/mixins/main-menu-mixin.scss */
   .vertical-overlay-menu .main-menu .navigation li.open > a:not(.mm-next):after {
     transform: rotate(90deg); }
   /* line 68, E:/domains/your-time.dev/app-assets/scss/core/menu/menu-types/vertical-overlay-menu.scss */
