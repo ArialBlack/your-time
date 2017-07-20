@@ -6,7 +6,7 @@
     transform: scale(1);
     -webkit-transform: scale(1); } }
 
-/* line 16, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse-round.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse-round.scss */
 .ball-pulse-round > div {
   animation-fill-mode: both;
   width: 10px;

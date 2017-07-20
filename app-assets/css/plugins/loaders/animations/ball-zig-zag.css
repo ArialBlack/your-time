@@ -14,11 +14,11 @@
   100% {
     transform: translate(0, 0); } }
 
-/* line 30, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag.scss */
+/* line 30, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag.scss */
 .ball-zig-zag {
   position: relative;
   transform: translate(-15px, -15px); }
-  /* line 34, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag.scss */
+  /* line 34, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag.scss */
   .ball-zig-zag > div {
     background-color: #404E67;
     width: 15px;
@@ -30,9 +30,9 @@
     margin-left: 15px;
     top: 4px;
     left: -7px; }
-    /* line 43, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag.scss */
+    /* line 43, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag.scss */
     .ball-zig-zag > div:first-child {
       animation: ball-zig 0.7s 0s infinite linear; }
-    /* line 47, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag.scss */
+    /* line 47, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag.scss */
     .ball-zig-zag > div:last-child {
       animation: ball-zag 0.7s 0s infinite linear; }

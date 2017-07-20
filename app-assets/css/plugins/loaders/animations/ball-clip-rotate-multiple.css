@@ -6,10 +6,10 @@
   100% {
     transform: rotate(360deg) scale(1); } }
 
-/* line 16, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
 .ball-clip-rotate-multiple {
   position: relative; }
-  /* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
+  /* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
   .ball-clip-rotate-multiple > div {
     animation-fill-mode: both;
     position: absolute;
@@ -22,7 +22,7 @@
     height: 35px;
     width: 35px;
     animation: rotate 1s 0s ease-in-out infinite; }
-    /* line 33, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
+    /* line 33, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
     .ball-clip-rotate-multiple > div:last-child {
       display: inline-block;
       top: -10px;

@@ -49,32 +49,32 @@ Horizontal Timeline
     opacity: 1;
     transform: translateX(0%); } }
 
-/* line 64, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 64, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .cd-horizontal-timeline {
   opacity: 0;
   margin: 2em auto;
   transition: opacity 0.2s; }
-  /* line 68, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 68, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline ol, .cd-horizontal-timeline ul {
     list-style: none; }
-  /* line 71, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 71, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline::before {
     content: 'mobile';
     display: none; }
-  /* line 75, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 75, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline .timeline {
     position: relative;
     height: 100px;
     width: 90%;
     max-width: 800px;
     margin: 0 auto; }
-  /* line 82, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 82, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline .events-wrapper {
     position: relative;
     height: 100%;
     margin: 0 40px;
     overflow: hidden; }
-    /* line 87, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 87, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events-wrapper::after {
       content: '';
       position: absolute;
@@ -83,7 +83,7 @@ Horizontal Timeline
       height: 100%;
       width: 20px;
       right: 0; }
-    /* line 96, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 96, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events-wrapper::before {
       content: '';
       position: absolute;
@@ -92,7 +92,7 @@ Horizontal Timeline
       height: 100%;
       width: 20px;
       left: 0; }
-  /* line 106, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 106, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline .events {
     position: absolute;
     z-index: 1;
@@ -101,7 +101,7 @@ Horizontal Timeline
     height: 2px;
     background: #dfdfdf;
     transition: transform 0.4s; }
-    /* line 114, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 114, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events a {
       position: absolute;
       bottom: 0;
@@ -111,7 +111,7 @@ Horizontal Timeline
       padding-bottom: 15px;
       color: #383838;
       transform: translateZ(0); }
-      /* line 123, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+      /* line 123, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
       .cd-horizontal-timeline .events a::after {
         content: '';
         position: absolute;
@@ -125,17 +125,17 @@ Horizontal Timeline
         border: 2px solid #dfdfdf;
         background-color: #f8f8f8;
         transition: background-color 0.3s, border-color 0.3s; }
-    /* line 138, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 138, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events a.selected {
       pointer-events: none; }
-      /* line 140, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+      /* line 140, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
       .cd-horizontal-timeline .events a.selected::after {
         background-color: #00B5B8;
         border-color: #00B5B8; }
-    /* line 146, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 146, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events a.older-event::after {
       border-color: #00B5B8; }
-  /* line 151, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 151, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline .filling-line {
     position: absolute;
     z-index: 1;
@@ -147,14 +147,14 @@ Horizontal Timeline
     transform: scaleX(0);
     transform-origin: left center;
     transition: transform 0.3s; }
-  /* line 163, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 163, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline .events-content {
     position: relative;
     width: 100%;
     margin: 2em 0;
     overflow: hidden;
     transition: height 0.4s; }
-    /* line 169, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 169, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events-content li {
       position: absolute;
       z-index: 1;
@@ -166,49 +166,49 @@ Horizontal Timeline
       opacity: 0;
       animation-duration: 0.4s;
       animation-timing-function: ease-in-out; }
-      /* line 180, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+      /* line 180, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
       .cd-horizontal-timeline .events-content li > * {
         max-width: 800px;
         margin: 0 auto; }
-    /* line 185, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 185, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events-content li.selected {
       position: relative;
       z-index: 2;
       opacity: 1;
       transform: translateX(0); }
-    /* line 191, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 191, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events-content li.enter-right {
       animation-name: cd-enter-right; }
-    /* line 194, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 194, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events-content li.leave-right {
       animation-name: cd-enter-right;
       animation-direction: reverse; }
-    /* line 198, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 198, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events-content li.enter-left {
       animation-name: cd-enter-left; }
-    /* line 201, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+    /* line 201, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
     .cd-horizontal-timeline .events-content li.leave-left {
       animation-name: cd-enter-left;
       animation-direction: reverse; }
 
-/* line 207, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 207, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .cd-horizontal-timeline.loaded {
   opacity: 1; }
 
-/* line 215, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 215, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .no-touch .cd-horizontal-timeline .events a:hover::after {
   background-color: #00B5B8;
   border-color: #00B5B8; }
 
-/* line 225, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 225, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .no-touch .cd-timeline-navigation a:hover {
   border-color: #00B5B8; }
 
-/* line 230, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 230, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .no-touch .cd-timeline-navigation a.inactive:hover {
   border-color: #dfdfdf; }
 
-/* line 237, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 237, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .cd-timeline-navigation a {
   position: absolute;
   z-index: 1;
@@ -224,7 +224,7 @@ Horizontal Timeline
   text-indent: 100%;
   white-space: nowrap;
   transition: border-color 0.3s; }
-  /* line 252, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 252, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-timeline-navigation a::after {
     content: '';
     position: absolute;
@@ -237,80 +237,80 @@ Horizontal Timeline
     transform: translateX(-50%) translateY(-50%);
     background: url(../../images/svg/cd-arrow.svg) no-repeat 0 0; }
 
-/* line 265, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 265, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .cd-timeline-navigation a.prev {
   left: 0;
   transform: translateY(-50%) rotate(180deg); }
 
-/* line 269, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 269, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .cd-timeline-navigation a.next {
   right: 0; }
 
-/* line 272, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+/* line 272, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
 .cd-timeline-navigation a.inactive {
   cursor: not-allowed; }
-  /* line 274, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 274, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-timeline-navigation a.inactive::after {
     background-position: 0 -16px; }
 
 @media only screen and (min-width: 1100px) {
-  /* line 282, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 282, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline::before {
     content: 'desktop'; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 290, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 290, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline .events-content h2 {
     font-size: 4rem;
     font-weight: 800; }
-  /* line 294, E:/domains/your-time.dev/src/scss/plugins/timeline/_timeline-horizontal.scss */
+  /* line 294, E:/domains/your-time.dev/app-assets/scss/plugins/timeline/_timeline-horizontal.scss */
   .cd-horizontal-timeline .events-content em {
     font-size: 1.5rem; } }
 
 /* Timeline */
-/* line 17, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 17, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline {
   position: relative;
   display: block;
   margin: 0;
   padding: 10px 0;
   list-style: none; }
-  /* line 23, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 23, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline:after {
     content: " ";
     display: table;
     clear: both; }
-  /* line 28, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 28, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline:before {
     content: " ";
     display: table; }
-  /* line 32, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 32, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline > li {
     list-style: none; }
-    /* line 34, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 34, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline > li:nth-child(even) {
       float: left;
       clear: left; }
-    /* line 38, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 38, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline > li:nth-child(odd) {
       float: right;
       clear: right; }
-  /* line 44, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 44, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline .media {
     border-bottom: 1px solid #eee;
     font-size: 13px; }
-    /* line 47, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 47, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline .media p {
       font-size: 13px; }
-    /* line 50, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 50, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline .media:last-child {
       border-bottom: 0; }
 
-/* line 56, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 56, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-line + .timeline-item {
   margin-top: -20px; }
 
-/* line 59, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 59, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-group {
   display: block;
   position: relative;
@@ -319,26 +319,26 @@ Horizontal Timeline
   float: none !important;
   z-index: 1; }
 
-/* line 67, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 67, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-poster {
   margin-top: -20px; }
-  /* line 69, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 69, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-poster .btn-link {
     color: #a1aab0; }
-    /* line 71, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 71, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-poster .btn-link:active {
       color: #3e5771; }
-    /* line 74, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 74, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-poster .btn-link:focus {
       color: #3e5771; }
-    /* line 77, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 77, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-poster .btn-link:hover {
       color: #3e5771; }
-  /* line 81, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 81, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-poster .btn-link.active {
     color: #3e5771; }
 
-/* line 87, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 87, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-center .timeline-line {
   display: inline-block;
   position: absolute;
@@ -349,16 +349,16 @@ Horizontal Timeline
   background-color: #ddd;
   transform: translate(-50%, 0); }
 
-/* line 97, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 97, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-center .timeline-item {
   position: relative;
   display: inline-block;
   width: 50%;
   padding: 0 50px 35px; }
-  /* line 102, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 102, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-center .timeline-item:nth-child(even) {
     padding: 0px 35px 50px 0px; }
-    /* line 104, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 104, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item:nth-child(even):after {
       content: '';
       position: absolute;
@@ -375,7 +375,7 @@ Horizontal Timeline
       border-top: 11px solid transparent;
       border-bottom: 11px solid transparent;
       border-left: 11px solid #fff; }
-    /* line 121, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 121, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item:nth-child(even):before {
       content: '';
       position: absolute;
@@ -387,13 +387,13 @@ Horizontal Timeline
       border-bottom: 12px solid transparent;
       border-left: 12px solid #ccc;
       z-index: 1; }
-    /* line 133, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 133, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item:nth-child(even) > .timeline-badge {
       right: -20px; }
-  /* line 137, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 137, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-center .timeline-item:nth-child(odd) {
     padding: 0px 0px 50px 35px; }
-    /* line 139, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 139, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item:nth-child(odd):after {
       content: '';
       position: absolute;
@@ -410,7 +410,7 @@ Horizontal Timeline
       border-top: 11px solid transparent;
       border-bottom: 11px solid transparent;
       border-right: 11px solid #fff; }
-    /* line 156, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 156, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item:nth-child(odd):before {
       content: '';
       position: absolute;
@@ -422,15 +422,15 @@ Horizontal Timeline
       border-bottom: 12px solid transparent;
       border-right: 12px solid #ccc;
       z-index: 1; }
-    /* line 168, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 168, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item:nth-child(odd) > .timeline-badge {
       left: -20px; }
-  /* line 172, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 172, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-center .timeline-item > .timeline-badge {
     position: absolute;
     top: 12px;
     z-index: 1; }
-    /* line 176, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 176, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item > .timeline-badge > span {
       display: inline-block;
       width: 40px;
@@ -439,36 +439,36 @@ Horizontal Timeline
       text-align: center;
       text-decoration: none;
       transition: all ease .3s; }
-      /* line 186, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 186, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-center .timeline-item > .timeline-badge > span i {
         color: #FFFFFF;
         font-size: 1.6rem;
         display: block;
         line-height: 40px;
         top: 0; }
-      /* line 193, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 193, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-center .timeline-item > .timeline-badge > span:active {
         transform: scale(1.1); }
-      /* line 196, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 196, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-center .timeline-item > .timeline-badge > span:focus {
         transform: scale(1.1); }
-      /* line 199, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 199, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-center .timeline-item > .timeline-badge > span:hover {
         transform: scale(1.1); }
-    /* line 203, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 203, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item > .timeline-badge > a.active {
       transform: scale(1.1); }
-  /* line 207, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 207, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-center .timeline-item > .timeline-panel {
     position: relative;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px; }
-    /* line 213, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 213, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-center .timeline-item > .timeline-panel:hover .timeline-actions {
       display: block; }
 
-/* line 221, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 221, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-right .timeline-line {
   display: inline-block;
   position: absolute;
@@ -479,17 +479,17 @@ Horizontal Timeline
   background-color: #ddd;
   transform: translate(-50%, 0); }
 
-/* line 231, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 231, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-right .timeline-group {
   text-align: right; }
 
-/* line 235, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 235, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-right .timeline-item {
   position: relative;
   display: inline-block;
   width: 100%;
   padding: 0px 43px 35px 0px; }
-  /* line 241, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 241, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-right .timeline-item:after {
     content: '';
     position: absolute;
@@ -501,7 +501,7 @@ Horizontal Timeline
     border-top: 11px solid transparent;
     border-bottom: 11px solid transparent;
     border-left: 11px solid #fff; }
-  /* line 253, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 253, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-right .timeline-item:before {
     content: '';
     position: absolute;
@@ -513,15 +513,15 @@ Horizontal Timeline
     border-bottom: 12px solid transparent;
     border-left: 12px solid #ccc;
     z-index: 1; }
-  /* line 265, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 265, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-right .timeline-item > .timeline-badge {
     right: -8px; }
-  /* line 268, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 268, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-right .timeline-item > .timeline-badge {
     position: absolute;
     top: 12px;
     z-index: 1; }
-    /* line 272, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 272, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-right .timeline-item > .timeline-badge > span {
       display: inline-block;
       width: 40px;
@@ -530,51 +530,51 @@ Horizontal Timeline
       text-align: center;
       text-decoration: none;
       transition: all ease .3s; }
-      /* line 282, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 282, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-right .timeline-item > .timeline-badge > span i {
         color: #FFFFFF;
         font-size: 1.6rem;
         display: block;
         line-height: 40px;
         top: 0; }
-      /* line 289, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 289, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-right .timeline-item > .timeline-badge > span:active {
         transform: scale(1.1); }
-      /* line 292, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 292, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-right .timeline-item > .timeline-badge > span:focus {
         transform: scale(1.1); }
-      /* line 295, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 295, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-right .timeline-item > .timeline-badge > span:hover {
         transform: scale(1.1); }
-    /* line 299, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 299, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-right .timeline-item > .timeline-badge > a.active {
       transform: scale(1.1); }
-  /* line 303, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 303, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-right .timeline-item > .timeline-panel {
     position: relative;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px; }
-    /* line 309, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 309, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-right .timeline-item > .timeline-panel:hover .timeline-actions {
       display: block; }
 
-/* line 317, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 317, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-right .timeline-item.block:nth-child(even):before {
   right: 8px;
   left: auto; }
 
-/* line 321, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 321, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-right .timeline-item.block:nth-child(even):after {
   right: 11px;
   left: auto; }
 
-/* line 327, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 327, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-right .timeline-item.block:nth-child(odd):after {
   right: 8px;
   right: auto; }
 
-/* line 335, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 335, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-left .timeline-line {
   display: inline-block;
   position: absolute;
@@ -585,17 +585,17 @@ Horizontal Timeline
   background-color: #ddd;
   transform: translate(-50%, 0); }
 
-/* line 345, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 345, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-left .timeline-group {
   text-align: left; }
 
-/* line 348, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 348, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline.timeline-left .timeline-item {
   position: relative;
   display: inline-block;
   width: 100%;
   padding: 0 0 35px 43px; }
-  /* line 353, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 353, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-left .timeline-item:after {
     content: '';
     position: absolute;
@@ -607,7 +607,7 @@ Horizontal Timeline
     border-top: 11px solid transparent;
     border-bottom: 11px solid transparent;
     border-right: 11px solid #fff; }
-  /* line 365, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 365, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-left .timeline-item:before {
     content: '';
     position: absolute;
@@ -619,15 +619,15 @@ Horizontal Timeline
     border-bottom: 12px solid transparent;
     border-right: 12px solid #ccc;
     z-index: 1; }
-  /* line 377, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 377, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-left .timeline-item > .timeline-badge {
     left: -8px; }
-  /* line 381, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 381, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-left .timeline-item > .timeline-badge {
     position: absolute;
     top: 12px;
     z-index: 1; }
-    /* line 385, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 385, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-left .timeline-item > .timeline-badge > span {
       display: inline-block;
       width: 40px;
@@ -636,40 +636,40 @@ Horizontal Timeline
       text-align: center;
       text-decoration: none;
       transition: all ease .3s; }
-      /* line 395, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 395, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-left .timeline-item > .timeline-badge > span i {
         color: #FFFFFF;
         font-size: 1.6rem;
         display: block;
         line-height: 40px;
         top: 0; }
-      /* line 402, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 402, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-left .timeline-item > .timeline-badge > span:active {
         transform: scale(1.1); }
-      /* line 405, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 405, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-left .timeline-item > .timeline-badge > span:focus {
         transform: scale(1.1); }
-      /* line 408, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 408, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-left .timeline-item > .timeline-badge > span:hover {
         transform: scale(1.1); }
-    /* line 412, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 412, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-left .timeline-item > .timeline-badge > a.active {
       transform: scale(1.1); }
-  /* line 416, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 416, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-left .timeline-item > .timeline-panel {
     position: relative;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px; }
-    /* line 422, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 422, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-left .timeline-item > .timeline-panel:hover .timeline-actions {
       display: block; }
 
-/* line 430, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 430, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline .timeline-item.block:nth-child(even) {
   width: 100% !important;
   margin-top: 5px; }
-  /* line 433, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 433, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline .timeline-item.block:nth-child(even):after {
     left: 50%;
     right: auto;
@@ -684,7 +684,7 @@ Horizontal Timeline
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
     border-bottom: 11px solid #fff; }
-  /* line 448, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 448, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline .timeline-item.block:nth-child(even):before {
     left: 50%;
     right: auto;
@@ -694,18 +694,18 @@ Horizontal Timeline
     border-right: 12px solid transparent;
     border-bottom: 12px solid #ccc;
     transform: translate(-50%, 0); }
-  /* line 458, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 458, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline .timeline-item.block:nth-child(even) > .timeline-badge {
     top: -28px;
     left: 50%;
     right: auto;
     transform: translate(-50%, 0); }
 
-/* line 465, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 465, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 #timeline .timeline-item.block:nth-child(odd) {
   width: 100% !important;
   margin-top: 5px; }
-  /* line 468, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 468, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline .timeline-item.block:nth-child(odd):after {
     left: 50%;
     right: auto;
@@ -720,7 +720,7 @@ Horizontal Timeline
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
     border-bottom: 11px solid #fff; }
-  /* line 483, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 483, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline .timeline-item.block:nth-child(odd):before {
     left: 50%;
     right: auto;
@@ -730,76 +730,76 @@ Horizontal Timeline
     border-right: 12px solid transparent;
     border-bottom: 12px solid #ccc;
     transform: translate(-50%, 0); }
-  /* line 493, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 493, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline .timeline-item.block:nth-child(odd) > .timeline-badge {
     top: -28px;
     left: 50%;
     right: auto;
     transform: translate(-50%, 0); }
 
-/* line 501, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 501, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-actions {
   display: none; }
 
-/* line 504, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 504, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-content {
   padding: 15px; }
 
-/* line 507, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 507, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-footer {
   padding: 15px;
   border-top: 1px solid #eee;
   background-color: #fbfcfc;
   border-radius: 0 0 5px 5px; }
 
-/* line 513, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 513, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-heading {
   padding: 15px;
   font-size: 20px; }
 
-/* line 517, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 517, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-liveliness {
   padding: 15px;
   border-top: 1px solid #eee;
   background-color: #fbfcfc; }
 
-/* line 522, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 522, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-heading + .timeline-content {
   padding-top: 0; }
 
-/* line 525, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 525, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-date {
   font-size: 14px;
   color: #aaa; }
 
-/* line 529, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 529, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-embed {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
   height: 0; }
-  /* line 534, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 534, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-embed .embed-element {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
-  /* line 541, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 541, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-embed embed {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
-  /* line 548, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 548, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-embed iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
-  /* line 555, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 555, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-embed object {
     position: absolute;
     top: 0;
@@ -807,35 +807,35 @@ Horizontal Timeline
     width: 100%;
     height: 100%; }
 
-/* line 563, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 563, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-img {
   display: block;
   padding: 5px 0; }
 
-/* line 567, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 567, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-img.first {
   margin-right: -10px; }
 
-/* line 570, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 570, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-img.middle {
   margin-right: -10px;
   margin-left: -10px; }
 
-/* line 574, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 574, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-img.last {
   margin-left: -10px; }
 
-/* line 577, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 577, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-resume {
   border-top: 1px solid #eee;
   background-color: #fbfcfc; }
 
-/* line 581, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 581, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-avatar {
   margin-top: -2px;
   margin-right: 10px; }
 
-/* line 585, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 585, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .timeline-title {
   margin: 0;
   padding: 0;
@@ -844,7 +844,7 @@ Horizontal Timeline
   font-weight: 600;
   color: #3e5771;
   text-decoration: none; }
-  /* line 593, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 593, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-title > small {
     display: block;
     font-size: 12px;
@@ -854,36 +854,36 @@ Horizontal Timeline
     text-overflow: ellipsis;
     white-space: nowrap; }
 
-/* line 604, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+/* line 604, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
 .wrapkit-content-rtl .timeline-avatar {
   margin-right: 0;
   margin-left: 10px; }
 
 @media (min-width: 992px) {
-  /* line 611, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 611, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-item:nth-child(even) {
     padding: 0px 35px 50px 0px; }
-  /* line 614, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 614, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-item:nth-child(odd) {
     padding: 0 0px 50px 35px; } }
 
 @media (max-width: 991px) {
-  /* line 621, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 621, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline {
     padding-left: 15px; }
-  /* line 624, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 624, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-line {
     left: 15px; }
-  /* line 627, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 627, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-group {
     display: inline-block;
     margin-left: -22px; }
-  /* line 631, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 631, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-item {
     width: 100% !important;
     margin-top: 0 !important;
     padding-right: 10px; }
-    /* line 636, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 636, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item:nth-child(even):after {
       left: 19px;
       top: 10px;
@@ -897,7 +897,7 @@ Horizontal Timeline
       border-top: 11px solid transparent;
       border-bottom: 11px solid transparent;
       border-right: 11px solid #fff; }
-    /* line 650, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 650, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item:nth-child(even):before {
       left: 39px;
       top: 20px;
@@ -906,13 +906,13 @@ Horizontal Timeline
       border-bottom: 12px solid transparent;
       border-right: 12px solid #ccc;
       transform: translate(0, 0); }
-    /* line 659, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 659, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item:nth-child(even) > .timeline-badge {
       top: 12px;
       left: -20px;
       right: auto;
       transform: translate(0, 0); }
-    /* line 667, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 667, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item:nth-child(odd):after {
       left: 19px;
       top: 10px;
@@ -926,7 +926,7 @@ Horizontal Timeline
       border-top: 11px solid transparent;
       border-bottom: 11px solid transparent;
       border-right: 11px solid #fff; }
-    /* line 681, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 681, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item:nth-child(odd):before {
       left: 39px;
       top: 20px;
@@ -935,16 +935,16 @@ Horizontal Timeline
       border-bottom: 12px solid transparent;
       border-right: 12px solid #ccc;
       transform: translate(0, 0); }
-    /* line 690, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 690, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item:nth-child(odd) > .timeline-badge {
       top: 12px;
       left: -20px;
       right: auto;
       transform: translate(0, 0); }
-  /* line 699, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 699, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-item.block:nth-child(even) {
     padding-bottom: 0; }
-    /* line 701, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 701, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item.block:nth-child(even):after {
       left: 19px;
       top: 10px;
@@ -958,7 +958,7 @@ Horizontal Timeline
       border-top: 11px solid transparent;
       border-bottom: 11px solid transparent;
       border-right: 11px solid #fff; }
-    /* line 715, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 715, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item.block:nth-child(even):before {
       left: 19px;
       top: 10px;
@@ -967,16 +967,16 @@ Horizontal Timeline
       border-bottom: 12px solid transparent;
       border-right: 12px solid #ccc;
       transform: translate(0, 0); }
-    /* line 724, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 724, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item.block:nth-child(even) > .timeline-badge {
       top: 12px;
       left: -6px;
       right: auto;
       transform: translate(0, 0); }
-  /* line 731, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 731, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-item.block:nth-child(odd) {
     padding-bottom: 0; }
-    /* line 733, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 733, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item.block:nth-child(odd):after {
       left: 19px;
       top: 10px;
@@ -990,7 +990,7 @@ Horizontal Timeline
       border-top: 11px solid transparent;
       border-bottom: 11px solid transparent;
       border-right: 11px solid #fff; }
-    /* line 747, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 747, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item.block:nth-child(odd):before {
       left: 19px;
       top: 10px;
@@ -999,7 +999,7 @@ Horizontal Timeline
       border-bottom: 12px solid transparent;
       border-right: 12px solid #ccc;
       transform: translate(0, 0); }
-    /* line 756, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 756, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     .timeline-item.block:nth-child(odd) > .timeline-badge {
       top: 12px;
       left: -6px;
@@ -1007,13 +1007,13 @@ Horizontal Timeline
       transform: translate(0, 0); } }
 
 @media (max-width: 991px) {
-  /* line 767, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 767, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-wrapper .timeline {
     padding: 0; }
-    /* line 769, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 769, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-wrapper .timeline .card-block {
       text-align: left; }
-  /* line 773, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 773, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-wrapper .timeline-line {
     display: inline-block;
     position: absolute;
@@ -1023,65 +1023,65 @@ Horizontal Timeline
     width: 4px;
     background-color: #ddd;
     transform: translate(-50%, 0); }
-  /* line 783, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 783, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-wrapper .timeline-group {
     display: block;
     margin-left: -6px;
     text-align: center; }
-  /* line 788, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 788, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-wrapper .timeline-item {
     display: block;
     padding: 20px 0 20px !important; }
-    /* line 791, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 791, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-wrapper .timeline-item:nth-child(even) {
       float: none;
       clear: both; }
-      /* line 794, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 794, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-wrapper .timeline-item:nth-child(even):after {
         display: none; }
-      /* line 797, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 797, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-wrapper .timeline-item:nth-child(even):before {
         display: none; }
-    /* line 801, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 801, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-wrapper .timeline-item:nth-child(odd) {
       float: none;
       clear: both; }
-      /* line 804, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 804, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-wrapper .timeline-item:nth-child(odd):after {
         display: none; }
-      /* line 807, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+      /* line 807, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
       #timeline.timeline-wrapper .timeline-item:nth-child(odd):before {
         display: none; }
-    /* line 811, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 811, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-wrapper .timeline-item > .timeline-badge {
       top: 0px !important;
       left: 45% !important; }
-  /* line 817, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 817, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-wrapper .timeline-item.block:nth-child(even) {
     float: none;
     clear: both; }
-    /* line 820, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 820, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-wrapper .timeline-item.block:nth-child(even):after {
       display: none; }
-    /* line 823, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 823, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-wrapper .timeline-item.block:nth-child(even):before {
       display: none; }
-  /* line 827, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 827, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-wrapper .timeline-item.block:nth-child(odd) {
     float: none;
     clear: both; }
-    /* line 830, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 830, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-wrapper .timeline-item.block:nth-child(odd):after {
       display: none; }
-    /* line 833, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+    /* line 833, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
     #timeline.timeline-wrapper .timeline-item.block:nth-child(odd):before {
       display: none; }
-  /* line 839, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 839, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   #timeline.timeline-wrapper .timeline-item.timeline-poster > .timeline-badge {
     display: none; } }
 
 @media (max-width: 543px) {
-  /* line 847, E:/domains/your-time.dev/src/scss/pages/timeline.scss */
+  /* line 847, E:/domains/your-time.dev/app-assets/scss/pages/timeline.scss */
   .timeline-item > .timeline-badge {
     top: 0px !important;
     left: 44% !important; } }

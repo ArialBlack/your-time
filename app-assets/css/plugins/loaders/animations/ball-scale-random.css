@@ -5,7 +5,7 @@
     transform: scale(1);
     opacity: 0; } }
 
-/* line 16, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale.scss */
 .ball-scale > div {
   background-color: #404E67;
   width: 15px;
@@ -18,11 +18,11 @@
   width: 60px;
   animation: ball-scale 1s 0s ease-in-out infinite; }
 
-/* line 3, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-random.scss */
+/* line 3, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-random.scss */
 .ball-scale-random {
   width: 37px;
   height: 40px; }
-  /* line 7, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-random.scss */
+  /* line 7, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-random.scss */
   .ball-scale-random > div {
     background-color: #404E67;
     width: 15px;
@@ -35,11 +35,11 @@
     height: 30px;
     width: 30px;
     animation: ball-scale 1s 0s ease-in-out infinite; }
-    /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-random.scss */
+    /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-random.scss */
     .ball-scale-random > div:nth-child(1) {
       margin-left: -7px;
       animation: ball-scale 1s 0.2s ease-in-out infinite; }
-    /* line 22, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-random.scss */
+    /* line 22, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-random.scss */
     .ball-scale-random > div:nth-child(3) {
       margin-left: -2px;
       margin-top: 9px;

@@ -6,27 +6,27 @@
   100% {
     transform: scale(1); } }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.65s;
-  animation-duration: 0.48s; }
+  animation-delay: 0.75s;
+  animation-duration: 0.85s; }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.53s;
-  animation-duration: 1.2s; }
+  animation-delay: 0.56s;
+  animation-duration: 0.73s; }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.11s;
-  animation-duration: 0.55s; }
+  animation-delay: 0.68s;
+  animation-duration: 1.28s; }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.54s;
-  animation-duration: 1s; }
+  animation-delay: -0.14s;
+  animation-duration: 0.92s; }
 
-/* line 29, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 29, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div {
   background-color: #404E67;
   width: 4px;

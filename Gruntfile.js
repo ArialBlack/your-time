@@ -50,13 +50,14 @@ module.exports = function(grunt) {
                     'app-assets/css/bootstrap-extended.css': 'src/scss/bootstrap-extended.scss',
                     'app-assets/css/app.css': 'src/scss/app.scss',
                     'app-assets/css/colors.css': 'src/scss/colors.scss',
+
                     'assets/css/style.css': 'assets/scss/style.scss',
                 }
             },
             core: {
                 files: [{
                     expand: true,
-                    cwd: 'src/scss/core/',
+                    cwd: 'app-assets/scss/core/',
                     src: ['*/**/*.scss', '!*/**/_*.scss'],
                     dest: 'app-assets/css/core/',
                     ext: '.css'
@@ -65,7 +66,7 @@ module.exports = function(grunt) {
             pages: {
                 files: [{
                     expand: true,
-                    cwd: 'src/scss/pages/',
+                    cwd: 'app-assets/scss/pages/',
                     src: ['*.scss', '!_*.scss'],
                     dest: 'app-assets/css/pages/',
                     ext: '.css'
@@ -74,7 +75,7 @@ module.exports = function(grunt) {
             plugins: {
                 files: [{
                     expand: true,
-                    cwd: 'src/scss/plugins/',
+                    cwd: 'app-assets/scss/plugins/',
                     src: ['*/**/*.scss', '!*/**/_*.scss'],
                     dest: 'app-assets/css/plugins/',
                     ext: '.css'
@@ -103,7 +104,7 @@ module.exports = function(grunt) {
 
             sass: {
                 files: [
-                    'src/scss/**/*.scss',
+                    'app-assets/scss/**/*.scss',
                     'assets/scss/**/*.scss'
                 ],
                 tasks: ['sass']

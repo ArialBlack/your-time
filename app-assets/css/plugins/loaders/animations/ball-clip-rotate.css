@@ -6,7 +6,7 @@
   100% {
     transform: rotate(360deg) scale(1); } }
 
-/* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate.scss */
+/* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate.scss */
 .ball-clip-rotate > div {
   background-color: #404E67;
   width: 15px;

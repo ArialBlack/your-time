@@ -6,13 +6,13 @@
   100% {
     transform: rotate(360deg); } }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/semi-circle-spin.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/semi-circle-spin.scss */
 .semi-circle-spin {
   position: relative;
   width: 35px;
   height: 35px;
   overflow: hidden; }
-  /* line 25, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/semi-circle-spin.scss */
+  /* line 25, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/semi-circle-spin.scss */
   .semi-circle-spin > div {
     position: absolute;
     border-width: 0px;

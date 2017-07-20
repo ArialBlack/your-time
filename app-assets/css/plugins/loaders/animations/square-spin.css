@@ -8,7 +8,7 @@
   100% {
     transform: perspective(100px) rotateX(0) rotateY(0); } }
 
-/* line 21, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/square-spin.scss */
+/* line 21, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/square-spin.scss */
 .square-spin > div {
   animation-fill-mode: both;
   width: 50px;

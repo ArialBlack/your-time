@@ -6,7 +6,7 @@
     opacity: 1;
     transform: scale(1); } }
 
-/* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-beat.scss */
+/* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-beat.scss */
 .ball-beat > div {
   background-color: #404E67;
   width: 15px;
@@ -16,6 +16,6 @@
   animation-fill-mode: both;
   display: inline-block;
   animation: ball-beat 0.7s 0s infinite linear; }
-  /* line 24, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-beat.scss */
+  /* line 24, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-beat.scss */
   .ball-beat > div:nth-child(2n-1) {
     animation-delay: -0.35s !important; }

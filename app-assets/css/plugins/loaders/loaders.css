@@ -10,19 +10,19 @@
  * Styles shared by multiple animations
  */
 /* Custom Loader.CSS */
-/* line 2, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+/* line 2, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
 .loader-container {
   position: absolute;
   top: 50%;
   left: 50%; }
 
-/* line 9, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+/* line 9, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
 .double-bounce {
   width: 40px;
   height: 40px;
   position: relative;
   margin: 40px auto; }
-  /* line 14, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 14, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .double-bounce .child {
     width: 100%;
     height: 100%;
@@ -33,7 +33,7 @@
     top: 0;
     left: 0;
     animation: doubleBounce 2s infinite ease-in-out; }
-  /* line 25, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 25, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .double-bounce .double-bounce2 {
     animation-delay: -1.0s; }
 
@@ -49,14 +49,14 @@
   50% {
     transform: scale(1); } }
 
-/* line 43, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+/* line 43, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
 .chasing-dots {
   width: 40px;
   height: 40px;
   position: relative;
   text-align: center;
   animation: chasingDotsRotate 2s infinite linear; }
-  /* line 50, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 50, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .chasing-dots .child {
     width: 60%;
     height: 60%;
@@ -66,7 +66,7 @@
     background-color: #333;
     border-radius: 100%;
     animation: chasingDotsBounce 2s infinite ease-in-out; }
-  /* line 60, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 60, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .chasing-dots .dot2 {
     top: auto;
     bottom: 0;
@@ -98,43 +98,43 @@
  * 4 5 6
  * 7 8 9
  */
-/* line 94, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+/* line 94, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
 .cube-grid {
   width: 40px;
   height: 40px;
   margin: 40px auto; }
-  /* line 98, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 98, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube {
     width: 33.33%;
     height: 33.33%;
     background-color: #333;
     float: left;
     animation: cubeGridScaleDelay 1.3s infinite ease-in-out; }
-  /* line 105, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 105, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube1 {
     animation-delay: 0.2s; }
-  /* line 107, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 107, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube2 {
     animation-delay: 0.3s; }
-  /* line 109, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 109, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube3 {
     animation-delay: 0.4s; }
-  /* line 111, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 111, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube4 {
     animation-delay: 0.1s; }
-  /* line 113, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 113, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube5 {
     animation-delay: 0.2s; }
-  /* line 115, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 115, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube6 {
     animation-delay: 0.3s; }
-  /* line 117, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 117, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube7 {
     animation-delay: 0.0s; }
-  /* line 119, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 119, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube8 {
     animation-delay: 0.1s; }
-  /* line 121, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 121, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .cube-grid .cube9 {
     animation-delay: 0.2s; }
 
@@ -150,20 +150,20 @@
   35% {
     transform: scale3D(0, 0, 1); } }
 
-/* line 138, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+/* line 138, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
 .fading-circle {
   margin: 40px auto;
   width: 40px;
   height: 40px;
   position: relative; }
-  /* line 143, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 143, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle {
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0; }
-    /* line 149, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 149, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle:before {
       content: '';
       display: block;
@@ -173,70 +173,70 @@
       background-color: #333;
       border-radius: 100%;
       animation: circleFadeDelay 1.2s infinite ease-in-out both; }
-  /* line 159, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 159, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle2 {
     transform: rotate(30deg); }
-    /* line 161, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 161, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle2:before {
       animation-delay: -1.1s; }
-  /* line 164, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 164, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle3 {
     transform: rotate(60deg); }
-    /* line 166, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 166, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle3:before {
       animation-delay: -1s; }
-  /* line 169, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 169, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle4 {
     transform: rotate(90deg); }
-    /* line 171, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 171, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle4:before {
       animation-delay: -0.9s; }
-  /* line 174, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 174, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle5 {
     transform: rotate(120deg); }
-    /* line 176, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 176, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle5:before {
       animation-delay: -0.8s; }
-  /* line 179, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 179, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle6 {
     transform: rotate(150deg); }
-    /* line 181, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 181, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle6:before {
       animation-delay: -0.7s; }
-  /* line 184, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 184, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle7 {
     transform: rotate(180deg); }
-    /* line 186, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 186, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle7:before {
       animation-delay: -0.6s; }
-  /* line 189, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 189, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle8 {
     transform: rotate(210deg); }
-    /* line 191, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 191, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle8:before {
       animation-delay: -0.5s; }
-  /* line 194, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 194, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle9 {
     transform: rotate(240deg); }
-    /* line 196, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 196, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle9:before {
       animation-delay: -0.4s; }
-  /* line 199, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 199, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle10 {
     transform: rotate(270deg); }
-    /* line 201, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 201, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle10:before {
       animation-delay: -0.3s; }
-  /* line 204, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 204, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle11 {
     transform: rotate(300deg); }
-    /* line 206, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 206, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle11:before {
       animation-delay: -0.2s; }
-  /* line 209, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 209, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .fading-circle .circle12 {
     transform: rotate(330deg); }
-    /* line 211, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 211, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .fading-circle .circle12:before {
       animation-delay: -0.1s; }
 
@@ -252,20 +252,20 @@
   40% {
     opacity: 1; } }
 
-/* line 229, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+/* line 229, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
 .folding-cube {
   width: 40px;
   height: 40px;
   position: relative;
   transform: rotateZ(45deg); }
-  /* line 235, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 235, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .folding-cube .cube {
     float: left;
     width: 50%;
     height: 50%;
     position: relative;
     transform: scale(1.1); }
-    /* line 241, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 241, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .folding-cube .cube:before {
       content: '';
       position: absolute;
@@ -276,22 +276,22 @@
       background-color: #333;
       animation: foldCubeAngle 2.4s infinite linear both;
       transform-origin: 100% 100%; }
-  /* line 253, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 253, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .folding-cube .cube2 {
     transform: scale(1.1) rotateZ(90deg); }
-    /* line 255, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 255, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .folding-cube .cube2:before {
       animation-delay: 0.3s; }
-  /* line 258, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 258, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .folding-cube .cube3 {
     transform: scale(1.1) rotateZ(180deg); }
-    /* line 260, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 260, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .folding-cube .cube3:before {
       animation-delay: 0.6s; }
-  /* line 263, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+  /* line 263, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
   .folding-cube .cube4 {
     transform: scale(1.1) rotateZ(270deg); }
-    /* line 265, E:/domains/your-time.dev/src/scss/plugins/loaders/_custom.scss */
+    /* line 265, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/_custom.scss */
     .folding-cube .cube4:before {
       animation-delay: 0.9s; }
 
@@ -331,19 +331,19 @@
     transform: scale(1);
     opacity: 1; } }
 
-/* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse.scss */
+/* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse.scss */
 .ball-pulse > div:nth-child(1) {
   animation: scale 0.75s -0.24s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
-/* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse.scss */
+/* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse.scss */
 .ball-pulse > div:nth-child(2) {
   animation: scale 0.75s -0.12s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
-/* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse.scss */
+/* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse.scss */
 .ball-pulse > div:nth-child(3) {
   animation: scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
-/* line 32, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse.scss */
+/* line 32, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse.scss */
 .ball-pulse > div {
   background-color: #404E67;
   width: 15px;
@@ -361,19 +361,19 @@
   100% {
     transform: translateY(0); } }
 
-/* line 21, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse-sync.scss */
+/* line 21, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse-sync.scss */
 .ball-pulse-sync > div:nth-child(1) {
   animation: ball-pulse-sync 0.6s -0.14s infinite ease-in-out; }
 
-/* line 21, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse-sync.scss */
+/* line 21, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse-sync.scss */
 .ball-pulse-sync > div:nth-child(2) {
   animation: ball-pulse-sync 0.6s -0.07s infinite ease-in-out; }
 
-/* line 21, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse-sync.scss */
+/* line 21, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse-sync.scss */
 .ball-pulse-sync > div:nth-child(3) {
   animation: ball-pulse-sync 0.6s 0s infinite ease-in-out; }
 
-/* line 30, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse-sync.scss */
+/* line 30, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse-sync.scss */
 .ball-pulse-sync > div {
   background-color: #404E67;
   width: 15px;
@@ -390,7 +390,7 @@
     transform: scale(1);
     opacity: 0; } }
 
-/* line 16, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale.scss */
 .ball-scale > div {
   background-color: #404E67;
   width: 15px;
@@ -410,7 +410,7 @@
     transform: scale(1);
     opacity: 0; } }
 
-/* line 16, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale.scss */
 .ball-scale > div {
   background-color: #404E67;
   width: 15px;
@@ -423,11 +423,11 @@
   width: 60px;
   animation: ball-scale 1s 0s ease-in-out infinite; }
 
-/* line 3, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-random.scss */
+/* line 3, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-random.scss */
 .ball-scale-random {
   width: 37px;
   height: 40px; }
-  /* line 7, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-random.scss */
+  /* line 7, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-random.scss */
   .ball-scale-random > div {
     background-color: #404E67;
     width: 15px;
@@ -440,11 +440,11 @@
     height: 30px;
     width: 30px;
     animation: ball-scale 1s 0s ease-in-out infinite; }
-    /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-random.scss */
+    /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-random.scss */
     .ball-scale-random > div:nth-child(1) {
       margin-left: -7px;
       animation: ball-scale 1s 0.2s ease-in-out infinite; }
-    /* line 22, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-random.scss */
+    /* line 22, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-random.scss */
     .ball-scale-random > div:nth-child(3) {
       margin-left: -2px;
       margin-top: 9px;
@@ -458,10 +458,10 @@
   100% {
     transform: rotate(360deg); } }
 
-/* line 16, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-rotate.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-rotate.scss */
 .ball-rotate {
   position: relative; }
-  /* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-rotate.scss */
+  /* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-rotate.scss */
   .ball-rotate > div {
     background-color: #404E67;
     width: 15px;
@@ -470,10 +470,10 @@
     margin: 2px;
     animation-fill-mode: both;
     position: relative; }
-    /* line 25, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-rotate.scss */
+    /* line 25, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-rotate.scss */
     .ball-rotate > div:first-child {
       animation: rotate 1s 0s cubic-bezier(0.7, -0.13, 0.22, 0.86) infinite; }
-    /* line 29, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-rotate.scss */
+    /* line 29, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-rotate.scss */
     .ball-rotate > div:before, .ball-rotate > div:after {
       background-color: #404E67;
       width: 15px;
@@ -483,11 +483,11 @@
       content: "";
       position: absolute;
       opacity: 0.8; }
-    /* line 37, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-rotate.scss */
+    /* line 37, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-rotate.scss */
     .ball-rotate > div:before {
       top: 0px;
       left: -28px; }
-    /* line 42, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-rotate.scss */
+    /* line 42, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-rotate.scss */
     .ball-rotate > div:after {
       top: 0px;
       left: 25px; }
@@ -500,7 +500,7 @@
   100% {
     transform: rotate(360deg) scale(1); } }
 
-/* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate.scss */
+/* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate.scss */
 .ball-clip-rotate > div {
   background-color: #404E67;
   width: 15px;
@@ -530,18 +530,18 @@
   100% {
     transform: scale(1); } }
 
-/* line 25, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-pulse.scss */
+/* line 25, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-pulse.scss */
 .ball-clip-rotate-pulse {
   position: relative;
   transform: translateY(-15px); }
-  /* line 29, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-pulse.scss */
+  /* line 29, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-pulse.scss */
   .ball-clip-rotate-pulse > div {
     animation-fill-mode: both;
     position: absolute;
     top: 0px;
     left: 0px;
     border-radius: 100%; }
-    /* line 37, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-pulse.scss */
+    /* line 37, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-pulse.scss */
     .ball-clip-rotate-pulse > div:first-child {
       background: #404E67;
       height: 16px;
@@ -549,7 +549,7 @@
       top: 7px;
       left: -7px;
       animation: scale 1s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite; }
-    /* line 46, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-pulse.scss */
+    /* line 46, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-pulse.scss */
     .ball-clip-rotate-pulse > div:last-child {
       position: absolute;
       border: 2px solid #404E67;
@@ -571,10 +571,10 @@
   100% {
     transform: rotate(360deg) scale(1); } }
 
-/* line 16, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
+/* line 16, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
 .ball-clip-rotate-multiple {
   position: relative; }
-  /* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
+  /* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
   .ball-clip-rotate-multiple > div {
     animation-fill-mode: both;
     position: absolute;
@@ -587,7 +587,7 @@
     height: 35px;
     width: 35px;
     animation: rotate 1s 0s ease-in-out infinite; }
-    /* line 33, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
+    /* line 33, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-clip-rotate-multiple.scss */
     .ball-clip-rotate-multiple > div:last-child {
       display: inline-block;
       top: -10px;
@@ -608,7 +608,7 @@
   100% {
     opacity: 0.0; } }
 
-/* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-ripple.scss */
+/* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-ripple.scss */
 .ball-scale-ripple > div {
   animation-fill-mode: both;
   height: 50px;
@@ -627,23 +627,23 @@
   100% {
     opacity: 0.0; } }
 
-/* line 29, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
+/* line 29, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
 .ball-scale-ripple-multiple {
   position: relative;
   transform: translateY(-25px); }
-  /* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
+  /* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
   .ball-scale-ripple-multiple > div:nth-child(0) {
     animation-delay: -0.8s; }
-  /* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
+  /* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
   .ball-scale-ripple-multiple > div:nth-child(1) {
     animation-delay: -0.6s; }
-  /* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
+  /* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
   .ball-scale-ripple-multiple > div:nth-child(2) {
     animation-delay: -0.4s; }
-  /* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
+  /* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
   .ball-scale-ripple-multiple > div:nth-child(3) {
     animation-delay: -0.2s; }
-  /* line 35, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
+  /* line 35, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-ripple-multiple.scss */
   .ball-scale-ripple-multiple > div {
     animation-fill-mode: both;
     position: absolute;
@@ -663,7 +663,7 @@
     opacity: 1;
     transform: scale(1); } }
 
-/* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-beat.scss */
+/* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-beat.scss */
 .ball-beat > div {
   background-color: #404E67;
   width: 15px;
@@ -673,7 +673,7 @@
   animation-fill-mode: both;
   display: inline-block;
   animation: ball-beat 0.7s 0s infinite linear; }
-  /* line 24, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-beat.scss */
+  /* line 24, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-beat.scss */
   .ball-beat > div:nth-child(2n-1) {
     animation-delay: -0.35s !important; }
 
@@ -687,16 +687,16 @@
     transform: scale(1);
     opacity: 0; } }
 
-/* line 29, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-multiple.scss */
+/* line 29, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-multiple.scss */
 .ball-scale-multiple {
   position: relative; }
-  /* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-multiple.scss */
+  /* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-multiple.scss */
   .ball-scale-multiple > div:nth-child(2) {
     animation-delay: -0.4s; }
-  /* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-multiple.scss */
+  /* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-multiple.scss */
   .ball-scale-multiple > div:nth-child(3) {
     animation-delay: -0.2s; }
-  /* line 35, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-scale-multiple.scss */
+  /* line 35, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-scale-multiple.scss */
   .ball-scale-multiple > div {
     background-color: #404E67;
     width: 15px;
@@ -736,32 +736,32 @@
   100% {
     transform: translate(0px, 0px); } }
 
-/* line 56, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-triangle-trace.scss */
+/* line 56, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-triangle-trace.scss */
 .ball-triangle-path {
   position: relative;
   transform: translate(-29.994001px, -37.509377px); }
-  /* line 46, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-triangle-trace.scss */
+  /* line 46, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-triangle-trace.scss */
   .ball-triangle-path > div:nth-child(1) {
     animation-name: ball-triangle-path-1;
     animation-delay: 0;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite; }
-  /* line 46, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-triangle-trace.scss */
+  /* line 46, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-triangle-trace.scss */
   .ball-triangle-path > div:nth-child(2) {
     animation-name: ball-triangle-path-2;
     animation-delay: 0;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite; }
-  /* line 46, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-triangle-trace.scss */
+  /* line 46, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-triangle-trace.scss */
   .ball-triangle-path > div:nth-child(3) {
     animation-name: ball-triangle-path-3;
     animation-delay: 0;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite; }
-  /* line 61, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-triangle-trace.scss */
+  /* line 61, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-triangle-trace.scss */
   .ball-triangle-path > div {
     animation-fill-mode: both;
     position: absolute;
@@ -769,13 +769,13 @@
     height: 10px;
     border-radius: 100%;
     border: 1px solid #404E67; }
-    /* line 70, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-triangle-trace.scss */
+    /* line 70, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-triangle-trace.scss */
     .ball-triangle-path > div:nth-of-type(1) {
       top: 50px; }
-    /* line 74, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-triangle-trace.scss */
+    /* line 74, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-triangle-trace.scss */
     .ball-triangle-path > div:nth-of-type(2) {
       left: 25px; }
-    /* line 78, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-triangle-trace.scss */
+    /* line 78, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-triangle-trace.scss */
     .ball-triangle-path > div:nth-of-type(3) {
       top: 50px;
       left: 50px; }
@@ -806,7 +806,7 @@
     transform: translateY(0);
     transform: scale(0.75); } }
 
-/* line 46, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse-rise.scss */
+/* line 46, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse-rise.scss */
 .ball-pulse-rise > div {
   background-color: #404E67;
   width: 15px;
@@ -819,10 +819,10 @@
   animation-timing-function: cubic-bezier(0.15, 0.46, 0.9, 0.6);
   animation-iteration-count: infinite;
   animation-delay: 0; }
-  /* line 56, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse-rise.scss */
+  /* line 56, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse-rise.scss */
   .ball-pulse-rise > div:nth-child(2n) {
     animation-name: ball-pulse-rise-even; }
-  /* line 60, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-pulse-rise.scss */
+  /* line 60, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-pulse-rise.scss */
   .ball-pulse-rise > div:nth-child(2n-1) {
     animation-name: ball-pulse-rise-odd; }
 
@@ -832,46 +832,46 @@
   100% {
     opacity: 1; } }
 
-/* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+/* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
 .ball-grid-beat {
   width: 57px; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.39s;
-    animation-duration: 1.13s; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
-  .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.6s;
-    animation-duration: 1.3s; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
-  .ball-grid-beat > div:nth-child(3) {
     animation-delay: 0.42s;
-    animation-duration: 0.72s; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+    animation-duration: 0.73s; }
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
+  .ball-grid-beat > div:nth-child(2) {
+    animation-delay: 0.46s;
+    animation-duration: 0.99s; }
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
+  .ball-grid-beat > div:nth-child(3) {
+    animation-delay: 0.53s;
+    animation-duration: 0.97s; }
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: -0.18s;
-    animation-duration: 0.62s; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+    animation-delay: 0.35s;
+    animation-duration: 1.56s; }
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: -0.05s;
-    animation-duration: 0.74s; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+    animation-delay: -0.15s;
+    animation-duration: 1.09s; }
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.23s;
-    animation-duration: 1.22s; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+    animation-delay: 0.71s;
+    animation-duration: 1.45s; }
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
   .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.32s;
-    animation-duration: 1.18s; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+    animation-delay: 0.42s;
+    animation-duration: 0.74s; }
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
   .ball-grid-beat > div:nth-child(8) {
-    animation-delay: 0s;
-    animation-duration: 0.86s; }
-  /* line 15, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+    animation-delay: 0.34s;
+    animation-duration: 1.49s; }
+  /* line 15, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
   .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.58s;
-    animation-duration: 0.89s; }
-  /* line 27, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-beat.scss */
+    animation-delay: 0.68s;
+    animation-duration: 1.59s; }
+  /* line 27, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-beat.scss */
   .ball-grid-beat > div {
     background-color: #404E67;
     width: 15px;
@@ -895,46 +895,46 @@
     transform: scale(1);
     opacity: 1; } }
 
-/* line 28, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+/* line 28, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
 .ball-grid-pulse {
   width: 57px; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.6s;
-    animation-duration: 0.96s; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: 0.72s;
+    animation-duration: 0.98s; }
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.76s;
-    animation-duration: 1.34s; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: 0.54s;
+    animation-duration: 1.13s; }
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: 0.07s;
-    animation-duration: 1.27s; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: 0.11s;
+    animation-duration: 0.62s; }
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.56s;
-    animation-duration: 0.78s; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: 0.55s;
+    animation-duration: 0.91s; }
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.11s;
-    animation-duration: 1.19s; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: 0.66s;
+    animation-duration: 0.75s; }
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.04s;
-    animation-duration: 0.66s; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: 0.16s;
+    animation-duration: 1.51s; }
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.05s;
-    animation-duration: 1.36s; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: 0.58s;
+    animation-duration: 0.61s; }
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.37s;
-    animation-duration: 1.26s; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: -0.05s;
+    animation-duration: 1.05s; }
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.11s;
-    animation-duration: 1.18s; }
-  /* line 32, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-grid-pulse.scss */
+    animation-delay: 0.54s;
+    animation-duration: 0.73s; }
+  /* line 32, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-grid-pulse.scss */
   .ball-grid-pulse > div {
     background-color: #404E67;
     width: 15px;
@@ -956,52 +956,52 @@
     opacity: 1;
     transform: scale(1); } }
 
-/* line 55, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+/* line 55, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
 .ball-spin-fade-loader {
   position: relative;
   top: -10px;
   left: -10px; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div:nth-child(1) {
     top: 25px;
     left: 0;
     animation: ball-spin-fade-loader 1s -0.96s infinite linear; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div:nth-child(2) {
     top: 17.045455px;
     left: 17.045455px;
     animation: ball-spin-fade-loader 1s -0.84s infinite linear; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div:nth-child(3) {
     top: 0;
     left: 25px;
     animation: ball-spin-fade-loader 1s -0.72s infinite linear; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div:nth-child(4) {
     top: -17.045455px;
     left: 17.045455px;
     animation: ball-spin-fade-loader 1s -0.6s infinite linear; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div:nth-child(5) {
     top: -25px;
     left: 0;
     animation: ball-spin-fade-loader 1s -0.48s infinite linear; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div:nth-child(6) {
     top: -17.045455px;
     left: -17.045455px;
     animation: ball-spin-fade-loader 1s -0.36s infinite linear; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div:nth-child(7) {
     top: 0;
     left: -25px;
     animation: ball-spin-fade-loader 1s -0.24s infinite linear; }
-  /* line 20, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 20, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div:nth-child(8) {
     top: 17.045455px;
     left: -17.045455px;
     animation: ball-spin-fade-loader 1s -0.12s infinite linear; }
-  /* line 62, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
+  /* line 62, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-fade-loader.scss */
   .ball-spin-fade-loader > div {
     background-color: #404E67;
     width: 15px;
@@ -1017,50 +1017,50 @@
   100% {
     opacity: 1; } }
 
-/* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+/* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
 .ball-spin-loader {
   position: relative; }
-  /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > span:nth-child(1) {
     top: 45px;
     left: 0;
     animation: ball-spin-loader 2s 0.9s infinite linear; }
-  /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > span:nth-child(2) {
     top: 30.681818px;
     left: 30.681818px;
     animation: ball-spin-loader 2s 1.8s infinite linear; }
-  /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > span:nth-child(3) {
     top: 0;
     left: 45px;
     animation: ball-spin-loader 2s 2.7s infinite linear; }
-  /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > span:nth-child(4) {
     top: -30.681818px;
     left: 30.681818px;
     animation: ball-spin-loader 2s 3.6s infinite linear; }
-  /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > span:nth-child(5) {
     top: -45px;
     left: 0;
     animation: ball-spin-loader 2s 4.5s infinite linear; }
-  /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > span:nth-child(6) {
     top: -30.681818px;
     left: -30.681818px;
     animation: ball-spin-loader 2s 5.4s infinite linear; }
-  /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > span:nth-child(7) {
     top: 0;
     left: -45px;
     animation: ball-spin-loader 2s 6.3s infinite linear; }
-  /* line 17, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 17, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > span:nth-child(8) {
     top: 30.681818px;
     left: -30.681818px;
     animation: ball-spin-loader 2s 7.2s infinite linear; }
-  /* line 56, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-spin-loader.scss */
+  /* line 56, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-spin-loader.scss */
   .ball-spin-loader > div {
     animation-fill-mode: both;
     position: absolute;
@@ -1085,11 +1085,11 @@
   100% {
     transform: translate(0, 0); } }
 
-/* line 30, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag.scss */
+/* line 30, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag.scss */
 .ball-zig-zag {
   position: relative;
   transform: translate(-15px, -15px); }
-  /* line 34, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag.scss */
+  /* line 34, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag.scss */
   .ball-zig-zag > div {
     background-color: #404E67;
     width: 15px;
@@ -1101,10 +1101,10 @@
     margin-left: 15px;
     top: 4px;
     left: -7px; }
-    /* line 43, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag.scss */
+    /* line 43, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag.scss */
     .ball-zig-zag > div:first-child {
       animation: ball-zig 0.7s 0s infinite linear; }
-    /* line 47, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag.scss */
+    /* line 47, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag.scss */
     .ball-zig-zag > div:last-child {
       animation: ball-zag 0.7s 0s infinite linear; }
 
@@ -1136,11 +1136,11 @@
   100% {
     transform: translate(0, 0); } }
 
-/* line 48, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
+/* line 48, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
 .ball-zig-zag-deflect {
   position: relative;
   transform: translate(-15px, -15px); }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
   .ball-zig-zag-deflect > div {
     background-color: #404E67;
     width: 15px;
@@ -1152,10 +1152,10 @@
     margin-left: 15px;
     top: 4px;
     left: -7px; }
-    /* line 61, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
+    /* line 61, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
     .ball-zig-zag-deflect > div:first-child {
       animation: ball-zig-deflect 1.5s 0s infinite linear; }
-    /* line 65, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
+    /* line 65, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
     .ball-zig-zag-deflect > div:last-child {
       animation: ball-zag-deflect 1.5s 0s infinite linear; }
 
@@ -1170,27 +1170,27 @@
   100% {
     transform: scaley(1); } }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale.scss */
 .line-scale > div:nth-child(1) {
   animation: line-scale 1s -0.4s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale.scss */
 .line-scale > div:nth-child(2) {
   animation: line-scale 1s -0.3s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale.scss */
 .line-scale > div:nth-child(3) {
   animation: line-scale 1s -0.2s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale.scss */
 .line-scale > div:nth-child(4) {
   animation: line-scale 1s -0.1s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale.scss */
 .line-scale > div:nth-child(5) {
   animation: line-scale 1s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
-/* line 28, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale.scss */
+/* line 28, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale.scss */
 .line-scale > div {
   background-color: #404E67;
   width: 4px;
@@ -1208,27 +1208,27 @@
   100% {
     transform: scale(1); } }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.17s;
-  animation-duration: 0.53s; }
+  animation-delay: 0.01s;
+  animation-duration: 0.9s; }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.32s;
-  animation-duration: 1.1s; }
+  animation-delay: 0.65s;
+  animation-duration: 0.4s; }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(3) {
-  animation-delay: 0.58s;
-  animation-duration: 1.26s; }
+  animation-delay: 0.49s;
+  animation-duration: 0.67s; }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.46s;
-  animation-duration: 0.7s; }
+  animation-delay: -0.03s;
+  animation-duration: 1.18s; }
 
-/* line 29, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-random.scss */
+/* line 29, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-random.scss */
 .line-scale-party > div {
   background-color: #404E67;
   width: 4px;
@@ -1249,7 +1249,7 @@
   100% {
     transform: scaley(1); } }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-pulse-out.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-pulse-out.scss */
 .line-scale-pulse-out > div {
   background-color: #404E67;
   width: 4px;
@@ -1259,10 +1259,10 @@
   animation-fill-mode: both;
   display: inline-block;
   animation: line-scale-pulse-out 0.9s -0.6s infinite cubic-bezier(0.85, 0.25, 0.37, 0.85); }
-  /* line 26, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-pulse-out.scss */
+  /* line 26, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-pulse-out.scss */
   .line-scale-pulse-out > div:nth-child(2), .line-scale-pulse-out > div:nth-child(4) {
     animation-delay: -0.4s !important; }
-  /* line 30, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-pulse-out.scss */
+  /* line 30, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-pulse-out.scss */
   .line-scale-pulse-out > div:nth-child(1), .line-scale-pulse-out > div:nth-child(5) {
     animation-delay: -0.2s !important; }
 
@@ -1274,7 +1274,7 @@
   90% {
     transform: scaley(1); } }
 
-/* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-pulse-out-rapid.scss */
+/* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-pulse-out-rapid.scss */
 .line-scale-pulse-out-rapid > div {
   background-color: #404E67;
   width: 4px;
@@ -1285,10 +1285,10 @@
   display: inline-block;
   vertical-align: middle;
   animation: line-scale-pulse-out-rapid 0.9s -0.5s infinite cubic-bezier(0.11, 0.49, 0.38, 0.78); }
-  /* line 26, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-pulse-out-rapid.scss */
+  /* line 26, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-pulse-out-rapid.scss */
   .line-scale-pulse-out-rapid > div:nth-child(2), .line-scale-pulse-out-rapid > div:nth-child(4) {
     animation-delay: -0.25s !important; }
-  /* line 30, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-scale-pulse-out-rapid.scss */
+  /* line 30, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-scale-pulse-out-rapid.scss */
   .line-scale-pulse-out-rapid > div:nth-child(1), .line-scale-pulse-out-rapid > div:nth-child(5) {
     animation-delay: 0s !important; }
 
@@ -1298,58 +1298,58 @@
   100% {
     opacity: 1; } }
 
-/* line 59, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+/* line 59, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
 .line-spin-fade-loader {
   position: relative;
   top: -10px;
   left: -4px; }
-  /* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div:nth-child(1) {
     top: 20px;
     left: 0;
     animation: line-spin-fade-loader 1.2s -0.84s infinite ease-in-out; }
-  /* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div:nth-child(2) {
     top: 13.636364px;
     left: 13.636364px;
     transform: rotate(-45deg);
     animation: line-spin-fade-loader 1.2s -0.72s infinite ease-in-out; }
-  /* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div:nth-child(3) {
     top: 0;
     left: 20px;
     transform: rotate(90deg);
     animation: line-spin-fade-loader 1.2s -0.6s infinite ease-in-out; }
-  /* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div:nth-child(4) {
     top: -13.636364px;
     left: 13.636364px;
     transform: rotate(45deg);
     animation: line-spin-fade-loader 1.2s -0.48s infinite ease-in-out; }
-  /* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div:nth-child(5) {
     top: -20px;
     left: 0;
     animation: line-spin-fade-loader 1.2s -0.36s infinite ease-in-out; }
-  /* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div:nth-child(6) {
     top: -13.636364px;
     left: -13.636364px;
     transform: rotate(-45deg);
     animation: line-spin-fade-loader 1.2s -0.24s infinite ease-in-out; }
-  /* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div:nth-child(7) {
     top: 0;
     left: -20px;
     transform: rotate(90deg);
     animation: line-spin-fade-loader 1.2s -0.12s infinite ease-in-out; }
-  /* line 18, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 18, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div:nth-child(8) {
     top: 13.636364px;
     left: -13.636364px;
     transform: rotate(45deg);
     animation: line-spin-fade-loader 1.2s 0s infinite ease-in-out; }
-  /* line 65, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
+  /* line 65, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/line-spin-fade-loader.scss */
   .line-spin-fade-loader > div {
     background-color: #404E67;
     width: 4px;
@@ -1374,7 +1374,7 @@
   100% {
     transform: perspective(100px) rotateX(0) rotateY(0); } }
 
-/* line 23, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/triangle-skew-spin.scss */
+/* line 23, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/triangle-skew-spin.scss */
 .triangle-skew-spin > div {
   animation-fill-mode: both;
   width: 0;
@@ -1394,7 +1394,7 @@
   100% {
     transform: perspective(100px) rotateX(0) rotateY(0); } }
 
-/* line 21, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/square-spin.scss */
+/* line 21, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/square-spin.scss */
 .square-spin > div {
   animation-fill-mode: both;
   width: 50px;
@@ -1424,22 +1424,22 @@
   100% {
     transform: translate(-100px, -6.25px); } }
 
-/* line 58, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+/* line 58, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
 .pacman {
   position: relative; }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(2) {
     animation: pacman-balls 1s -0.99s infinite linear; }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(3) {
     animation: pacman-balls 1s -0.66s infinite linear; }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(4) {
     animation: pacman-balls 1s -0.33s infinite linear; }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(5) {
     animation: pacman-balls 1s 0s infinite linear; }
-  /* line 63, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 63, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:first-of-type {
     width: 0px;
     height: 0px;
@@ -1451,7 +1451,7 @@
     animation: rotate_pacman_half_up 0.5s 0s infinite;
     position: relative;
     left: -30px; }
-  /* line 70, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 70, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(2) {
     width: 0px;
     height: 0px;
@@ -1464,7 +1464,7 @@
     margin-top: -50px;
     position: relative;
     left: -30px; }
-  /* line 78, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 78, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(3),
   .pacman > div:nth-child(4),
   .pacman > div:nth-child(5),
@@ -1491,11 +1491,11 @@
   100% {
     transform: rotate(-360deg); } }
 
-/* line 22, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/cube-transition.scss */
+/* line 22, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/cube-transition.scss */
 .cube-transition {
   position: relative;
   transform: translate(-25px, -25px); }
-  /* line 26, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/cube-transition.scss */
+  /* line 26, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/cube-transition.scss */
   .cube-transition > div {
     animation-fill-mode: both;
     width: 10px;
@@ -1505,7 +1505,7 @@
     left: -5px;
     background-color: #404E67;
     animation: cube-transition 1.6s 0s infinite ease-in-out; }
-    /* line 37, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/cube-transition.scss */
+    /* line 37, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/cube-transition.scss */
     .cube-transition > div:last-child {
       animation-delay: -0.8s; }
 
@@ -1517,13 +1517,13 @@
   100% {
     transform: rotate(360deg); } }
 
-/* line 19, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/semi-circle-spin.scss */
+/* line 19, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/semi-circle-spin.scss */
 .semi-circle-spin {
   position: relative;
   width: 35px;
   height: 35px;
   overflow: hidden; }
-  /* line 25, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/semi-circle-spin.scss */
+  /* line 25, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/semi-circle-spin.scss */
   .semi-circle-spin > div {
     position: absolute;
     border-width: 0px;
@@ -1533,11 +1533,11 @@
     width: 100%;
     height: 100%; }
 
-/* line 60, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 60, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 .loader-wrapper {
   position: relative; }
 
-/* line 63, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 63, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 .loader-container {
   margin: 0;
   position: absolute;
@@ -1546,7 +1546,7 @@
   margin-right: -50%;
   transform: translate(-50%, -50%); }
 
-/* line 72, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 72, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 #preloader-wrapper {
   position: fixed;
   top: 0;
@@ -1555,7 +1555,7 @@
   height: 100%;
   z-index: 1050; }
 
-/* line 81, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 81, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 #preloader-wrapper .loader-section {
   position: fixed;
   width: 100%;
@@ -1563,15 +1563,15 @@
   background: #222222;
   z-index: 1050; }
 
-/* line 89, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 89, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 #preloader-wrapper .loader-section.section-top {
   top: 0; }
 
-/* line 93, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 93, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 #preloader-wrapper .loader-section.section-bottom {
   bottom: 0; }
 
-/* line 97, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 97, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 #loader {
   display: block;
   position: absolute;
@@ -1585,7 +1585,7 @@
   /* anything higher than z-index: 1000 of .loader-section */ }
 
 /* Loaded */
-/* line 111, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 111, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 .loaded #preloader-wrapper .loader-section.section-top {
   -webkit-transform: translateY(-100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
@@ -1594,7 +1594,7 @@
   transform: translateY(-100%);
   /* Firefox 16+, IE 10+, Opera */ }
 
-/* line 117, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 117, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 .loaded #preloader-wrapper .loader-section.section-bottom {
   -webkit-transform: translateY(100%);
   /* Chrome, Opera 15+, Safari 3.1+ */
@@ -1603,21 +1603,21 @@
   transform: translateY(100%);
   /* Firefox 16+, IE 10+, Opera */ }
 
-/* line 123, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 123, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 .loaded #loader {
   opacity: 0; }
 
-/* line 128, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 128, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 .loaded #preloader-wrapper {
   visibility: hidden; }
 
-/* line 132, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 132, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 .loaded #loader {
   opacity: 0;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-/* line 138, E:/domains/your-time.dev/src/scss/plugins/loaders/loaders.scss */
+/* line 138, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/loaders.scss */
 .loaded #preloader-wrapper .loader-section.section-bottom,
 .loaded #preloader-wrapper .loader-section.section-top {
   -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);

@@ -26,11 +26,11 @@
   100% {
     transform: translate(0, 0); } }
 
-/* line 48, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
+/* line 48, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
 .ball-zig-zag-deflect {
   position: relative;
   transform: translate(-15px, -15px); }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
   .ball-zig-zag-deflect > div {
     background-color: #404E67;
     width: 15px;
@@ -42,9 +42,9 @@
     margin-left: 15px;
     top: 4px;
     left: -7px; }
-    /* line 61, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
+    /* line 61, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
     .ball-zig-zag-deflect > div:first-child {
       animation: ball-zig-deflect 1.5s 0s infinite linear; }
-    /* line 65, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
+    /* line 65, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/ball-zig-zag-deflect.scss */
     .ball-zig-zag-deflect > div:last-child {
       animation: ball-zag-deflect 1.5s 0s infinite linear; }

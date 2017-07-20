@@ -1,4 +1,4 @@
-/* line 14, E:/domains/your-time.dev/src/scss/plugins/forms/checkboxes-radios.scss */
+/* line 14, E:/domains/your-time.dev/app-assets/scss/plugins/forms/checkboxes-radios.scss */
 .right-checkbox input[type="checkbox"],
 .right-checkbox .custom-control-indicator,
 .right-checkbox input[type="radio"], .right-radio input[type="checkbox"],
@@ -8,7 +8,7 @@
   top: auto;
   position: absolute; }
 
-/* line 21, E:/domains/your-time.dev/src/scss/plugins/forms/checkboxes-radios.scss */
+/* line 21, E:/domains/your-time.dev/app-assets/scss/plugins/forms/checkboxes-radios.scss */
 .right-checkbox input[type="checkbox"],
 .right-checkbox .custom-control-indicator,
 .right-checkbox input[type="radio"], .right-radio input[type="checkbox"],
@@ -16,28 +16,28 @@
 .right-radio input[type="radio"] {
   right: 2%; }
 
-/* line 28, E:/domains/your-time.dev/src/scss/plugins/forms/checkboxes-radios.scss */
+/* line 28, E:/domains/your-time.dev/app-assets/scss/plugins/forms/checkboxes-radios.scss */
 .radio.right-radio label {
   padding-left: 0; }
 
 /* iCheck */
-/* line 33, E:/domains/your-time.dev/src/scss/plugins/forms/checkboxes-radios.scss */
+/* line 33, E:/domains/your-time.dev/app-assets/scss/plugins/forms/checkboxes-radios.scss */
 .skin [class*="icheckbox_"],
 .skin [class*="iradio_"], .icheck_square [class*="icheckbox_"],
 .icheck_square [class*="iradio_"] {
   margin-right: 0.6rem; }
 
-/* line 39, E:/domains/your-time.dev/src/scss/plugins/forms/checkboxes-radios.scss */
+/* line 39, E:/domains/your-time.dev/app-assets/scss/plugins/forms/checkboxes-radios.scss */
 .skin [class*="icheckbox_line"],
 .skin [class*="iradio_line"] {
   margin-bottom: 0.6rem; }
 
-/* line 45, E:/domains/your-time.dev/src/scss/plugins/forms/checkboxes-radios.scss */
+/* line 45, E:/domains/your-time.dev/app-assets/scss/plugins/forms/checkboxes-radios.scss */
 .state[class*="icheckbox_"]:hover, .state[class*="iradio_"]:hover {
   cursor: default; }
 
 /* Image Checkbox selected*/
-/* line 52, E:/domains/your-time.dev/src/scss/plugins/forms/checkboxes-radios.scss */
+/* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/forms/checkboxes-radios.scss */
 input[type="checkbox"]:checked + img.img-thumbnail {
   background-color: #00B5B8;
   color: #996;

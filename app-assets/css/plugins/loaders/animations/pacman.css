@@ -20,22 +20,22 @@
   100% {
     transform: translate(-100px, -6.25px); } }
 
-/* line 58, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+/* line 58, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
 .pacman {
   position: relative; }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(2) {
     animation: pacman-balls 1s -0.99s infinite linear; }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(3) {
     animation: pacman-balls 1s -0.66s infinite linear; }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(4) {
     animation: pacman-balls 1s -0.33s infinite linear; }
-  /* line 52, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 52, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(5) {
     animation: pacman-balls 1s 0s infinite linear; }
-  /* line 63, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 63, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:first-of-type {
     width: 0px;
     height: 0px;
@@ -47,7 +47,7 @@
     animation: rotate_pacman_half_up 0.5s 0s infinite;
     position: relative;
     left: -30px; }
-  /* line 70, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 70, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(2) {
     width: 0px;
     height: 0px;
@@ -60,7 +60,7 @@
     margin-top: -50px;
     position: relative;
     left: -30px; }
-  /* line 78, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/pacman.scss */
+  /* line 78, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/pacman.scss */
   .pacman > div:nth-child(3),
   .pacman > div:nth-child(4),
   .pacman > div:nth-child(5),

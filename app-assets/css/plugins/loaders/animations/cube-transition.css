@@ -8,11 +8,11 @@
   100% {
     transform: rotate(-360deg); } }
 
-/* line 22, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/cube-transition.scss */
+/* line 22, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/cube-transition.scss */
 .cube-transition {
   position: relative;
   transform: translate(-25px, -25px); }
-  /* line 26, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/cube-transition.scss */
+  /* line 26, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/cube-transition.scss */
   .cube-transition > div {
     animation-fill-mode: both;
     width: 10px;
@@ -22,6 +22,6 @@
     left: -5px;
     background-color: #404E67;
     animation: cube-transition 1.6s 0s infinite ease-in-out; }
-    /* line 37, E:/domains/your-time.dev/src/scss/plugins/loaders/animations/cube-transition.scss */
+    /* line 37, E:/domains/your-time.dev/app-assets/scss/plugins/loaders/animations/cube-transition.scss */
     .cube-transition > div:last-child {
       animation-delay: -0.8s; }
